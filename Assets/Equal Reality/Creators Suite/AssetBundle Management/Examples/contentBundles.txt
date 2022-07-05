@@ -1,0 +1,21 @@
+{
+    "contentBundles": [
+        {
+            "sceneBundleId": "scenesbundle",
+            "assetBundleId": "scenesassetsbundle",
+            "version": 0,
+            "sceneName": "BundledScene",
+            "appName": "Everyday Inclusion",
+            "scenarioName": "An Overheard Conversation",
+            "iconName": "App1.1.JPG"
+        },
+        {
+            "bundleId": "scenesbundle",
+            "version": 0,
+            "sceneName": "BundledScene",
+            "appName": "Everyday Inclusion",
+            "scenarioName": "An Overheard Conversation",
+            "iconName": "App1.2.JPG"
+        }
+    ]
+}
