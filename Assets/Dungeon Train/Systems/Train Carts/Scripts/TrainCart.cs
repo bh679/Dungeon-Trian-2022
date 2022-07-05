@@ -27,7 +27,7 @@ public class TrainCart : MonoBehaviour
 	{
 		
 		if(floor != null)
-			DestroyObject(floor);
+			Destroy(floor);
 	
 		floor = Instantiate(theme.GetAFloor(),
 			this.transform.position, 
@@ -37,7 +37,7 @@ public class TrainCart : MonoBehaviour
 		yield return new WaitForFixedUpdate();
 		
 		if(roof != null)
-			DestroyObject(roof);
+			Destroy(roof);
 	
 		roof = Instantiate(theme.GetARoof(),
 			this.transform.position + this.transform.up*tileSize, 
@@ -47,7 +47,7 @@ public class TrainCart : MonoBehaviour
 		yield return new WaitForFixedUpdate();
 		
 		if(wallFront != null)
-			DestroyObject(wallFront);
+			Destroy(wallFront);
 		wallFront = Instantiate(theme.GetAWall(),
 			this.transform.position + this.transform.forward*tileSize - this.transform.right*tileSize, 
 			this.transform.rotation* Quaternion.Euler(0, 180, 0), 
@@ -56,7 +56,7 @@ public class TrainCart : MonoBehaviour
 		yield return new WaitForFixedUpdate();
 		
 		if(wallBack != null)
-			DestroyObject(wallBack);
+			Destroy(wallBack);
 		wallBack = Instantiate(theme.GetAWall(),
 			this.transform.position, 
 			this.transform.rotation, 
@@ -65,7 +65,7 @@ public class TrainCart : MonoBehaviour
 		yield return new WaitForFixedUpdate();
 		
 		if(wallLeft != null)
-			DestroyObject(wallLeft);
+			Destroy(wallLeft);
 		wallLeft = Instantiate(theme.GetAWall(),
 			this.transform.position - this.transform.right*tileSize,
 			this.transform.rotation* Quaternion.Euler(0, 90, 0), 
@@ -75,7 +75,7 @@ public class TrainCart : MonoBehaviour
 		yield return new WaitForFixedUpdate();
 		
 		if(wallRight != null)
-			DestroyObject(wallRight);
+			Destroy(wallRight);
 		wallRight = Instantiate(theme.GetAWall(),
 			this.transform.position + this.transform.forward*tileSize, 
 			this.transform.rotation* Quaternion.Euler(0, -90, 0), 
