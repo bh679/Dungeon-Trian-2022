@@ -14,7 +14,7 @@ public class TrainCartGenerator : MonoBehaviour
 		TrainCart cart = newObj.AddComponent<TrainCart>();
 		
 		
-		int id = Random.Range(0,themes.Length-1);
+		int id = Random.RandomRange(0,themes.Length-1);
 		cart.SetTheme(themes[id]);
 		
 		return cart;
