@@ -10,6 +10,7 @@ public class TrainCartGenerator : MonoBehaviour
 	{
 		GameObject newObj = new GameObject("Cart");
 		newObj.transform.SetParent(this.transform);
+		newObj.transform.localPosition = Vector3.zero;
 		
 		TrainCart cart = newObj.AddComponent<TrainCart>();
 		

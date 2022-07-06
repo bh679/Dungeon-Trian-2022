@@ -5,7 +5,7 @@ using UnityEngine;
 public class TrainCart : MonoBehaviour
 {
 	public ArchitectureTheme theme;
-	public GameObject floor, roof, wallFront, wallBack, wallLeft, wallRight;
+	public GameObject floor, roof, entranceDoor, exitDoor, wallLeft, wallRight;
 	
 	public float tileSize = 5f;
 	public float tilesLength = 1;
@@ -46,18 +46,18 @@ public class TrainCart : MonoBehaviour
 		
 		yield return new WaitForFixedUpdate();
 		
-		if(wallFront != null)
-			DestroyObject(wallFront);
-		wallFront = Instantiate(theme.GetAWall(),
+		if(entranceDoor != null)
+			DestroyObject(entranceDoor);
+		entranceDoor = Instantiate(theme.GetADoor(),
 			this.transform.position + this.transform.forward*tileSize - this.transform.right*tileSize, 
 			this.transform.rotation* Quaternion.Euler(0, 180, 0), 
 			this.transform);
 		
 		yield return new WaitForFixedUpdate();
 		
-		if(wallBack != null)
-			DestroyObject(wallBack);
-		wallBack = Instantiate(theme.GetAWall(),
+		if(exitDoor != null)
+			DestroyObject(exitDoor);
+		exitDoor = Instantiate(theme.GetADoor(),
 			this.transform.position, 
 			this.transform.rotation, 
 			this.transform);

@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class ArchitectureTheme : MonoBehaviour
 {
-	public GameObject[] walls, floors, roofs;
+	public GameObject[] walls, floors, roofs, doorframes, windows;
 	
 	public GameObject GetAWall()
 	{
 		int id = Random.RandomRange(0,walls.Length-1);
 		return walls[id];
+	}
+	public GameObject GetADoor()
+	{
+		int id = Random.RandomRange(0,doorframes.Length-1);
+		return doorframes[id];
 	}
 	
 	public GameObject GetAFloor()
