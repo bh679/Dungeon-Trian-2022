@@ -5,6 +5,7 @@ using UnityEngine;
 public class ArchitectureTheme : MonoBehaviour
 {
 	public GameObject[] walls, floors, roofs, doorframes, windows;
+	public const float tileSize = 5f;
 	
 	public GameObject GetAWall()
 	{
