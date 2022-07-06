@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 1146012654}
   - component: {fileID: 1146012655}
   m_Layer: 0
-  m_Name: Old Brick Theme
+  m_Name: Dungeon Theme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
   - {fileID: 139024, guid: faefc7bf0b06adc4497fd8b1694fad68, type: 3}
   - {fileID: 123934, guid: c6cb56b5c70f4f14ebf96689fda29f2c, type: 3}
   roofs:
-  - {fileID: 161970, guid: 9efa9d1e9921c3645a4952e67bca85ef, type: 3}
+  - {fileID: 5130698840645821400, guid: 22b3ec0fda9741b41990ad7eebccee30, type: 3}
 --- !u!1001 &1420532609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -528,6 +528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Rig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5117709272763234209, guid: 2af1d2045149fe743b81bc4d1a6f8406,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5117709272763234211, guid: 2af1d2045149fe743b81bc4d1a6f8406,
         type: 3}
