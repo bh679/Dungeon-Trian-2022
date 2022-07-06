@@ -29,4 +29,9 @@ public class TrainCart : MonoBehaviour
 			
 		architecture.SetTheme(newTheme);
 	}
+	
+	public void SetPlayerInside()
+	{
+		playerInside = true;
+	}
 }
