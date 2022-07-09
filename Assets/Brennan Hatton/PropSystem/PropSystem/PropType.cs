@@ -250,7 +250,7 @@ namespace BrennanHatton.Props
 				}
 			}
 			
-			if(parentType == null)
+			if(parentType == null && this.transform.parent != null)
 				parentType = GetTypeParent(this.transform.parent);
 			if(subTypes == null || subTypes.Length == 0)
 				subTypes = GetSubTypes(this.transform).ToArray();

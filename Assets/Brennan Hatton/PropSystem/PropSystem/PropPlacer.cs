@@ -324,6 +324,12 @@ namespace BrennanHatton.Props
 			_propsPlaced =  new List<PropAndType>();
 		}
 		
+		public virtual void PlacePlz(bool addToExisting)
+		{
+			Debug.Log("public virtual void PlacePlz(bool addToExisting)");
+			Place(addToExisting);
+		}
+		
 		//
 		public virtual Prop[] Place(bool addToExisting = false)
 		{
