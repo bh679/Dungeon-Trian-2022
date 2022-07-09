@@ -6,14 +6,14 @@ public class ArchitectureTheme : MonoBehaviour
 {
 	public GameObject[] walls, floors, roofs, windows;
 	public const float tileSize = 5f;
-	public TrainDoor[] doors;
+	public TrainDoorWall[] doors;
 	
 	public GameObject GetAWall()
 	{
 		int id = Random.RandomRange(0,walls.Length-1);
 		return walls[id];
 	}
-	public TrainDoor GetADoor()
+	public TrainDoorWall GetADoor()
 	{
 		int id = Random.RandomRange(0,doors.Length-1);
 		return doors[id];

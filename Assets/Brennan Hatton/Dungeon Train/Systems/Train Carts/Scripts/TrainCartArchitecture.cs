@@ -6,7 +6,7 @@ public class TrainCartArchitecture : MonoBehaviour
 {
 	public ArchitectureTheme theme;
 	public GameObject floor, roof, wallLeft, wallRight;
-	public TrainDoor entranceDoor, exitDoor;
+	public TrainDoorWall entranceDoor, exitDoor;
 	
 	
 	public void SetTheme(ArchitectureTheme newTheme)

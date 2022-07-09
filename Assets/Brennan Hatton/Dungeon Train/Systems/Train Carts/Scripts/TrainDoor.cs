@@ -7,7 +7,7 @@ public class TrainDoorWall : MonoBehaviour
 	
 	public GameObject WindowShutter, Lock;
 	
-	public Door door;
+	//public Door door;
 	
 	public void LockDoor()
 	{
@@ -16,12 +16,12 @@ public class TrainDoorWall : MonoBehaviour
 	
 	public void OpenDoor()
 	{
-		door.Open();
+		//	door.Open();
 	}
 	
 	public void CloseDoor()
 	{
-		door.Close();
+		//	door.Close();
 	}
 	
 	public void OpenWindow()
