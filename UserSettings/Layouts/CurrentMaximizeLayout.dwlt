@@ -14,112 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 15}
+  - {fileID: 14}
+  - {fileID: 22}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 400, y: 200}
-  m_MaxSize: {x: 32384, y: 16192}
+  m_MinSize: {x: 500, y: 200}
+  m_MaxSize: {x: 40480, y: 16192}
   vertical: 0
-  controlID: 19051
+  controlID: 23677
 --- !u!114 &2
 MonoBehaviour:
-  m_ObjectHideFlags: 61
+  m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: TrainDoor.cs
-    m_Image: {fileID: 0}
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2840
-    y: 73
-    width: 999
-    height: 966
+    x: 1920
+    y: 658
+    width: 1058
+    height: 381
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: d89fc42defd77ae4b8ea107f23c14424, type: 3}
-  targetAssetGuid: d89fc42defd77ae4b8ea107f23c14424
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 22
-      column: 22
-      characterIndex: 22
-      line: 4
-    _selectionStartPosition:
-      virtualColumn: 13
-      column: 13
-      characterIndex: 13
-      line: 4
-    hasSelection: 1
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 16
-    - 32
-    - 48
-    - 64
-    - 80
-    - 96
-    - 112
-    - 128
-    - 144
-    - 160
-    - 176
-    - 192
-    - 208
-    - 224
-    - 240
-    - 256
-    - 272
-    - 288
-    - 304
-    - 320
-    - 336
-    - 352
-    - 368
-    - 384
-    - 400
-    - 416
-    - 432
-    - 448
-    - 464
-    - 480
-    - 496
-    - 512
-    - 528
-    - 544
-    - 560
-    - 576
-    codeViewRect:
-      serializedVersion: 2
-      x: 32
-      y: 0
-      width: 962
-      height: 920
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,12 +74,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 920
+    width: 1059
     height: 987
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 19052
+  controlID: 23678
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,12 +100,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 920
+    width: 1059
     height: 585
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 19053
+  controlID: 23746
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,7 +123,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 369
+    width: 332
     height: 585
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -220,7 +155,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1920
     y: 73
-    width: 368
+    width: 331
     height: 564
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -229,9 +164,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: cef8feff
-      m_LastClickedID: -67378
-      m_ExpandedIDs: d021ffff4c25ffffd625ffffd035ffff445dffffa2cbffff42edffff54edffff58edffff72edffff7aeeffff16f7ffff1ef7ffff24f7ffff28f7ffff5ef9ffff62f9ffff7cf9ffff86f9ffff88faffff44670000
+      m_SelectedIDs: 246b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: d213feff725ffeff2671feff16dbfeffd021ffff4c25ffffd625ffffd035ffff445dffffa2cbffff42edffff54edffff58edffff72edffff7aeeffff16f7ffff1ef7ffff24f7ffff28f7ffff5ef9ffff62f9ffff7cf9ffff86f9ffff88faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -247,7 +182,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -270,9 +205,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 369
+    x: 332
     y: 0
-    width: 184
+    width: 169
     height: 585
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -302,9 +237,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2289
+    x: 2252
     y: 73
-    width: 182
+    width: 167
     height: 564
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -316,7 +251,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 182, y: 543}
+  m_TargetSize: {x: 167, y: 543}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -331,8 +266,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -91
-    m_HBaseRangeMax: 91
+    m_HBaseRangeMin: -83.5
+    m_HBaseRangeMax: 83.5
     m_VBaseRangeMin: -271.5
     m_VBaseRangeMax: 271.5
     m_HAllowExceedBaseRangeMin: 1
@@ -352,23 +287,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 182
+      width: 167
       height: 543
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 91, y: 271.5}
+    m_Translation: {x: 83.5, y: 271.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -91
+      x: -83.5
       y: -271.5
-      width: 182
+      width: 167
       height: 543
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 182, y: 564}
+  m_LastWindowPixelSize: {x: 167, y: 564}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -389,9 +324,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 553
+    x: 501
     y: 0
-    width: 367
+    width: 558
     height: 585
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -421,9 +356,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2473
+    x: 2421
     y: 73
-    width: 365
+    width: 556
     height: 564
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -489,9 +424,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 86}
+      snapOffset: {x: -111, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       id: Orientation
       index: 0
       layout: 4
@@ -626,9 +561,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.4674048, y: 2.867878, z: 8.401367}
+    m_Target: {x: 6.914378, y: 4.3510695, z: -10.59166}
     speed: 2
-    m_Value: {x: 3.4674048, y: 2.867878, z: 8.401367}
+    m_Value: {x: 6.914378, y: 4.3510695, z: -10.59166}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -675,13 +610,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.00031340643, y: -0.6679492, z: 0.00011519789, w: 0.7443187}
+    m_Target: {x: -0.16323487, y: -0.12394996, z: 0.020984553, w: -0.978666}
     speed: 2
-    m_Value: {x: 0.00031338033, y: -0.6678935, z: 0.00011518829, w: 0.74425673}
+    m_Value: {x: -0.16321555, y: -0.12393529, z: 0.02098207, w: -0.9785502}
   m_Size:
-    m_Target: 7.9489527
+    m_Target: 19.676046
     speed: 2
-    m_Value: 7.9489527
+    m_Value: 19.676046
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -716,24 +651,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 585
-    width: 920
+    width: 1059
     height: 402
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 12}
+  - {fileID: 2}
   - {fileID: 13}
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -757,7 +692,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1920
     y: 658
-    width: 919
+    width: 1058
     height: 381
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -774,7 +709,7 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 3
     m_Folders:
     - Assets
     m_Globs: []
@@ -788,10 +723,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 95}
     m_SelectedIDs: 9e500000
     m_LastClickedID: 20638
-    m_ExpandedIDs: 000000009e500000a2500000aa500000845200008a5200008e520000b2520000b6520000be520000e2520000e45200002a8400007084000000ca9a3b
+    m_ExpandedIDs: 000000009e500000a0500000a2500000a8500000aa500000845200008a5200008e520000b2520000b6520000be520000e2520000e4520000e65b0000e40f01009e1001001211010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -844,26 +779,26 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: cef8feff
-    m_LastClickedInstanceID: -67378
+    m_SelectedInstanceIDs: 246b0000
+    m_LastClickedInstanceID: 27428
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: FinalIK
+      m_OriginalName: FinalIK
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 23542
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -876,35 +811,6 @@ MonoBehaviour:
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1920
-    y: 658
-    width: 919
-    height: 381
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
---- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -932,7 +838,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -947,24 +853,24 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 920
+    x: 1059
     y: 0
-    width: 1000
+    width: 761
     height: 987
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 2}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 21}
   m_Panes:
+  - {fileID: 15}
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 21}
-  - {fileID: 2}
   m_Selected: 6
-  m_LastSelected: 5
---- !u!114 &16
+  m_LastSelected: 0
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -985,9 +891,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2840
+    x: 2979
     y: 73
-    width: 999
+    width: 759
     height: 966
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -996,7 +902,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 502
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -1006,7 +912,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1021,31 +927,31 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: TrainCartManager.cs
+    m_Text: PropPlacer.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
+    m_Tooltip: in Brennan Hatton/PropSystem/PropSystem/
   m_Pos:
     serializedVersion: 2
-    x: 2840
+    x: 2545
     y: 73
-    width: 999
+    width: 1193
     height: 966
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: deea76b685881bb45a7ec1a24a2c6d8f, type: 3}
-  targetAssetGuid: deea76b685881bb45a7ec1a24a2c6d8f
+  targetAsset: {fileID: 11500000, guid: 19ca5ec289402454693301490e0a25e8, type: 3}
+  targetAssetGuid: 19ca5ec289402454693301490e0a25e8
   textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
+    scrollPosition: {x: 0, y: 4854}
+    scrollPositionLine: 298
+    scrollPositionOffset: 6
     searchString: 
     caretPosition:
-      virtualColumn: 28
-      column: 28
-      characterIndex: 22
-      line: 29
+      virtualColumn: 53
+      column: 53
+      characterIndex: 41
+      line: 341
     _selectionStartPosition:
       virtualColumn: 0
       column: 0
@@ -1105,16 +1011,529 @@ MonoBehaviour:
     - 752
     - 768
     - 784
+    - 800
+    - 816
+    - 832
+    - 848
+    - 864
+    - 880
+    - 896
+    - 912
+    - 928
+    - 944
+    - 960
+    - 976
+    - 992
+    - 1008
+    - 1024
+    - 1040
+    - 1056
+    - 1072
+    - 1088
+    - 1104
+    - 1120
+    - 1136
+    - 1152
+    - 1168
+    - 1184
+    - 1200
+    - 1216
+    - 1232
+    - 1248
+    - 1264
+    - 1280
+    - 1296
+    - 1312
+    - 1344
+    - 1360
+    - 1376
+    - 1392
+    - 1408
+    - 1424
+    - 1440
+    - 1456
+    - 1472
+    - 1488
+    - 1504
+    - 1520
+    - 1536
+    - 1552
+    - 1568
+    - 1600
+    - 1616
+    - 1632
+    - 1648
+    - 1664
+    - 1680
+    - 1696
+    - 1712
+    - 1728
+    - 1744
+    - 1760
+    - 1776
+    - 1808
+    - 1824
+    - 1840
+    - 1856
+    - 1872
+    - 1888
+    - 1904
+    - 1920
+    - 1936
+    - 1952
+    - 1968
+    - 1984
+    - 2000
+    - 2016
+    - 2032
+    - 2048
+    - 2064
+    - 2080
+    - 2096
+    - 2112
+    - 2128
+    - 2144
+    - 2160
+    - 2176
+    - 2192
+    - 2208
+    - 2224
+    - 2240
+    - 2256
+    - 2272
+    - 2288
+    - 2304
+    - 2320
+    - 2336
+    - 2352
+    - 2368
+    - 2384
+    - 2400
+    - 2416
+    - 2432
+    - 2448
+    - 2464
+    - 2480
+    - 2496
+    - 2512
+    - 2528
+    - 2544
+    - 2560
+    - 2576
+    - 2592
+    - 2608
+    - 2624
+    - 2640
+    - 2656
+    - 2672
+    - 2688
+    - 2704
+    - 2720
+    - 2736
+    - 2752
+    - 2768
+    - 2784
+    - 2800
+    - 2816
+    - 2832
+    - 2848
+    - 2864
+    - 2880
+    - 2896
+    - 2912
+    - 2928
+    - 2944
+    - 2976
+    - 2992
+    - 3024
+    - 3040
+    - 3056
+    - 3072
+    - 3088
+    - 3104
+    - 3120
+    - 3136
+    - 3152
+    - 3168
+    - 3184
+    - 3200
+    - 3216
+    - 3232
+    - 3248
+    - 3264
+    - 3280
+    - 3296
+    - 3312
+    - 3328
+    - 3344
+    - 3360
+    - 3376
+    - 3392
+    - 3408
+    - 3424
+    - 3440
+    - 3456
+    - 3472
+    - 3488
+    - 3504
+    - 3520
+    - 3536
+    - 3552
+    - 3568
+    - 3584
+    - 3600
+    - 3616
+    - 3632
+    - 3648
+    - 3664
+    - 3680
+    - 3696
+    - 3712
+    - 3728
+    - 3744
+    - 3760
+    - 3776
+    - 3792
+    - 3808
+    - 3824
+    - 3840
+    - 3856
+    - 3872
+    - 3888
+    - 3904
+    - 3920
+    - 3936
+    - 3952
+    - 3968
+    - 3984
+    - 4000
+    - 4016
+    - 4032
+    - 4048
+    - 4064
+    - 4080
+    - 4096
+    - 4112
+    - 4128
+    - 4144
+    - 4160
+    - 4176
+    - 4192
+    - 4208
+    - 4224
+    - 4240
+    - 4256
+    - 4272
+    - 4288
+    - 4304
+    - 4320
+    - 4336
+    - 4352
+    - 4368
+    - 4384
+    - 4400
+    - 4416
+    - 4432
+    - 4448
+    - 4464
+    - 4480
+    - 4496
+    - 4512
+    - 4528
+    - 4544
+    - 4560
+    - 4576
+    - 4592
+    - 4608
+    - 4624
+    - 4640
+    - 4656
+    - 4672
+    - 4688
+    - 4704
+    - 4720
+    - 4736
+    - 4752
+    - 4768
+    - 4784
+    - 4800
+    - 4816
+    - 4832
+    - 4848
+    - 4864
+    - 4880
+    - 4896
+    - 4912
+    - 4928
+    - 4944
+    - 4960
+    - 4976
+    - 4992
+    - 5024
+    - 5040
+    - 5056
+    - 5072
+    - 5088
+    - 5104
+    - 5120
+    - 5136
+    - 5152
+    - 5168
+    - 5184
+    - 5200
+    - 5216
+    - 5232
+    - 5248
+    - 5264
+    - 5280
+    - 5296
+    - 5312
+    - 5328
+    - 5344
+    - 5360
+    - 5376
+    - 5392
+    - 5408
+    - 5424
+    - 5440
+    - 5456
+    - 5472
+    - 5488
+    - 5504
+    - 5520
+    - 5536
+    - 5552
+    - 5568
+    - 5584
+    - 5600
+    - 5616
+    - 5632
+    - 5648
+    - 5664
+    - 5680
+    - 5696
+    - 5712
+    - 5728
+    - 5744
+    - 5760
+    - 5776
+    - 5792
+    - 5808
+    - 5824
+    - 5840
+    - 5856
+    - 5872
+    - 5888
+    - 5904
+    - 5920
+    - 5936
+    - 5952
+    - 5968
+    - 5984
+    - 6000
+    - 6016
+    - 6032
+    - 6048
+    - 6064
+    - 6080
+    - 6096
+    - 6112
+    - 6128
+    - 6144
+    - 6160
+    - 6176
+    - 6192
+    - 6208
+    - 6224
+    - 6240
+    - 6256
+    - 6272
+    - 6288
+    - 6304
+    - 6320
+    - 6336
+    - 6352
+    - 6368
+    - 6400
+    - 6416
+    - 6432
+    - 6448
+    - 6464
+    - 6480
+    - 6528
+    - 6544
+    - 6560
+    - 6576
+    - 6592
+    - 6608
+    - 6624
+    - 6640
+    - 6656
+    - 6672
+    - 6688
+    - 6704
+    - 6720
+    - 6736
+    - 6752
+    - 6768
+    - 6784
+    - 6800
+    - 6816
+    - 6832
+    - 6848
+    - 6864
+    - 6880
+    - 6896
+    - 6912
+    - 6928
+    - 6944
+    - 6960
+    - 6976
+    - 6992
+    - 7008
+    - 7024
+    - 7040
+    - 7056
+    - 7072
+    - 7088
+    - 7104
+    - 7120
+    - 7136
+    - 7152
+    - 7168
+    - 7184
+    - 7200
+    - 7216
+    - 7232
+    - 7248
+    - 7264
+    - 7280
+    - 7296
+    - 7312
+    - 7328
+    - 7344
+    - 7360
+    - 7376
+    - 7392
+    - 7408
+    - 7424
+    - 7440
+    - 7456
+    - 7472
+    - 7488
+    - 7504
+    - 7520
+    - 7536
+    - 7552
+    - 7568
+    - 7584
+    - 7600
+    - 7616
+    - 7632
+    - 7648
+    - 7664
+    - 7680
+    - 7696
+    - 7712
+    - 7728
+    - 7744
+    - 7760
+    - 7776
+    - 7792
+    - 7808
+    - 7824
+    - 7840
+    - 7856
+    - 7872
+    - 7888
+    - 7904
+    - 7920
+    - 7936
+    - 7952
+    - 7968
+    - 7984
+    - 8000
+    - 8016
+    - 8032
+    - 8048
+    - 8064
+    - 8080
+    - 8096
+    - 8112
+    - 8128
+    - 8144
+    - 8160
+    - 8176
+    - 8192
+    - 8208
+    - 8224
+    - 8240
+    - 8256
+    - 8272
+    - 8288
+    - 8304
+    - 8320
+    - 8336
+    - 8352
+    - 8368
+    - 8384
+    - 8400
+    - 8416
+    - 8432
+    - 8448
+    - 8464
+    - 8480
+    - 8496
+    - 8512
+    - 8528
+    - 8544
+    - 8560
+    - 8576
+    - 8592
+    - 8608
+    - 8624
+    - 8640
+    - 8656
+    - 8672
+    - 8688
+    - 8704
+    - 8720
+    - 8736
+    - 8752
+    - 8768
+    - 8784
+    - 8800
+    - 8816
+    - 8832
+    - 8848
+    - 8864
+    - 8880
+    - 8896
+    - 8912
+    - 8928
+    - 8944
+    - 8960
+    - 8976
+    - 8992
+    - 9008
+    - 9024
+    - 9040
+    - 9056
+    - 9072
+    - 9088
+    - 9104
+    - 9120
+    - 9136
     codeViewRect:
       serializedVersion: 2
-      x: 32
-      y: 0
-      width: 962
-      height: 920
+      x: 40
+      y: 4854
+      width: 1133
+      height: 905
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1129,111 +1548,31 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: TrainCartGenerator.cs
+    m_Text: PropType.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
+    m_Tooltip: in Brennan Hatton/PropSystem/PropSystem/
   m_Pos:
     serializedVersion: 2
-    x: 2840
+    x: 2545
     y: 73
-    width: 999
+    width: 1193
     height: 966
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 1b425d4a1507d4344a453deec43ef22d, type: 3}
-  targetAssetGuid: 1b425d4a1507d4344a453deec43ef22d
+  targetAsset: {fileID: 11500000, guid: 4389b8cbfc7b31b4b8e1fec00c465e64, type: 3}
+  targetAssetGuid: 4389b8cbfc7b31b4b8e1fec00c465e64
   textEditor:
     scrollPosition: {x: 0, y: 0}
     scrollPositionLine: 0
     scrollPositionOffset: 0
     searchString: 
     caretPosition:
-      virtualColumn: 102
-      column: 102
-      characterIndex: 96
-      line: 12
-    _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 16
-    - 32
-    - 48
-    - 64
-    - 80
-    - 96
-    - 112
-    - 128
-    - 144
-    - 160
-    - 176
-    - 192
-    - 208
-    - 224
-    - 240
-    - 256
-    - 272
-    - 288
-    - 304
-    - 320
-    - 336
-    codeViewRect:
-      serializedVersion: 2
-      x: 32
-      y: 0
-      width: 962
-      height: 920
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: TrainCart.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
-  m_Pos:
-    serializedVersion: 2
-    x: 2840
-    y: 73
-    width: 999
-    height: 966
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 189a46241e6bd8a41b05f379e7383ad1, type: 3}
-  targetAssetGuid: 189a46241e6bd8a41b05f379e7383ad1
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 15
-      column: 15
-      characterIndex: 12
-      line: 32
+      virtualColumn: 9
+      column: 9
+      characterIndex: 3
+      line: 272
     _selectionStartPosition:
       virtualColumn: 0
       column: 0
@@ -1282,16 +1621,255 @@ MonoBehaviour:
     - 576
     - 592
     - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    - 688
+    - 704
+    - 720
+    - 736
+    - 752
+    - 768
+    - 784
+    - 800
+    - 816
+    - 832
+    - 848
+    - 864
+    - 880
+    - 896
+    - 912
+    - 928
+    - 944
+    - 960
+    - 976
+    - 992
+    - 1008
+    - 1024
+    - 1040
+    - 1056
+    - 1072
+    - 1088
+    - 1104
+    - 1120
+    - 1136
+    - 1152
+    - 1168
+    - 1184
+    - 1200
+    - 1216
+    - 1232
+    - 1248
+    - 1264
+    - 1280
+    - 1296
+    - 1312
+    - 1328
+    - 1344
+    - 1360
+    - 1376
+    - 1392
+    - 1408
+    - 1424
+    - 1440
+    - 1456
+    - 1472
+    - 1488
+    - 1504
+    - 1520
+    - 1536
+    - 1552
+    - 1568
+    - 1584
+    - 1600
+    - 1616
+    - 1632
+    - 1648
+    - 1664
+    - 1680
+    - 1696
+    - 1712
+    - 1728
+    - 1744
+    - 1760
+    - 1776
+    - 1792
+    - 1808
+    - 1824
+    - 1840
+    - 1856
+    - 1872
+    - 1888
+    - 1904
+    - 1920
+    - 1936
+    - 1952
+    - 1968
+    - 1984
+    - 2000
+    - 2016
+    - 2032
+    - 2048
+    - 2064
+    - 2080
+    - 2096
+    - 2112
+    - 2128
+    - 2144
+    - 2160
+    - 2176
+    - 2192
+    - 2208
+    - 2224
+    - 2240
+    - 2256
+    - 2272
+    - 2288
+    - 2304
+    - 2320
+    - 2336
+    - 2352
+    - 2368
+    - 2384
+    - 2400
+    - 2416
+    - 2432
+    - 2448
+    - 2464
+    - 2480
+    - 2496
+    - 2512
+    - 2528
+    - 2544
+    - 2560
+    - 2576
+    - 2592
+    - 2608
+    - 2624
+    - 2640
+    - 2656
+    - 2672
+    - 2688
+    - 2704
+    - 2720
+    - 2736
+    - 2752
+    - 2768
+    - 2784
+    - 2800
+    - 2816
+    - 2832
+    - 2848
+    - 2864
+    - 2880
+    - 2896
+    - 2912
+    - 2928
+    - 2944
+    - 2960
+    - 2976
+    - 2992
+    - 3008
+    - 3024
+    - 3040
+    - 3056
+    - 3072
+    - 3088
+    - 3104
+    - 3120
+    - 3136
+    - 3152
+    - 3168
+    - 3184
+    - 3200
+    - 3216
+    - 3232
+    - 3248
+    - 3264
+    - 3280
+    - 3296
+    - 3312
+    - 3328
+    - 3344
+    - 3360
+    - 3376
+    - 3392
+    - 3408
+    - 3424
+    - 3440
+    - 3456
+    - 3472
+    - 3488
+    - 3520
+    - 3536
+    - 3552
+    - 3568
+    - 3584
+    - 3600
+    - 3616
+    - 3632
+    - 3648
+    - 3664
+    - 3680
+    - 3696
+    - 3728
+    - 3744
+    - 3760
+    - 3776
+    - 3792
+    - 3808
+    - 3824
+    - 3840
+    - 3856
+    - 3872
+    - 3888
+    - 3904
+    - 3920
+    - 3936
+    - 3952
+    - 3968
+    - 3984
+    - 4000
+    - 4016
+    - 4032
+    - 4048
+    - 4064
+    - 4080
+    - 4096
+    - 4112
+    - 4144
+    - 4160
+    - 4176
+    - 4192
+    - 4208
+    - 4224
+    - 4240
+    - 4256
+    - 4272
+    - 4288
+    - 4304
+    - 4320
+    - 4336
+    - 4352
+    - 4368
+    - 4384
+    - 4400
+    - 4416
+    - 4432
+    - 4448
+    - 4464
+    - 4480
     codeViewRect:
       serializedVersion: 2
-      x: 32
+      x: 40
       y: 0
-      width: 962
-      height: 920
+      width: 1133
+      height: 905
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &20
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1306,36 +1884,447 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: TrainCartArchitecture.cs
+    m_Text: Prop.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
+    m_Tooltip: in Brennan Hatton/PropSystem/PropSystem/
   m_Pos:
     serializedVersion: 2
-    x: 2840
+    x: 2545
     y: 73
-    width: 999
+    width: 1193
     height: 966
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: f3601a99cc262c64bb868c682e5c755f, type: 3}
-  targetAssetGuid: f3601a99cc262c64bb868c682e5c755f
+  targetAsset: {fileID: 11500000, guid: ffae017a6a4424e42830709968574a93, type: 3}
+  targetAssetGuid: ffae017a6a4424e42830709968574a93
+  textEditor:
+    scrollPosition: {x: 0, y: 4108}
+    scrollPositionLine: 255
+    scrollPositionOffset: 12
+    searchString: 
+    caretPosition:
+      virtualColumn: 8
+      column: 8
+      characterIndex: 2
+      line: 309
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 128
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 240
+    - 256
+    - 272
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 384
+    - 400
+    - 416
+    - 432
+    - 448
+    - 464
+    - 480
+    - 496
+    - 512
+    - 528
+    - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    - 688
+    - 704
+    - 720
+    - 736
+    - 752
+    - 768
+    - 784
+    - 800
+    - 816
+    - 832
+    - 848
+    - 864
+    - 880
+    - 896
+    - 912
+    - 928
+    - 944
+    - 960
+    - 976
+    - 992
+    - 1008
+    - 1024
+    - 1040
+    - 1056
+    - 1072
+    - 1088
+    - 1104
+    - 1120
+    - 1136
+    - 1152
+    - 1168
+    - 1184
+    - 1200
+    - 1216
+    - 1232
+    - 1248
+    - 1264
+    - 1280
+    - 1296
+    - 1312
+    - 1328
+    - 1344
+    - 1360
+    - 1376
+    - 1392
+    - 1408
+    - 1424
+    - 1440
+    - 1456
+    - 1472
+    - 1488
+    - 1504
+    - 1520
+    - 1536
+    - 1552
+    - 1568
+    - 1584
+    - 1600
+    - 1616
+    - 1632
+    - 1648
+    - 1664
+    - 1680
+    - 1696
+    - 1712
+    - 1728
+    - 1744
+    - 1760
+    - 1776
+    - 1792
+    - 1808
+    - 1824
+    - 1840
+    - 1856
+    - 1872
+    - 1888
+    - 1904
+    - 1920
+    - 1936
+    - 1952
+    - 1968
+    - 1984
+    - 2000
+    - 2016
+    - 2032
+    - 2048
+    - 2064
+    - 2080
+    - 2096
+    - 2112
+    - 2128
+    - 2144
+    - 2160
+    - 2176
+    - 2192
+    - 2208
+    - 2224
+    - 2240
+    - 2256
+    - 2272
+    - 2288
+    - 2304
+    - 2320
+    - 2336
+    - 2352
+    - 2368
+    - 2384
+    - 2400
+    - 2416
+    - 2432
+    - 2448
+    - 2464
+    - 2480
+    - 2496
+    - 2512
+    - 2528
+    - 2544
+    - 2560
+    - 2576
+    - 2592
+    - 2608
+    - 2624
+    - 2640
+    - 2656
+    - 2672
+    - 2688
+    - 2704
+    - 2720
+    - 2736
+    - 2752
+    - 2768
+    - 2784
+    - 2800
+    - 2816
+    - 2832
+    - 2848
+    - 2864
+    - 2880
+    - 2896
+    - 2912
+    - 2928
+    - 2944
+    - 2960
+    - 2976
+    - 2992
+    - 3008
+    - 3024
+    - 3040
+    - 3056
+    - 3072
+    - 3088
+    - 3104
+    - 3120
+    - 3136
+    - 3152
+    - 3168
+    - 3184
+    - 3200
+    - 3216
+    - 3232
+    - 3248
+    - 3264
+    - 3280
+    - 3296
+    - 3312
+    - 3328
+    - 3344
+    - 3360
+    - 3376
+    - 3392
+    - 3408
+    - 3424
+    - 3440
+    - 3456
+    - 3472
+    - 3488
+    - 3504
+    - 3520
+    - 3536
+    - 3552
+    - 3568
+    - 3584
+    - 3600
+    - 3616
+    - 3632
+    - 3648
+    - 3664
+    - 3680
+    - 3696
+    - 3712
+    - 3728
+    - 3744
+    - 3760
+    - 3776
+    - 3792
+    - 3808
+    - 3824
+    - 3840
+    - 3856
+    - 3872
+    - 3888
+    - 3904
+    - 3920
+    - 3936
+    - 3952
+    - 3968
+    - 3984
+    - 4000
+    - 4016
+    - 4032
+    - 4048
+    - 4064
+    - 4080
+    - 4096
+    - 4112
+    - 4128
+    - 4144
+    - 4160
+    - 4176
+    - 4192
+    - 4208
+    - 4224
+    - 4240
+    - 4256
+    - 4272
+    - 4288
+    - 4304
+    - 4320
+    - 4336
+    - 4352
+    - 4368
+    - 4384
+    - 4400
+    - 4416
+    - 4432
+    - 4448
+    - 4464
+    - 4480
+    - 4496
+    - 4512
+    - 4528
+    - 4544
+    - 4560
+    - 4576
+    - 4592
+    - 4608
+    - 4624
+    - 4640
+    - 4656
+    - 4672
+    - 4688
+    - 4704
+    - 4720
+    - 4736
+    - 4752
+    - 4768
+    - 4784
+    - 4800
+    - 4816
+    - 4832
+    - 4848
+    - 4864
+    - 4880
+    - 4896
+    - 4912
+    - 4928
+    - 4944
+    - 4960
+    - 4976
+    - 4992
+    - 5008
+    - 5024
+    - 5040
+    - 5056
+    - 5072
+    - 5088
+    - 5104
+    - 5120
+    - 5136
+    - 5152
+    - 5168
+    - 5200
+    - 5216
+    - 5232
+    - 5248
+    - 5264
+    - 5280
+    - 5328
+    - 5344
+    - 5360
+    - 5376
+    - 5392
+    - 5408
+    - 5424
+    - 5440
+    - 5456
+    - 5472
+    - 5488
+    - 5504
+    - 5520
+    - 5536
+    - 5552
+    - 5568
+    - 5584
+    - 5600
+    - 5616
+    - 5632
+    - 5648
+    - 5664
+    - 5680
+    - 5696
+    codeViewRect:
+      serializedVersion: 2
+      x: 40
+      y: 4108
+      width: 1133
+      height: 905
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: SlimeCrime.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Dungeon Train/Old Systems/Enemies/
+  m_Pos:
+    serializedVersion: 2
+    x: 2979
+    y: 73
+    width: 759
+    height: 966
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 2ffb9a7eb72393a489b1fd9e89f1441d, type: 3}
+  targetAssetGuid: 2ffb9a7eb72393a489b1fd9e89f1441d
   textEditor:
     scrollPosition: {x: 0, y: 0}
     scrollPositionLine: 0
     scrollPositionOffset: 0
     searchString: 
     caretPosition:
-      virtualColumn: 35
-      column: 35
-      characterIndex: 32
-      line: 6
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 3
     _selectionStartPosition:
-      virtualColumn: 1
-      column: 1
-      characterIndex: 1
-      line: 5
+      virtualColumn: 31
+      column: 31
+      characterIndex: 31
+      line: 3
     hasSelection: 1
     hiddenLinesStart: 
     hiddenLinesCount: 
@@ -1384,6 +2373,7 @@ MonoBehaviour:
     - 656
     - 672
     - 688
+    - 704
     - 720
     - 736
     - 752
@@ -1408,7 +2398,6 @@ MonoBehaviour:
     - 1056
     - 1072
     - 1088
-    - 1104
     - 1120
     - 1136
     - 1152
@@ -1418,16 +2407,105 @@ MonoBehaviour:
     - 1216
     - 1232
     - 1248
+    - 1264
+    - 1280
+    - 1296
+    - 1312
+    - 1328
+    - 1344
+    - 1360
+    - 1376
+    - 1392
+    - 1408
+    - 1424
+    - 1440
+    - 1456
+    - 1472
+    - 1488
+    - 1504
+    - 1520
+    - 1536
+    - 1552
+    - 1568
+    - 1584
+    - 1600
+    - 1616
+    - 1632
+    - 1648
+    - 1664
+    - 1680
+    - 1712
+    - 1728
+    - 1744
+    - 1760
+    - 1776
+    - 1792
+    - 1808
+    - 1824
+    - 1840
+    - 1856
+    - 1872
+    - 1888
+    - 1904
+    - 1920
+    - 1936
+    - 1952
+    - 1968
+    - 1984
+    - 2000
+    - 2016
+    - 2032
+    - 2048
+    - 2064
+    - 2080
+    - 2096
+    - 2112
+    - 2128
+    - 2144
+    - 2160
+    - 2176
+    - 2192
+    - 2208
+    - 2224
+    - 2240
+    - 2256
+    - 2272
+    - 2288
+    - 2304
+    - 2336
+    - 2352
+    - 2368
+    - 2384
+    - 2400
+    - 2416
+    - 2432
+    - 2448
+    - 2464
+    - 2480
+    - 2496
+    - 2512
+    - 2528
+    - 2544
+    - 2560
+    - 2576
+    - 2592
+    - 2608
+    - 2624
+    - 2656
+    - 2672
+    - 2688
+    - 2704
+    - 2720
     codeViewRect:
       serializedVersion: 2
-      x: 32
+      x: 40
       y: 0
-      width: 947
+      width: 699
       height: 905
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &21
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1442,37 +2520,38 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: '*ArchitectureTheme.cs'
+    m_Text: AxeSetup.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
+    m_Tooltip: in Brennan Hatton/Dungeon Train/Old Systems/Items - PropDependant/Weapon
+      Setups/
   m_Pos:
     serializedVersion: 2
-    x: 2840
+    x: 2979
     y: 73
-    width: 999
+    width: 759
     height: 966
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: e3ee50fa9a432244a8904cf07a53166f, type: 3}
-  targetAssetGuid: e3ee50fa9a432244a8904cf07a53166f
+  targetAsset: {fileID: 11500000, guid: 7da5870aded10784fa730eeb3c671c1c, type: 3}
+  targetAssetGuid: 7da5870aded10784fa730eeb3c671c1c
   textEditor:
     scrollPosition: {x: 0, y: 0}
     scrollPositionLine: 0
     scrollPositionOffset: 0
     searchString: 
     caretPosition:
-      virtualColumn: 25
-      column: 25
-      characterIndex: 25
-      line: 4
+      virtualColumn: 16
+      column: 16
+      characterIndex: 16
+      line: 7
     _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
+      virtualColumn: 6
+      column: 6
+      characterIndex: 6
+      line: 7
+    hasSelection: 1
     hiddenLinesStart: 
     hiddenLinesCount: 
     lineNumbersOffset: 0
@@ -1507,16 +2586,505 @@ MonoBehaviour:
     - 448
     - 464
     - 480
+    - 512
+    - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    - 688
+    - 704
+    - 720
+    - 736
+    - 752
+    - 784
+    - 800
+    - 816
+    - 832
+    - 848
+    - 880
+    - 912
+    - 944
+    - 960
+    - 976
+    - 992
+    - 1008
+    - 1024
+    - 1056
+    - 1072
+    - 1088
+    - 1104
+    - 1120
+    - 1136
+    - 1152
+    - 1168
+    - 1184
+    - 1200
+    - 1216
+    - 1232
+    - 1248
+    - 1280
+    - 1296
+    - 1312
+    - 1328
+    - 1344
+    - 1376
+    - 1392
+    - 1408
+    - 1424
+    - 1440
+    - 1456
+    - 1472
+    - 1488
+    - 1504
+    - 1520
+    - 1536
+    - 1552
+    - 1568
+    - 1584
+    - 1600
+    - 1616
+    - 1632
+    - 1648
+    - 1664
+    - 1680
+    - 1696
+    - 1712
+    - 1728
+    - 1744
+    - 1760
+    codeViewRect:
+      serializedVersion: 2
+      x: 40
+      y: 0
+      width: 699
+      height: 905
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: '*Room.cs'
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Dungeon Train/Old Systems/Rooms - Prop&Culling Dependant/
+  m_Pos:
+    serializedVersion: 2
+    x: 2979
+    y: 73
+    width: 759
+    height: 966
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: fb5f5ea2ec3974c4f9fe32bde9bf02ce, type: 3}
+  targetAssetGuid: fb5f5ea2ec3974c4f9fe32bde9bf02ce
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 2
+      column: 2
+      characterIndex: 2
+      line: 5
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 128
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 240
+    - 256
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 368
+    - 384
+    - 400
+    - 416
+    - 432
+    - 448
+    - 464
+    - 480
     - 496
     - 512
     - 528
     - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    - 688
+    - 704
+    - 736
+    - 752
+    - 768
+    - 784
+    - 800
+    - 816
+    - 832
+    - 848
+    - 864
+    - 880
+    - 896
+    - 912
+    - 928
+    - 944
+    - 960
+    - 976
+    - 992
+    - 1008
+    - 1024
+    - 1040
+    - 1056
+    - 1072
+    - 1088
+    - 1104
+    - 1120
+    - 1136
+    - 1168
+    - 1184
+    - 1200
+    - 1216
+    - 1232
+    - 1248
+    - 1264
+    - 1280
+    - 1296
+    - 1312
+    - 1328
+    - 1344
+    - 1360
+    - 1376
+    - 1392
+    - 1408
+    - 1424
+    - 1440
+    - 1456
+    - 1472
+    - 1488
+    - 1504
+    - 1520
+    - 1536
+    - 1552
+    - 1568
+    - 1584
+    - 1600
+    - 1616
+    - 1632
+    - 1648
+    - 1664
+    - 1680
+    - 1696
+    - 1712
+    - 1728
+    - 1744
+    - 1760
+    - 1776
+    - 1792
+    - 1808
+    - 1824
+    - 1840
+    - 1872
+    - 1888
+    - 1904
+    - 1920
+    - 1936
+    - 1952
+    - 1968
+    - 1984
+    - 2000
+    - 2032
+    - 2048
+    - 2064
+    - 2080
+    - 2096
+    - 2112
+    - 2128
+    - 2144
+    - 2160
+    - 2176
+    - 2192
+    - 2208
+    - 2224
+    - 2240
+    - 2256
+    - 2272
+    - 2288
+    - 2304
+    - 2320
+    - 2336
+    - 2352
+    - 2368
+    - 2384
+    - 2400
+    - 2416
+    - 2432
+    - 2448
+    - 2464
+    - 2480
+    - 2496
+    - 2512
+    - 2528
+    - 2544
+    - 2560
+    - 2576
+    - 2592
+    - 2608
+    - 2624
+    - 2640
+    - 2656
+    - 2672
+    - 2688
+    - 2704
+    - 2736
+    - 2752
+    - 2768
+    - 2784
+    - 2800
+    - 2816
+    - 2832
+    - 2848
+    - 2864
+    - 2880
+    - 2896
+    - 2912
+    - 2928
+    - 2944
+    - 2960
+    - 2976
+    - 3008
+    - 3024
+    - 3040
+    - 3056
+    - 3072
+    - 3088
+    - 3104
+    - 3120
+    - 3136
+    - 3152
+    - 3168
+    - 3184
+    - 3200
+    - 3216
+    - 3232
+    - 3248
+    - 3264
+    - 3280
+    - 3296
+    - 3312
+    - 3328
+    - 3344
+    - 3360
+    - 3376
+    - 3392
+    - 3408
+    - 3424
+    - 3440
+    - 3456
+    - 3472
+    - 3488
+    - 3504
+    - 3520
+    - 3536
+    - 3552
+    - 3568
+    - 3584
+    - 3600
+    - 3616
+    - 3632
+    - 3648
+    - 3664
+    - 3680
+    - 3696
+    - 3712
+    - 3728
+    - 3744
+    - 3760
+    - 3776
+    - 3792
+    - 3808
+    - 3824
+    - 3840
+    - 3856
+    - 3872
+    - 3888
+    - 3904
+    - 3920
+    - 3936
+    - 3952
+    - 3968
+    - 3984
+    - 4000
+    - 4016
+    - 4032
+    - 4048
+    - 4064
+    - 4080
+    - 4096
+    - 4112
+    - 4128
+    - 4144
+    - 4160
+    - 4176
+    - 4192
+    - 4208
+    - 4224
+    - 4240
+    - 4256
+    - 4272
+    - 4288
+    - 4304
+    - 4320
+    - 4336
+    - 4352
+    - 4368
+    - 4384
+    - 4400
+    - 4416
+    - 4432
+    - 4448
+    - 4464
+    - 4480
+    - 4496
+    - 4512
+    - 4528
+    - 4544
+    - 4560
+    - 4576
+    - 4592
+    - 4608
+    - 4624
+    - 4640
+    - 4656
+    - 4672
+    - 4688
+    - 4704
+    - 4720
+    - 4736
+    - 4752
+    - 4768
+    - 4784
+    - 4800
+    - 4816
+    - 4832
     codeViewRect:
       serializedVersion: 2
-      x: 32
+      x: 40
       y: 0
-      width: 962
-      height: 920
+      width: 699
+      height: 905
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1820
+    y: 0
+    width: 100
+    height: 987
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 23}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 3740
+    y: 73
+    width: 99
+    height: 966
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 502
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
