@@ -398,26 +398,18 @@ namespace BrennanHatton.Props
 		/// </summary>
 		public void ReturnProps()
 		{
+			Debug.LogError("ReturnProps is deprecated, calling DeleteProps instead");
+			DeleteProps();
+		}
+		
+		public void DeleteProps()
+		{
+			
 			//For all props managed by this placer
 			for(int i = 0; i < propsPlaced.Count; i++)
 			{
-				//free the position
-				positionGroup.FreePositionsFrom(propsPlaced[i].prop.transform);
-				
-				//save references as youre about to lose them
-				PropType type = propsPlaced[i].type;
-				Prop prop = propsPlaced[i].prop;
-				
-				//return them to the pool
-				propsPlaced[i].prop.ReturnToPool(); // this loses references
-				
-				//tell data its not in use
-				type.ReturningProp(prop);
+				Destroy(propsPlaced[i].prop.gameObject);
 			}
-			
-			positionGroup.DebugData();
-			
-			_propsPlaced =  new List<PropAndType>();
 		}
 		
 		/// <summary>

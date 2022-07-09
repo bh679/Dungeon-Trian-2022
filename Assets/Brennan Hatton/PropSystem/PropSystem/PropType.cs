@@ -17,31 +17,6 @@ namespace BrennanHatton.Props
 			int propDataId = 0;
 			static int propDataCounter = 0;
 			
-			//Pools track which objects are in use.
-			//[HideInInspector]
-			public bool inUse
-			{
-				get{
-					
-					/*if(Debugging)
-					Debug.Log("inUse was 'get' for " + prop.name + " it is now "+_inUse + "  prop id:" + prop.gameObject.GetInstanceID() + "   data id:" + propDataId + " on type:" + type.name);*/
-						
-					return _inUse;
-				}
-					
-				set{
-					
-					if(Debugging)
-						Debug.LogError("inUse for " + prop.name + " set from "+_inUse+" to " + value + "  id:" + prop.gameObject.GetInstanceID() + "   data id:" + propDataId + " on type:" + type.name);
-						
-					_inUse = value;
-					
-					if(Debugging)
-						Debug.Log("inUse for " + prop.name + " is now "+_inUse + "  id:" + prop.gameObject.GetInstanceID() + "   data id:" + propDataId + " on type:" + type.name);
-					
-				}
-			}
-			bool _inUse = false;
 			
 			public PropData(Prop _prop, bool _debugging, PropType _type)
 			{
@@ -56,8 +31,6 @@ namespace BrennanHatton.Props
 		//A list of props and data
 		public List<PropData> propData = new List<PropData>();
 		
-		//will this only make clones, rather than pool
-		public bool cloneOnly = false;
 		
 		//matrix for calculating chane based on mutliplier.
 		int[] _propChanceMatrix;
@@ -242,12 +215,8 @@ namespace BrennanHatton.Props
 			//turn off all propData
 			for(int i = 0; i < propData.Count; i++)
 			{
-				//if the prop is not in use
-				if(!propData[i].inUse)
-				{
-					propData[i].prop.gameObject.SetActive(false);
-					propData[i].prop.Initialization();// This should probably be called elsewhere, but for some reasn this makes the most sense for now
-				}
+				propData[i].prop.gameObject.SetActive(false);
+				propData[i].prop.Initialization();// This should probably be called elsewhere, but for some reasn this makes the most sense for now
 			}
 			
 			if(parentType == null && this.transform.parent != null)
@@ -256,123 +225,14 @@ namespace BrennanHatton.Props
 				subTypes = GetSubTypes(this.transform).ToArray();
 		}
 		
-		/*void Update()
-		{
-			if(Debugging)
-				for(int i = 0; i < propData.Count; i++)
-				{
-					Debug.Log("inUse for " + propData[i].prop.name + " is "+propData[i].inUse + "  id:" + propData[i].prop.gameObject.GetInstanceID());
-				}
-		}*/
-		
 		public Prop GetProp()
 		{
 			//conver data over from old data types
 			ConvertPropsToPropData();//this should probably be run as an editor tool, so its not needed at runtime. Do this n the future. //TODO
 			
-			//if this prop only clones
-			if(cloneOnly)
-			{
-				//create a new one and exit.
-				return CreateNewProp();
-			}
-			//if no props in data
-			if(propData.Count == 0)
-			{
-				//send message to dev
-				Debug.LogError("Empty Prop Count '" + this.gameObject.name+"'. Prop type might need a refresh, or missing prop componet on children");
-				
-				return null;
-			}
+			//create a new one and exit.
+			return CreateNewProp();
 			
-			//gets prop that considers chance values assigned to props
-			int id = GetRandomPropId();
-			
-			//check if that prop exists
-			if(propData[id] == null)
-				Debug.LogError("Missing Prop Refernece on PropType - " + this.gameObject.name);
-			
-			//counter to make sure loop doent go for ever
-			int counter = 0;
-			
-			bool newMade = false;
-			//if object is in use
-			///	TODO			--- This could be optamizaed with a list<int> of ids of objects unused
-			while(propData[id].inUse && newMade == false)
-			{
-				//increase counter
-				counter++;
-				
-				//go through objects looking for free object
-				id = (id + counter) % propData.Count;
-				
-				//until we exaust all objects
-				if(counter >= propData.Count)
-				{
-					//than make a new one
-					Prop newProp = CreateNewProp();
-					id = -1;
-					for(int i = 0; i < propData.Count; i++)
-					{
-						if(propData[i].prop == newProp)
-						{
-							id = i;
-							i =  propData.Count;
-						}
-					}
-					
-					newMade = true;
-				}
-			}
-			
-			//if propdata is empty
-			if(propData[id] == null)
-				// let developer know there was an issue
-				Debug.LogError("Null prop in list - " + this.gameObject.name);
-			
-			SetPropInUse(id, true, true, true);
-			
-			//sets up start 
-			//propData[id].prop.Initialization();
-			
-			return propData[id].prop;
-		}
-		
-		void SetPropInUse(int id, bool inUse, bool children, bool parents)
-		{
-			//something has asked for this prop, its now in use.
-			propData[id].inUse = inUse;
-			
-			//tell the parent type it is in use
-			if(parents && parentType != null)
-				parentType.SetPropInUse(propData[id].prop, inUse, false , true);
-			
-			if(children)
-			{
-				//for all subtypes
-				for(int i = 0; i < subTypes.Length; i++)
-				{
-					//set inUse
-					subTypes[i].SetPropInUse(propData[id].prop, inUse, true, false);
-				}
-			}
-		}
-		
-		public void SetPropInUse(Prop prop, bool inUse, bool children, bool parents)
-		{
-			
-			for(int i = 0; i < propData.Count; i++) //TODO this loop could be replaced with a dictionary matrix to speed things up. It is probably a good idea as this will be used alot.
-			{
-				//if we found the right prop
-				if(propData[i].prop == prop)
-				{
-					//set it to be in use
-					SetPropInUse(i, inUse, children, parents);
-					
-					//exit function
-					return;
-				}
-			}
 		}
 		
 		int idToCopy = 0;
@@ -392,29 +252,7 @@ namespace BrennanHatton.Props
 			newProp.Initialization();
 			
 			
-			//newProp.RestoreStartState(); This is called in ReturnToPool. Dont delete this comment, you may forget where it is.
 			
-			//if it is a pool
-			if(cloneOnly == false)
-			{
-				//create prop data
-				PropData newPropData = new PropData(newProp, Debugging, this);
-				
-				newPropData.chanceMultiplier = (int)(newPropData.chanceMultiplier / 10); //quick and easy matrix hack to stop effects being huge
-				if(newPropData.chanceMultiplier == 0) newPropData.chanceMultiplier = 1; 
-				
-				//store in pool
-				propData.Add(newPropData);
-				
-				//matrix is not updated, so its chance is not considered. Instead this item is only accessed if other items are all  used. This results in a skque of the matrix chance in favor of the first item, more so for smaller pools. This could be countered by having the copy reduce the chance of the original, and share the chance between the original and clone. This would require a reclacuation of chance matrix, and could present issues for cases that can no be split (chance value of 1). This could be mitigated by doubling everything else rather than halfing itself.
-				//alternatively it could be calculated entirely based on maxtrix and not on props left unused.
-				
-			}
-			
-			
-			//returns to the pool, and returns all subob
-			//newProp.ReturnToPool(); - this is called in place(this). Dont delete this comment, you may forget where it is.
-				
 			//next time, copy a different object - if implmenting the above advice, this could only be chanced when the chance value has reached 1.
 			idToCopy++;
 			
@@ -432,31 +270,6 @@ namespace BrennanHatton.Props
 				
 			//return id from chance matrix
 			return propChanceMatrix[p];
-		}
-		
-		//update prop data so this prop is no longer in use
-		public void ReturningProp(Prop propToReturn)
-		{
-			//look through all prop data
-			for(int i = 0 ; i < propData.Count; i++)
-			{
-				//if the right one is found
-				if(propData[i].prop == propToReturn)
-				{
-					//update inUse
-					SetPropInUse(i, false, true, true);
-					//propData[i].inUse = false;
-					
-					//mission success
-					return;
-				}
-			}
-			
-			//Hah, we didnt find it?
-			Debug.LogWarning("Prop being returned was not found. Reference was lost, it was never from this type or it was newly created. Soemthing weird has happened. New PropData will be made. " + this.gameObject.name);
-			
-			//lets add it than
-			propData.Add(new PropData(propToReturn, Debugging, this));
 		}
 		
 	}
