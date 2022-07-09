@@ -5,7 +5,8 @@ using UnityEngine;
 public class TrainCartArchitecture : MonoBehaviour
 {
 	public ArchitectureTheme theme;
-	public GameObject floor, roof, entranceDoor, exitDoor, wallLeft, wallRight;
+	public GameObject floor, roof, wallLeft, wallRight;
+	public TrainDoor entranceDoor, exitDoor;
 	
 	
 	public void SetTheme(ArchitectureTheme newTheme)
