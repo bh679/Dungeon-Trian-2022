@@ -287,36 +287,15 @@ namespace BrennanHatton.Props
 		}
 		
 		
-		/// <summary>
-		/// Returns this prop to its original state
-		/// </summary>
-		public void ReturnToPool()
-		{
-			//set the placer for this object
-			ChangePlacer(null);
-			
-			//restore start states
-			RestoreStartState();
-				
-			//tell all placers to return props
-			ReturnSubProps();
-			
-			if(Debugging)
-				Debug.Log("Returning " + this.gameObject.name + " and turning off " + this.gameObject.GetInstanceID());
-				
-			//turn off
-			this.gameObject.SetActive(false);
-		}
-		
 		//tells all placers to return props
-		void ReturnSubProps()
+		public void DeleteSubProps()
 		{
 			//if this prop has subplaces defined
 			if(subPlacers != null)
 			{
 				//return app props for subplacers
 				for(int i = 0 ; i < subPlacers.Length; i++)
-					subPlacers[i].ReturnProps();
+					subPlacers[i].DeleteProps();
 			}
 		}
 		
@@ -327,34 +306,6 @@ namespace BrennanHatton.Props
 				placer.LosePropReference(this);
 				
 			placer = newPlacer;
-		}
-		
-		/// 
-		/// Deprecated functions
-		/// 
-		
-		
-		
-		public void Deatach()
-		{
-			Debug.LogError("Deatach() is deprecated. Maybe Use ChangePlacer()? Unsure" + gameObject.name);
-		}
-		
-		public virtual void DestoryProp()
-		{
-			Debug.LogError("DestoryProp() is deprecated. Use ReturnToPool() : " + gameObject.name);
-			ReturnToPool();
-		}
-		
-		public virtual void Remove()
-		{
-			Debug.LogError("Remove() is deprecated. Use ReturnToPool() : " + gameObject.name);
-			ReturnToPool();
-		}
-		
-		public void ResetToOriginalParent()
-		{
-			Debug.LogError("ResetToOriginalParent() is deprecated.");
 		}
 		
 		

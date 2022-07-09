@@ -248,65 +248,6 @@ namespace BrennanHatton.Props
 			return propsFound.ToArray();	
 		}
 		
-		//deprecated
-		//########################old code
-		public void ResetPropList(int numebrOfProps)
-		{
-			Debug.LogError("ResetPropList(int numebrOfProps) is Deprecated. This is done through ReturnProps()");
-			/*if(Debugging) Debug.Log("Reseting prop list" + numebrOfProps);
-			
-			Prop[] existingProps = this.transform.GetComponentsInChildren<Prop>();
-			
-			
-			if(existingProps != null)
-			{				
-				
-				for(int i = 0; i < existingProps.Length; i++)
-				{
-					if(existingProps[i].transform.parent == this.transform)
-					{
-						existingProps[i].ResetToOriginalParent();
-						existingProps[i].Remove();
-					}
-				}
-			}
-			
-			props = new Prop[numebrOfProps];
-			
-			placedThisUpdate = false;*/
-			
-		}
-		
-		
-		
-		/*/########################old code
-		public void AddToPropList(int numebrOfProps)
-		{
-			
-			Prop[] existingProps = this.transform.GetComponentsInChildren<Prop>();
-			
-			
-			props = new Prop[existingProps.Length+numebrOfProps];
-			for(int i = 0; i < existingProps.Length; i++)
-			{
-				props[numebrOfProps+i] = existingProps[i];
-			}
-			
-			
-		}*/
-		
-		
-		//deprecated
-		//########################old code
-		public void Remove()
-		{
-			Debug.LogError("Remove() is Deprecated, please use ReturnProps()");
-			
-			ReturnProps();
-			
-			//ResetPropList(0);
-			//positions.ResetAll();
-		}
 		
 		public void DestorySubProps()
 		{
@@ -341,7 +282,7 @@ namespace BrennanHatton.Props
 			//Do we need to reset props?
 			if(addToExisting == false)
 				//remove existing props
-				ReturnProps();
+				DeleteProps();
 			
 			//create list to be returned
 			List<Prop> newPropsPlaced = new List<Prop>();
@@ -392,22 +333,13 @@ namespace BrennanHatton.Props
 			return newPropsPlaced.ToArray();
 		}
 		
-		/// <summary>
-		/// Placers return objects when they’re removed
-		/// Returns all props to their pools and frees all positions;
-		/// </summary>
-		public void ReturnProps()
-		{
-			Debug.LogError("ReturnProps is deprecated, calling DeleteProps instead");
-			DeleteProps();
-		}
-		
 		public void DeleteProps()
 		{
 			
 			//For all props managed by this placer
 			for(int i = 0; i < propsPlaced.Count; i++)
 			{
+				propsPlaced[i].prop.DeleteSubProps();
 				Destroy(propsPlaced[i].prop.gameObject);
 			}
 		}
