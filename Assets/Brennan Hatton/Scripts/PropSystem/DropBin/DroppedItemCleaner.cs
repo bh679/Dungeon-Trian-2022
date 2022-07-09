@@ -1,4 +1,4 @@
-﻿#if BNG
+﻿/*#if BNG
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -73,4 +73,4 @@ namespace BrennanHatton.DungeonTrain.Rooms
 		
 	}
 }
-#endif
+#endif*/
