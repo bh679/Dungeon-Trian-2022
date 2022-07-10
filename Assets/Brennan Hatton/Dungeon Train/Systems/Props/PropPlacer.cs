@@ -8,7 +8,7 @@ using UnityEditor;
 #endif
 
 
-namespace BrennanHatton.PropsNew
+namespace BrennanHatton.Props
 {
 	
 	

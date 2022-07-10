@@ -16,7 +16,7 @@ using BrennanHatton.Utilities;
 using BrennanHatton.Positions;
 using BrennanHatton.Positions.Extentions;
 
-namespace BrennanHatton.Props
+namespace BrennanHatton.Props.Old
 {
 
 	[DisallowMultipleComponent]

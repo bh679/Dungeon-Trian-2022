@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace BrennanHatton.Props.Editor
+namespace BrennanHatton.Props.Old.Editor
 {
 	[CustomEditor(typeof(PlacerGizmo)), CanEditMultipleObjects]
 	public class PlacerGizmoEditor : UnityEditor.Editor

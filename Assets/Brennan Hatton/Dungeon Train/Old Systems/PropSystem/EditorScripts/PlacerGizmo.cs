@@ -6,7 +6,7 @@ using BrennanHatton.Editor;
 using BrennanHatton.Props;
 using BrennanHatton.Positions;
 
-namespace BrennanHatton.Props.Editor
+namespace BrennanHatton.Props.Old.Editor
 {
 		
 	[RequireComponent(typeof(TransformPositionGizmo))]

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using BrennanHatton.ComponentStates;
 using BrennanHatton.Utilities;
 
-namespace BrennanHatton.Props
+namespace BrennanHatton.Props.Old
 {
 
 	[DisallowMultipleComponent]

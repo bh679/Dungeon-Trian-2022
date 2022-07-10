@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace BrennanHatton.PropsNew
+namespace BrennanHatton.Props
 {
 
 	public class PropType : MonoBehaviour
