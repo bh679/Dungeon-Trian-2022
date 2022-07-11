@@ -16,16 +16,23 @@ namespace BrennanHatton.TrainCarts
 		{
 			theme = newTheme;
 			
-			StartCoroutine(SetNewTheme());
+			
+		
+			/*floor = Instantiate(theme.floors.Place(),
+				this.transform.position, 
+				this.transform.rotation, 
+			this.transform);*/
+			
+			//StartCoroutine(SetNewTheme());
 		}
 		
 		IEnumerator SetNewTheme()
 		{
 			
-			if(floor != null)
+			/*if(floor != null)
 				DestroyObject(floor);
 		
-			floor = Instantiate(theme.GetAFloor(),
+			floor = Instantiate(theme.floors.GetAFloor(),
 				this.transform.position, 
 				this.transform.rotation, 
 				this.transform);
@@ -75,7 +82,9 @@ namespace BrennanHatton.TrainCarts
 			wallRight = Instantiate(theme.GetAWall(),
 				this.transform.position + this.transform.forward*ArchitectureTheme.tileSize, 
 				this.transform.rotation* Quaternion.Euler(0, -90, 0), 
-				this.transform);
+			this.transform);*/
+			
+			yield return null;
 		}
 	}
 
