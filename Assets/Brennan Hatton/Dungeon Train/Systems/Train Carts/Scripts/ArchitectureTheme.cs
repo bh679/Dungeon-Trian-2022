@@ -8,7 +8,7 @@ namespace BrennanHatton.TrainCarts
 
 	public class ArchitectureTheme : MonoBehaviour
 	{
-		public PropPlacer walls, floors, roofs, windows, doors;
+		public PropType walls, floors, roofs, windows, doors;
 		public const float tileSize = 5f;
 		//public TrainDoorWall[] doors;
 		

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BrennanHatton.Props;
 
 namespace BrennanHatton.TrainCarts
 {
@@ -8,7 +9,7 @@ namespace BrennanHatton.TrainCarts
 	public class TrainCartArchitecture : MonoBehaviour
 	{
 		public ArchitectureTheme theme;
-		public GameObject floor, roof, wallLeft, wallRight;
+		public PropPlacer floor, roof, wallLeft, wallRight;
 		public TrainDoorWall entranceDoor, exitDoor;
 		
 		
@@ -16,7 +17,7 @@ namespace BrennanHatton.TrainCarts
 		{
 			theme = newTheme;
 			
-			
+			floor.Place();
 		
 			/*floor = Instantiate(theme.floors.Place(),
 				this.transform.position, 
@@ -25,6 +26,11 @@ namespace BrennanHatton.TrainCarts
 			
 			//StartCoroutine(SetNewTheme());
 		}
+		
+		/*public void FloorPlaced(GameObject floorPlaced)
+		{
+			floor = floorPlaced;
+		}*/
 		
 		IEnumerator SetNewTheme()
 		{

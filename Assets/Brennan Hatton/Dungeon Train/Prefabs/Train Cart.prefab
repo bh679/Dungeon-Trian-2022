@@ -116,7 +116,7 @@ MonoBehaviour:
   onTriggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6412336964932352253}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TrainCart, Assembly-CSharp
         m_MethodName: SetPlayerInside
         m_Mode: 1
@@ -256,7 +256,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5118438410600142713}
-  - component: {fileID: 6412336964932352253}
+  - component: {fileID: 1286838795112502856}
+  - component: {fileID: 8842068155814840630}
   m_Layer: 0
   m_Name: Train Cart
   m_TagString: Untagged
@@ -281,7 +282,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6412336964932352253
+--- !u!114 &1286838795112502856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4901888848821849232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3601a99cc262c64bb868c682e5c755f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theme: {fileID: 0}
+  floor: {fileID: 645933982327952863}
+  roof: {fileID: 0}
+  wallLeft: {fileID: 0}
+  wallRight: {fileID: 0}
+  entranceDoor: {fileID: 0}
+  exitDoor: {fileID: 0}
+--- !u!114 &8842068155814840630
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,7 +328,7 @@ GameObject:
   - component: {fileID: 6319433134343784831}
   - component: {fileID: 645933982327952863}
   m_Layer: 0
-  m_Name: Wall Placer
+  m_Name: Architecture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -362,3 +382,4 @@ MonoBehaviour:
   range: {fileID: 6319433134343784831}
   parentLevel: 0
   runOnEnable: 1
+  objectsPlaced: []
