@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BrennanHatton.Props
+namespace BrennanHatton.Props.Old
 {
 
 	public class PropType : MonoBehaviour

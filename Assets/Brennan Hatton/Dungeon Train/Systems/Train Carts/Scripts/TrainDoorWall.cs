@@ -2,36 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrainDoorWall : MonoBehaviour
+namespace BrennanHatton.TrainCarts
 {
-	
-	public GameObject WindowShutter, Lock;
-	
-	//public Door door;
-	
-	public void LockDoor()
+
+	public class TrainDoorWall : MonoBehaviour
 	{
 		
-	}
-	
-	public void OpenDoor()
-	{
-		//	door.Open();
-	}
-	
-	public void CloseDoor()
-	{
-		//	door.Close();
-	}
-	
-	public void OpenWindow()
-	{
+		public GameObject WindowShutter, Lock;
 		
+		//public Door door;
+		
+		public void LockDoor()
+		{
+			
+		}
+		
+		public void OpenDoor()
+		{
+			//	door.Open();
+		}
+		
+		public void CloseDoor()
+		{
+			//	door.Close();
+		}
+		
+		public void OpenWindow()
+		{
+			
+		}
+		
+		void Start()
+		{
+			CloseDoor();
+			//CloseWindow();
+		}
 	}
-	
-	void Start()
-	{
-		CloseDoor();
-		//CloseWindow();
-	}
+
 }

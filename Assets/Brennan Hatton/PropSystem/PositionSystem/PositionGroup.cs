@@ -68,7 +68,7 @@ namespace BrennanHatton.Positions
 		}
 		
 		//Position Groups can find a free position.
-		public virtual Position PlaceInFreePosition(Transform objectToPlace)
+		public virtual Position PlaceInFreePosition(Transform objectToPlace = null)
 		{
 			//if there is no free space
 			if(!HasFreeSpace())
@@ -86,7 +86,8 @@ namespace BrennanHatton.Positions
 			}
 			
 			//repositions object
-			positions[id].Place(objectToPlace);
+			if(objectToPlace != null)
+				positions[id].Place(objectToPlace);
 			
 			//returns the position of the object
 			return positions[id];

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BrennanHatton.Props.Editor
+namespace BrennanHatton.Props.Old.Editor
 {
 
 	[DisallowMultipleComponent]

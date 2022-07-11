@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using BrennanHatton.Props;
 
-namespace BrennanHatton.Props.Editor
+namespace BrennanHatton.Props.Old.Editor
 {
 
 	[DisallowMultipleComponent]

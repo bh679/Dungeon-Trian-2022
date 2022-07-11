@@ -2,19 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrainCartGenerator : MonoBehaviour
+namespace BrennanHatton.TrainCarts
 {
-	public TrainCart trainCartPrefab;
-	
-	public ArchitectureTheme[] themes;
-    
-	public TrainCart CreateCart()
+
+	public class TrainCartGenerator : MonoBehaviour
 	{
-		TrainCart cart = Instantiate(trainCartPrefab, this.transform.position, this.transform.rotation, this.transform);
+		public TrainCart trainCartPrefab;
 		
-		int id = Random.RandomRange(0,themes.Length-1);
-		cart.SetTheme(themes[id]);
-		
-		return cart;
+		public ArchitectureTheme[] themes;
+	    
+		public TrainCart CreateCart()
+		{
+			TrainCart cart = Instantiate(trainCartPrefab, this.transform.position, this.transform.rotation, this.transform);
+			
+			int id = Random.RandomRange(0,themes.Length-1);
+			cart.SetTheme(themes[id]);
+			
+			return cart;
+		}
 	}
+
 }
