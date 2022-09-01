@@ -12,7 +12,7 @@ namespace BrennanHatton.Props
 	{
 		//Prop data class
 		[System.Serializable]
-		public class PropData : BrennanHatton.Props.ChanceMultiplier
+		public class PropData : ChanceMultiplier
 		{
 			public GameObject prop;
 		}
@@ -32,7 +32,7 @@ namespace BrennanHatton.Props
 				#endif
 				)
 				{
-					_propChanceMatrix = BrennanHatton.Props.ChanceMultiplier.CreateChanceMatrix(propData.ToArray());
+					_propChanceMatrix = ChanceMultiplier.CreateChanceMatrix(propData.ToArray());
 				}
 				
 				

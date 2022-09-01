@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace BrennanHatton.TrainCarts
 {
-
+	[RequireComponent(typeof(TrainCartArchitecture))]
 	public class TrainCart : MonoBehaviour
 	{
 		//Tracks if the user is inside the cart
@@ -28,7 +28,7 @@ namespace BrennanHatton.TrainCarts
 			theme = newTheme;
 			
 			if(architecture == null)
-				architecture = this.gameObject.AddComponent<TrainCartArchitecture>();
+				architecture = this.gameObject.GetComponent<TrainCartArchitecture>();
 				
 			architecture.SetTheme(newTheme);
 		}

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using BrennanHatton.Positions;
@@ -27,10 +28,15 @@ namespace BrennanHatton.Props
 		[SerializeField]
 		public PositionGroup positionGroup;
 		
+		[SerializeField]
 		RandomNumberRange range;
 		
 		//how far back up the parent chain do the props get placed?
 		public int parentLevel = 0;
+		
+		public bool runOnEnable = true;
+		
+		public List<GameObject> objectsPlaced;
 		
 		
 		//matrix for calculating chane based on mutliplier.
@@ -71,6 +77,8 @@ namespace BrennanHatton.Props
 			
 			positionGroup = this.GetComponentInChildren<PositionGroup>();
 			
+			range = this.GetComponent<RandomNumberRange>();
+			
 		}
 		#endif
 		
@@ -79,7 +87,6 @@ namespace BrennanHatton.Props
 		/// </summary>
 		public void Awake()
 		{
-			range = this.GetComponent<RandomNumberRange>();
 			
 			//if still missing
 			if(positionGroup == null)
@@ -88,8 +95,19 @@ namespace BrennanHatton.Props
 			
 		}
 		
-		//
+		public void OnEnable()
+		{
+			if(runOnEnable)
+				Place();
+		}
+		
 		public virtual void Place()
+		{
+			Place(null);
+		}
+		
+		//
+		public virtual void Place(Action<GameObject> externalCallback)
 		{
 				
 			//get random number to place from range
@@ -119,7 +137,7 @@ namespace BrennanHatton.Props
 				TransformData transformData = new TransformData(positionGroup.PlaceInFreePosition().transform, this.transform);
 				
 				//tell instantiator to create
-				Instantiator.Instance.CreateObject(propData[id].propType.GetProp(),transformData);
+				Instantiator.Instance.CreateObject(propData[id].propType.GetProp(),transformData, new Action<GameObject>[2] {PlacedObjectCalledback, externalCallback});
 			}
 			
 			//exit
@@ -133,10 +151,16 @@ namespace BrennanHatton.Props
 		protected int GetPropID()
 		{
 			//gets random place in matrix
-			int p = Random.Range(0, propChanceMatrix.Length-1);
+			int p = UnityEngine.Random.Range(0, propChanceMatrix.Length-1);
 				
 			//gets id from matrix
 			return propChanceMatrix[p];
+		}
+		
+		
+		protected void PlacedObjectCalledback(GameObject objectPlaced)
+		{
+			objectsPlaced.Add(objectPlaced);
 		}
 		
 		

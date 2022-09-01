@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using BrennanHatton.Utilities;
@@ -15,6 +16,15 @@ namespace BrennanHatton.Props
 				public TransformData transform;
 				public GameObject objectToCreate;
 				public string name;
+				public Action<GameObject>[] callback;
+				
+				public void RunCallbacks(GameObject go)
+				{
+					for(int i =0 ; i < callback.Length; i++)
+					{
+						callback[i](go);
+					}
+				}
 			}
 			List<InstantiateData> objectsToCreate = new List<InstantiateData>();
 			
@@ -33,7 +43,7 @@ namespace BrennanHatton.Props
 				} 
 			}
 			
-			public void CreateObject(GameObject go, TransformData transData, string newName = null)
+			public void CreateObject(GameObject go, TransformData transData, Action<GameObject>[] callback, string newName = null)
 			{
 				InstantiateData data = new InstantiateData();
 				data.objectToCreate = go;
@@ -63,6 +73,8 @@ namespace BrennanHatton.Props
 						
 						if(objectsToCreate[0].name != null)
 							go.name = objectsToCreate[0].name;
+							
+						objectsToCreate[0].RunCallbacks(go);
 						
 						objectsToCreate.RemoveAt(0);
 					}
