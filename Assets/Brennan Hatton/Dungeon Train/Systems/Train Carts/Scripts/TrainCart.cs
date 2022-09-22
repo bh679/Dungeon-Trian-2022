@@ -11,6 +11,7 @@ namespace BrennanHatton.TrainCarts
 		public bool playerInside = false;
 		
 		TrainCartArchitecture architecture;
+		TrainCartStructure trainCartStructure;
 		
 		
 		public ArchitectureTheme theme;
@@ -23,14 +24,16 @@ namespace BrennanHatton.TrainCarts
 			}
 		}
 	
-		public void SetTheme(ArchitectureTheme newTheme)
+		public void SetThemeAndStructure(ArchitectureTheme newTheme, TrainCartStructure structurePrefab)
 		{
 			theme = newTheme;
 			
 			if(architecture == null)
 				architecture = this.gameObject.AddComponent<TrainCartArchitecture>();
 				
-			architecture.SetTheme(newTheme);
+			trainCartStructure = Instantiate(structurePrefab, Vector3.zero, Quaternion.identity, this.transform);
+				
+			architecture.SetThemeAndStructure(newTheme, trainCartStructure);
 		}
 		
 		public void SetPlayerInside()

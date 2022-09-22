@@ -124,6 +124,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &54825398 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+    type: 3}
+  m_PrefabInstance: {fileID: 8987459206778825750}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &93616465
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +179,8 @@ MonoBehaviour:
     type: 3}
   themes:
   - {fileID: 1146012655}
+  structurePrefab: {fileID: 6466554253709357063, guid: 05846f397ed1c7b4e91948321bedc960,
+    type: 3}
 --- !u!4 &93616468
 Transform:
   m_ObjectHideFlags: 0
@@ -186,6 +194,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1146012654}
+  - {fileID: 54825398}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1641,7 +1650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1475113993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1687,8 +1696,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   episodes:
   - clips:
-    - {fileID: 8300000, guid: 37364dcdce7395c4a98170fb052cf866, type: 3}
-    - {fileID: 8300000, guid: c0bd0ae6c7d956943b29f628eb89721a, type: 3}
+    - {fileID: 8300000, guid: 65b2893e73d2882409658ff6d7dbe40d, type: 3}
+    - {fileID: 8300000, guid: 9b4da17bcafa61640a4b3c6dfb6799e4, type: 3}
     name: Sad Boi Happy
   source: {fileID: 805494332}
 --- !u!4 &1475113995
@@ -3533,3 +3542,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &8987459206778825750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 93616468}
+    m_Modifications:
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048324614690236527, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213129707347542340, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Train Strucure '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05846f397ed1c7b4e91948321bedc960, type: 3}
