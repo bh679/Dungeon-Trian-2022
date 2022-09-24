@@ -46,6 +46,14 @@ namespace BrennanHatton.TrainCarts
 			yield return new WaitForFixedUpdate();
 			
 			trainCartStructure.wallRight.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
+			
+			yield return new WaitForFixedUpdate();
+			
+			trainCartStructure.wallLeft2.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
+			
+			yield return new WaitForFixedUpdate();
+			
+			trainCartStructure.wallRight2.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
 		}
 	}
 

@@ -18,6 +18,10 @@ public class ArrangeChildInGrid : MonoBehaviour
 		}
 		
 		int rows = (int)Mathf.Sqrt(transform.childCount);
+		
+		if(vector3Component.vector3Value.z == 0)
+			rows = transform.childCount;
+		
 		int x = 0,z = -1;
 		for(int i = 0 ;i < transform.childCount; i++)
 		{
