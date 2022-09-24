@@ -268,6 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048324614690236527}
   - component: {fileID: 6466554253709357063}
+  - component: {fileID: 1323816332}
   m_Layer: 0
   m_Name: 'Train Strucure '
   m_TagString: Untagged
@@ -315,24 +316,47 @@ MonoBehaviour:
   floors:
   - model: {fileID: 0}
     position: {fileID: 5390367971374386506}
+    done: 0
   roofs:
   - model: {fileID: 0}
     position: {fileID: 4585737495687218903}
+    done: 0
   walls:
   - model: {fileID: 0}
     position: {fileID: 5175495319558323521}
+    done: 0
   - model: {fileID: 0}
     position: {fileID: 232877412001529750}
+    done: 0
   - model: {fileID: 0}
     position: {fileID: 3156009692423749752}
+    done: 0
   - model: {fileID: 0}
     position: {fileID: 7709026468695581661}
+    done: 0
   entranceDoor:
     model: {fileID: 0}
     position: {fileID: 3999501845187750234}
+    done: 0
   exitDoor:
     model: {fileID: 0}
     position: {fileID: 2222195018811100577}
+    done: 0
+--- !u!114 &1323816332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2213129707347542340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbe630325f531540a1e0057156c4a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCartStructure: {fileID: 6466554253709357063}
+  prefabToAdd: {fileID: 1895670673036404848, guid: 134dc29b64d07b04d862ac7c672b373a,
+    type: 3}
 --- !u!1 &5760123857907970385
 GameObject:
   m_ObjectHideFlags: 0

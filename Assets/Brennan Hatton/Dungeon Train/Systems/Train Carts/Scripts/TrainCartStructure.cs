@@ -9,15 +9,24 @@ namespace BrennanHatton.TrainCarts
 	{
 		[HideInInspector]
 		public T model;
-		public Transform position;
+		public Transform position;	
+		public bool done = false;
+		
+		/*public delegate void OnStructureCreated(Transform position);
+		public List<OnStructureCreated> onStructureCreated = new List<OnStructureCreated>();// = DelegateMethod;*/
 		
 		public void SetModel(Transform newModel, Transform parent)
 		{
 			newModel.position = position.position;
 			newModel.rotation = position.rotation;
-			newModel.SetParent(parent);
+			newModel.SetParent(position);
 			
 			model = newModel.GetComponent<T>();
+			done = true;
+			
+			/*Debug.Log(onStructureCreated.Count);
+			for(int i = 0 ; i < onStructureCreated.Count; i++)
+			onStructureCreated[i](position);*/
 		}
 	}
 	
