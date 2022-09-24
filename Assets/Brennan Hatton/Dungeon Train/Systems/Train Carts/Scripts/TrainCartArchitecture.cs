@@ -25,13 +25,19 @@ namespace BrennanHatton.TrainCarts
 		IEnumerator SetTheme()
 		{
 		
-			trainCartStructure.floor.SetModel(Instantiate(theme.GetAFloor()).transform, this.transform);
+			for(int i = 0; i < trainCartStructure.floors.Length; i++)
+			{
+				trainCartStructure.floors[i].SetModel(Instantiate(theme.GetAFloor()).transform, this.transform);
+				yield return new WaitForFixedUpdate();
+			}
 			
-			yield return new WaitForFixedUpdate();
 		
-			trainCartStructure.roof.SetModel(Instantiate(theme.GetARoof()).transform, this.transform);
-			
-			yield return new WaitForFixedUpdate();
+		
+			for(int i = 0; i < trainCartStructure.roofs.Length; i++)
+			{
+				trainCartStructure.roofs[i].SetModel(Instantiate(theme.GetARoof()).transform, this.transform);
+				yield return new WaitForFixedUpdate();
+			}
 				
 			trainCartStructure.entranceDoor.SetModel(Instantiate(theme.GetADoor()).transform, this.transform);
 			
@@ -41,7 +47,15 @@ namespace BrennanHatton.TrainCarts
 			
 			yield return new WaitForFixedUpdate();
 			
-			trainCartStructure.wallLeft.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
+			
+		
+		
+			for(int i = 0; i < trainCartStructure.walls.Length; i++)
+			{
+				trainCartStructure.walls[i].SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
+				yield return new WaitForFixedUpdate();
+			}
+			/*trainCartStructure.wallLeft.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
 			
 			yield return new WaitForFixedUpdate();
 			
@@ -53,7 +67,7 @@ namespace BrennanHatton.TrainCarts
 			
 			yield return new WaitForFixedUpdate();
 			
-			trainCartStructure.wallRight2.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
+			trainCartStructure.wallRight2.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);*/
 		}
 	}
 

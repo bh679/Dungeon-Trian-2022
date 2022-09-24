@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿//code from https://github.com/game-prototypes/3d-babel
+//I will be using this as a reference, and changing this code later.
+//I probably shouldnt have put it under /BrennanHatton folder. If I dont end up changing it I will move it
+
+using UnityEngine;
 using System.Collections;
 using System.Text.RegularExpressions;
 using UnityEngine.UI;

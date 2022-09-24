@@ -23,7 +23,7 @@ namespace BrennanHatton.TrainCarts
 	
 	public class TrainCartStructure : MonoBehaviour
 	{
-		public StructuralElement<Transform>[] floor, roof, wallLeft, wallLeft2, wallRight, wallRight2;
+		public StructuralElement<Transform>[] floors, roofs, walls;//, wallLeft2, wallRight, wallRight2;
 		
 		public StructuralElement<TrainDoorWall> entranceDoor, exitDoor;
 	}
