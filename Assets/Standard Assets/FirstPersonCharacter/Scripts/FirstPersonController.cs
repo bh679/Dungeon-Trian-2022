@@ -162,19 +162,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void PlayFootStepAudio()
         {
-            if (!m_CharacterController.isGrounded)
+	        if (!m_CharacterController.isGrounded || m_FootstepSounds == null || m_FootstepSounds.Length == 0)
             {
                 return;
             }
             // pick & play a random footstep sound from the array,
-            // excluding sound at index 0
+	        // excluding sound at index 0
 	        int n = Random.Range(1, m_FootstepSounds.Length);
-	        if(m_FootstepSounds != null && m_FootstepSounds.Length > 0)
-            	m_AudioSource.clip = m_FootstepSounds[n];
+        	m_AudioSource.clip = m_FootstepSounds[n];
             m_AudioSource.PlayOneShot(m_AudioSource.clip);
             // move picked sound to index 0 so it's not picked next time
             m_FootstepSounds[n] = m_FootstepSounds[0];
-            m_FootstepSounds[0] = m_AudioSource.clip;
+	        m_FootstepSounds[0] = m_AudioSource.clip;
         }
 
 
