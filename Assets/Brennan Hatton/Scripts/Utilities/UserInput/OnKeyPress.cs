@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Events;
 
 [AddComponentMenu("Brennan Hatton/Input/Key Press Event")]
 public class OnKeyPress : MonoBehaviour {
 
     public UnityEvent myEvent;
-    public KeyCode key;
+    public Key key;
 
     public enum PressType
     {
@@ -26,7 +27,7 @@ public class OnKeyPress : MonoBehaviour {
 
         if (pressType == PressType.Down)
         {
-            if (Input.GetKeyDown(key))
+	        if (Keyboard.current[key].wasPressedThisFrame)
             {
                 myEvent.Invoke();
             }
@@ -34,7 +35,7 @@ public class OnKeyPress : MonoBehaviour {
         else
         if (pressType == PressType.Hold)
         {
-            if (Input.GetKey(key))
+	        if (Keyboard.current[key].isPressed)
             {
                 myEvent.Invoke();
             }
@@ -42,7 +43,7 @@ public class OnKeyPress : MonoBehaviour {
         else
         if (pressType == PressType.Up)
         {
-            if (Input.GetKeyUp(key))
+	        if (Keyboard.current[key].wasReleasedThisFrame)
             {
                 myEvent.Invoke();
             }
