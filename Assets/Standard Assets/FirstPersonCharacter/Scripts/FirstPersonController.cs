@@ -221,8 +221,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		    	verticalInput = 0;
 	    }
 
-		
-
         private void GetInput(out float speed)
         {
             // Read input
@@ -261,7 +259,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void RotateView()
         {
-         //   m_MouseLook.LookRotation (transform, m_Camera.transform);
+	        //m_MouseLook.LookRotation (transform, m_Camera.transform);
+            
         }
 
 
