@@ -20,7 +20,7 @@ namespace BrennanHatton.TrainCarts
 		public float length
 		{
 			get{
-				return ArchitectureTheme.tileSize * tilesLength;
+				return trainCartStructure.length;//ArchitectureTheme.tileSize * tilesLength;
 			}
 		}
 	

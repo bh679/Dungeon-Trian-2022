@@ -35,6 +35,8 @@ namespace BrennanHatton.TrainCarts
 		public StructuralElement<Transform>[] floors, roofs, walls;//, wallLeft2, wallRight, wallRight2;
 		
 		public StructuralElement<TrainDoorWall> entranceDoor, exitDoor;
+		
+		public float length = 5;
 	}
 
 }

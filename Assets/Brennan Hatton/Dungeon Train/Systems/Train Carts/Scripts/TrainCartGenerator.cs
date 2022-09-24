@@ -10,14 +10,16 @@ namespace BrennanHatton.TrainCarts
 		public TrainCart trainCartPrefab;
 		
 		public ArchitectureTheme[] themes;
-		public TrainCartStructure structurePrefab;
+		public TrainCartStructure[] structurePrefabs;
+		int s = 0;
 	    
 		public TrainCart CreateCart()
 		{
 			TrainCart cart = Instantiate(trainCartPrefab, this.transform.position, this.transform.rotation, this.transform);
 			
 			int id = Random.RandomRange(0,themes.Length-1);
-			cart.SetThemeAndStructure(themes[id],structurePrefab);
+			cart.SetThemeAndStructure(themes[id],structurePrefabs[s]);
+			s = (s + 1) % structurePrefabs.Length;
 			
 			return cart;
 		}
