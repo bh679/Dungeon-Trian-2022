@@ -29,8 +29,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6946810114259556386}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -49,7 +48,7 @@ MonoBehaviour:
   trainCartPrefab: {fileID: 6412336964932352253, guid: c051b4681895f7347821b92cd39bb155,
     type: 3}
   themes:
-  - {fileID: 6946810114259556387}
+  - {fileID: 437711598154668191, guid: 1b6c89716cf1c7b418b644d066f2c21d, type: 3}
   structurePrefabs:
   - {fileID: 6466554253709357063, guid: 05846f397ed1c7b4e91948321bedc960, type: 3}
   - {fileID: 3207076808458304713, guid: 4aa4c3a3fdfbe9d48885c44b56f3264e, type: 3}
@@ -68,90 +67,3 @@ MonoBehaviour:
   generator: {fileID: 6946810115346571935}
   totalTrainCarts: 3
   carts: []
---- !u!1001 &7384520886639640764
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6946810115346571928}
-    m_Modifications:
-    - target: {fileID: 437711598154668189, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_Name
-      value: Dungeon Theme
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1b6c89716cf1c7b418b644d066f2c21d, type: 3}
---- !u!4 &6946810114259556386 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 437711598154668190, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-    type: 3}
-  m_PrefabInstance: {fileID: 7384520886639640764}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6946810114259556387 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 437711598154668191, guid: 1b6c89716cf1c7b418b644d066f2c21d,
-    type: 3}
-  m_PrefabInstance: {fileID: 7384520886639640764}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3ee50fa9a432244a8904cf07a53166f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

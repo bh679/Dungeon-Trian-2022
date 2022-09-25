@@ -12,6 +12,7 @@ namespace BrennanHatton.TrainCarts
 		
 		TrainCartArchitecture architecture;
 		TrainCartStructure trainCartStructure;
+		public string seed;
 		
 		
 		public ArchitectureTheme theme;

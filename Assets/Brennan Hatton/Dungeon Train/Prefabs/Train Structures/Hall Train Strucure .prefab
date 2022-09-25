@@ -170,6 +170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7588881940768564385}
   - component: {fileID: 3207076808458304713}
+  - component: {fileID: -6069831329530467912}
   m_Layer: 0
   m_Name: 'Hall Train Strucure '
   m_TagString: Untagged
@@ -235,7 +236,23 @@ MonoBehaviour:
     model: {fileID: 0}
     position: {fileID: 7776257573783535983}
     done: 0
+  seed: {fileID: -6069831329530467912}
   length: 5
+--- !u!114 &-6069831329530467912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749180067149729162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6f7b1dc2da20e941971f2081457ba1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seedBase: 10
+  dividBy2: 0
+  seed: 
 --- !u!1 &8244488838878166546
 GameObject:
   m_ObjectHideFlags: 0

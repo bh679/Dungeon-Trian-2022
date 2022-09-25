@@ -256,11 +256,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
 	        horizontalInput = 0;
         }
 
-
+	    public void EnableRotate(bool enabled)
+	    {
+	    	rotateEnabled  = enabled;
+	    }
+	    bool rotateEnabled = false;
+	    
         private void RotateView()
-        {
-	        //m_MouseLook.LookRotation (transform, m_Camera.transform);
-            
+	    {
+		    if(rotateEnabled)
+	        	m_MouseLook.LookRotation (transform, m_Camera.transform);
         }
 
 
