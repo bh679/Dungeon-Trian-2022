@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using BrennanHatton.TrainCarts;
 
-namespace BrennanHatton.TrainCarts
+namespace BrennanHatton.LibraryOfBabel
 {
-	public class AddShelvesToWalls : MonoBehaviour
+	public class AddBookcasesToWalls : MonoBehaviour
 	{
 		
 		public TrainCartStructure trainCartStructure;
 		public GameObject prefabToAdd;
-		public List<GameObject> Shelves = new List<GameObject>();
+		public List<GameObject> bookcases = new List<GameObject>();
+		public BabelChamber chamber;
 		
 		bool[] WallsToAdd;
 		
@@ -19,11 +22,6 @@ namespace BrennanHatton.TrainCarts
 			WallsToAdd = new bool[trainCartStructure.walls.Length];
 			
 			StartCoroutine(AddToWallWhenReady());
-			
-			/*for(int i =0 ; i < trainCartStructure.walls.Length; i++)
-		    {
-		    	trainCartStructure.walls[i].onStructureCreated.Add(AddToWall);
-			}*/
 	    }
 	    
 		IEnumerator AddToWallWhenReady()
@@ -40,13 +38,16 @@ namespace BrennanHatton.TrainCarts
 				yield return new WaitForEndOfFrame();
 			}
 			
+			chamber.SetupBookShelves();
+			
 			yield return null;
 		}
 	    
 	
 		public void AddToWall(Transform position)
 		{
-			Shelves.Add(Instantiate(prefabToAdd,position.position, position.rotation, position));	
+			bookcases.Add(Instantiate(prefabToAdd,position.position, position.rotation, position));	
+			chamber.bookcases.Add(bookcases[bookcases.Count-1].GetComponentInChildren<BabelBookcase>());
 		}
 	}
 }

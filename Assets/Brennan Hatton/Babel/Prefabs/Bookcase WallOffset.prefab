@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897024668435838479}
   m_Layer: 0
-  m_Name: Bookshelf WallOffset
+  m_Name: Bookcase WallOffset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -616,7 +616,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2048324614690236527}
   - component: {fileID: 6466554253709357063}
-  - component: {fileID: 1323816332}
   - component: {fileID: 4517311488721117016}
   m_Layer: 0
   m_Name: Hex Train Strucure
@@ -714,22 +713,6 @@ MonoBehaviour:
     done: 0
   seed: {fileID: 4517311488721117016}
   length: 8.6603
---- !u!114 &1323816332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2213129707347542340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edbe630325f531540a1e0057156c4a65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trainCartStructure: {fileID: 6466554253709357063}
-  prefabToAdd: {fileID: 1895670673036404848, guid: 134dc29b64d07b04d862ac7c672b373a,
-    type: 3}
-  Shelves: []
 --- !u!114 &4517311488721117016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1204,6 +1187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8991563093190766723}
   - component: {fileID: 3637334293128448483}
+  - component: {fileID: 4785473142049535629}
   m_Layer: 0
   m_Name: Babel Chamber
   m_TagString: Untagged
@@ -1240,8 +1224,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cart: {fileID: 0}
-  shelves: {fileID: 1323816332}
+  bookcases: []
+  id: 
   title: {fileID: 8677056845840991499}
+--- !u!114 &4785473142049535629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511630258327026084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbe630325f531540a1e0057156c4a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trainCartStructure: {fileID: 6466554253709357063}
+  prefabToAdd: {fileID: 1895670673036404848, guid: 134dc29b64d07b04d862ac7c672b373a,
+    type: 3}
+  bookcases: []
+  chamber: {fileID: 3637334293128448483}
 --- !u!1 &6560802214087186091
 GameObject:
   m_ObjectHideFlags: 0
