@@ -9,6 +9,7 @@ namespace BrennanHatton.TrainCarts
 		
 		public TrainCartStructure trainCartStructure;
 		public GameObject prefabToAdd;
+		public List<GameObject> Shelves = new List<GameObject>();
 		
 		bool[] WallsToAdd;
 		
@@ -43,10 +44,9 @@ namespace BrennanHatton.TrainCarts
 		}
 	    
 	
-		// Create a method for a delegate.
 		public void AddToWall(Transform position)
 		{
-			GameObject newObject = Instantiate(prefabToAdd,position.position, position.rotation, position);	
+			Shelves.Add(Instantiate(prefabToAdd,position.position, position.rotation, position));	
 		}
 	}
 }
