@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 namespace BrennanHatton.LibraryOfBabel
 {
@@ -9,6 +10,7 @@ namespace BrennanHatton.LibraryOfBabel
 	{
 		public BookPosition position;
 		public TMP_Text text;
+		public UnityEvent onPageTurn;
 		
 		public void Setup(string _chamberId, int _wallId, int _shelfId, int _volume, int pageId){
 			position = new BookPosition();
@@ -35,7 +37,9 @@ namespace BrennanHatton.LibraryOfBabel
 				position.page++;
 			else if(position.page > 0)
 				position.page--;
-				
+			
+			onPageTurn.Invoke();
+			
 			GetPage(position);
 			
 		}
