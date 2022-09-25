@@ -652,7 +652,7 @@ MonoBehaviour:
   GrabPhysics: 4
   GrabMechanic: 1
   GrabSpeed: 15
-  RemoteGrabbable: 0
+  RemoteGrabbable: 1
   RemoteGrabMechanic: 0
   RemoteGrabDistance: 2
   ThrowForceMultiplier: 2
@@ -664,7 +664,7 @@ MonoBehaviour:
   SnapHandModel: 1
   CanBeDropped: 1
   CanBeSnappedToSnapZone: 1
-  ForceDisableKinematicOnDrop: 0
+  ForceDisableKinematicOnDrop: 1
   InstantMovement: 0
   MakeChildCollidersGrabbable: 0
   handPoseType: 1
