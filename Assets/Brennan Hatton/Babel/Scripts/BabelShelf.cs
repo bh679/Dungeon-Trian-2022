@@ -14,6 +14,7 @@ namespace BrennanHatton.LibraryOfBabel
 		
 		public void Setup(string _chamberId, int _wall, int _shelfId)
 		{
+			books = this.GetComponentsInChildren<BabelBook>();
 			chamberId = _chamberId;
 			wallId = _wall;
 			shelfId = _shelfId;

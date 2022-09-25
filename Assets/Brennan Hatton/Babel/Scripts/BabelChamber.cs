@@ -24,6 +24,7 @@ namespace BrennanHatton.LibraryOfBabel
 	    
 		public void SetupBookShelves()
 		{
+			Debug.Log("SetupBookShelves");
 			id = cart.seed;
 			for(int i = 0; i < bookcases.Count; i++)
 			{

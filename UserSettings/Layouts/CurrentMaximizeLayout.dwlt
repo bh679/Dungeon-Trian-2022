@@ -24,8 +24,290 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 30659
+  controlID: -1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 251
+    y: 73
+    width: 748
+    height: 629
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - D:\Projects\Dungeon Train 2022\Dungeon Train 2022 git\Library\PlayModeViewStates\e46d05db04fb8b14e959a8174e82db54
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 748, y: 608}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -374
+    m_HBaseRangeMax: 374
+    m_VBaseRangeMin: -304
+    m_VBaseRangeMax: 304
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 748
+      height: 608
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 374, y: 304}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -374
+      y: -304
+      width: 748
+      height: 608
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 748, y: 629}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1240
+    height: 947
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: -1
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1240
+    height: 650
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: -1
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 251
+    height: 650
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 6}
+  m_Panes:
+  - {fileID: 6}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 250
+    height: 629
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 46ab0800
+      m_LastClickedID: 568134
+      m_ExpandedIDs: 3cc7ceff46c7ceff60c7ceff66c7ceff6ac7ceff90ccceff78cdceffa0cdceffc0cdceff68d1d3ff7ad1d3ff06e4d3ff08e5d3ff22e5d3ff4ce6d3ff50e6d3ff3227d4ff7a27d4ff9a27d4ffb41ed5ff0e1fd5ff0a28d5ff7a57d5ff8c57d5ffee66d5ff1867d5ff3267d5ff5c68d5ff6068d5ff021fd6ff8a1fd6ffaa1fd6ffa24ed6ffb44ed6ff345ed6ff665ed6ff805ed6ffaa5fd6ffae5fd6ff4c16d7ffd416d7fff416d7ff045ed7ff5c71d7ff9e71d7ffb871d7ff0674d7ff0a74d7ffac2ad8ff342bd8ff542bd8ffa4e5d9ffc4e5d9ff30e8d9ff50e8d9fffa09dcff160bdcff360bdcffc0aaddffc6aaddffe2abddff02acddffd299deff8697e5ff041ae6ffd61ae6ff1c1ce6ff5ec3e7ffec72e9ff4873e9ff427ce9ffa206eaff800deaffd20deaffca16eaffd850efff2e51efffaa56effffe59efff5a5aefff5263efff2482f2ff7c82f2ff748bf2ff9829fbffbc29fbff582ffbffc23dfcffc83dfcffcc3dfcff0240fcff0640fcff2040fcff2a40fcff3641fcff5044fcffd045fcff1471fcff6472fcff6a72fcff6e72fcffa474fcffa874fcffc274fcffcc74fcffce74fcff2675fcff787afcff6aebfcff70ebfcff76ebfcff7cebfcff80ebfcff86ebfcff8cebfcff92ebfcff98ebfcff9eebfcffa4ebfcffaaebfcffaeebfcffb4ebfcffbaebfcffc6ebfcffccebfcffd2ebfcffd8ebfcffdeebfcffe4ebfcffeaebfcfff0ebfcfff4ebfcfffaebfcff00ecfcff06ecfcff0cecfcff12ecfcff16ecfcff1cecfcff22ecfcff2aecfcff2eecfcff34ecfcff3aecfcff3eecfcff42ecfcff46ecfcff4eecfcff56ecfcff5aecfcff60ecfcff64ecfcff6aecfcff70ecfcff78ecfcff86ecfcff8cecfcff92ecfcffacecfcffb2ecfcffb8ecfcffbeecfcffc8ecfcffceecfcffd4ecfcffdaecfcffeaecfcfff0ecfcfff8ecfcff00edfcff04edfcff0aedfcff0eedfcff14edfcffb6eefcff9aeffcff68f0fcff24f1fcfffef1fcffb2f2fcff5cf3fcff00f4fcffe2f4fcffb2f5fcff2ef6fcffacfbfcff6e04fdff0807fdff8a0efdff7411fdfffe12fdff1021fdffc223fdff442bfdff9e2efdff1434fdff1834fdff8e39fdff043ffdff30fefdff2003feff882bfeffb05efeff3804ffff3609ffffb636ffff9447ffff265dffff085effff8a5effff6261ffffd661fffffa62ffff7866ffff20fbffffe0e9060030ea0600ca2e0700687c0700c47f070066920700b0940700f2a7080028a8080054a8080062a8080076a9080046ab0800
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 251
+    y: 0
+    width: 750
+    height: 650
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1001
+    y: 0
+    width: 239
+    height: 650
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 9}
+  m_Panes:
+  - {fileID: 9}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46,9 +328,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 511
+    x: 1001
     y: 73
-    width: 421
+    width: 237
     height: 629
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -135,7 +417,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -242,7 +524,7 @@ MonoBehaviour:
       index: 10
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -251,9 +533,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.6880674, y: 0.6455362, z: -1.4692011}
+    m_Target: {x: 2.5525901, y: 0.9221928, z: 8.254771}
     speed: 2
-    m_Value: {x: 4.6880674, y: 0.6455362, z: -1.4692011}
+    m_Value: {x: 2.5525901, y: 0.9221928, z: 8.254771}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -300,13 +582,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.064468525, y: 0.9146023, z: -0.16104983, w: 0.36595353}
+    m_Target: {x: -0.013563959, y: -0.9215141, z: 0.032062463, w: -0.38745847}
     speed: 2
-    m_Value: {x: 0.064452015, y: 0.91436803, z: -0.16100858, w: 0.3658598}
+    m_Value: {x: -0.013560404, y: -0.9212726, z: 0.03205406, w: -0.38735694}
   m_Size:
-    m_Target: 3.9816897
+    m_Target: 0.20355304
     speed: 2
-    m_Value: 3.9816897
+    m_Value: 0.20355304
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -331,288 +613,6 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 10}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 934
-    height: 947
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 1
-  controlID: 30660
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 5}
-  - {fileID: 7}
-  - {fileID: 9}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 934
-    height: 650
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 8096}
-  vertical: 0
-  controlID: 30661
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 232
-    height: 650
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 6}
-  m_Panes:
-  - {fileID: 6}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 73
-    width: 231
-    height: 629
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1e980000
-      m_LastClickedID: 0
-      m_ExpandedIDs: d299deff8697e5ff041ae6ffd61ae6ff1c1ce6ff5ec3e7ffec72e9ff4873e9ff427ce9ffa206eaff800deaffd20deaffca16eaffd850efff2e51efffaa56effffe59efff5a5aefff5263efff2482f2ff7c82f2ff748bf2ff9829fbffbc29fbff582ffbffc23dfcffc83dfcffcc3dfcff0240fcff0640fcff2040fcff2a40fcff3641fcff5044fcffd045fcff1471fcff6472fcff6a72fcff6e72fcffa474fcffa874fcffc274fcffcc74fcffce74fcff2675fcff787afcff6aebfcff70ebfcff76ebfcff7cebfcff80ebfcff86ebfcff8cebfcff92ebfcff98ebfcff9eebfcffa4ebfcffaaebfcffaeebfcffb4ebfcffbaebfcffc6ebfcffccebfcffd2ebfcffd8ebfcffdeebfcffe4ebfcffeaebfcfff0ebfcfff4ebfcfffaebfcff00ecfcff06ecfcff0cecfcff12ecfcff16ecfcff1cecfcff22ecfcff2aecfcff2eecfcff34ecfcff3aecfcff3eecfcff42ecfcff46ecfcff4eecfcff56ecfcff5aecfcff60ecfcff64ecfcff6aecfcff70ecfcff78ecfcff86ecfcff8cecfcff92ecfcffacecfcffb2ecfcffb8ecfcffbeecfcffc8ecfcffceecfcffd4ecfcffdaecfcffeaecfcfff0ecfcfff8ecfcff00edfcff04edfcff0aedfcff0eedfcff14edfcffb6eefcff9aeffcff68f0fcff24f1fcfffef1fcffb2f2fcff5cf3fcff00f4fcffe2f4fcffb2f5fcff2ef6fcffacfbfcff6e04fdff0807fdff8a0efdff7411fdfffe12fdff1021fdffc223fdff442bfdff9e2efdff1434fdff1834fdff8e39fdff043ffdff30fefdff2003feff882bfeffb05efeff3804ffff3609ffffb636ffff9447ffff265dffff085effff8a5effff6261ffffd661fffffa62ffff7866ffff20fbffffe0e9060030ea0600ca2e0700687c0700c47f070066920700b0940700
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 232
-    y: 0
-    width: 279
-    height: 650
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 8}
-  m_Panes:
-  - {fileID: 8}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &8
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 232
-    y: 73
-    width: 277
-    height: 629
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SerializedViewNames:
-  - UnityEditor.DeviceSimulation.SimulatorWindow
-  m_SerializedViewValues:
-  - D:\Projects\Dungeon Train 2022\Dungeon Train 2022 git\Library\PlayModeViewStates\e46d05db04fb8b14e959a8174e82db54
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 277, y: 608}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -138.5
-    m_HBaseRangeMax: 138.5
-    m_VBaseRangeMin: -304
-    m_VBaseRangeMax: 304
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 277
-      height: 608
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 138.5, y: 304}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -138.5
-      y: -304
-      width: 277
-      height: 608
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 277, y: 629}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 511
-    y: 0
-    width: 423
-    height: 650
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 2}
-  m_Panes:
-  - {fileID: 2}
-  m_Selected: 0
-  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -630,10 +630,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 650
-    width: 934
+    width: 1240
     height: 297
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 11}
@@ -664,7 +664,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 723
-    width: 933
+    width: 523
     height: 276
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -683,21 +683,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Brennan Hatton/Dungeon Train/Systems/Train Carts
+    - Assets/Brennan Hatton/Babel/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Brennan Hatton/Dungeon Train/Systems/Train Carts
+  - Assets/Brennan Hatton/Babel/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Projects\Dungeon Train 2022\Dungeon Train 2022 git
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 160}
-    m_SelectedIDs: 0e970000
-    m_LastClickedID: 38670
+    scrollPos: {x: 0, y: 143}
+    m_SelectedIDs: e2680800
+    m_LastClickedID: 551138
     m_ExpandedIDs: 00000000089700000a9700000c9700000e97000010970000129700001497000016970000189700001a970000aabf0500b0bf0500cabf0500eabf050014c0050086c4050088c405008ac405003a6c0600a66c060000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -726,7 +726,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000089700000a9700000c9700000e97000010970000129700001497000016970000189700001a970000
+    m_ExpandedIDs: 00000000089700000a9700000c9700000e97000010970000129700001497000016970000189700001a970000aabf0500b0bf0500cabf0500eabf050014c0050086c4050088c405008ac405003a6c0600a66c060000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,8 +751,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1e980000
-    m_LastClickedInstanceID: 38942
+    m_SelectedInstanceIDs: 82e20800
+    m_LastClickedInstanceID: 582274
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000aca70000d0580000f65b0000
     m_RenameOverlay:
@@ -805,7 +805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 723
-    width: 933
+    width: 1239
     height: 276
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -832,9 +832,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 650
-    width: 710
-    height: 349
+    y: 723
+    width: 933
+    height: 276
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -849,18 +849,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: FGCodeWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 934
+    x: 1240
     y: 0
-    width: 986
+    width: 680
     height: 947
-  m_MinSize: {x: 101, y: 121}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
@@ -870,8 +870,11 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 22}
-  m_Selected: 6
-  m_LastSelected: 0
+  - {fileID: 23}
+  - {fileID: 24}
+  - {fileID: 25}
+  m_Selected: 0
+  m_LastSelected: 5
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -893,9 +896,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 934
+    x: 1240
     y: 73
-    width: 985
+    width: 679
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -907,7 +910,7 @@ MonoBehaviour:
     m_CachedPref: 221
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 38942
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -1013,358 +1016,14 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: CartTitle.cs
+    m_Text: AddBookcasesToWalls.cs
     m_Image: {fileID: 0}
     m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/
   m_Pos:
     serializedVersion: 2
-    x: 934
+    x: 524
     y: 73
-    width: 985
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: e6010a1e127c8a24ba6f7c4501860595, type: 3}
-  targetAssetGuid: e6010a1e127c8a24ba6f7c4501860595
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 4
-      column: 4
-      characterIndex: 1
-      line: 8
-    _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 16
-    - 32
-    - 48
-    - 64
-    - 80
-    - 96
-    - 112
-    - 128
-    - 144
-    - 160
-    - 176
-    codeViewRect:
-      serializedVersion: 2
-      x: 32
-      y: 0
-      width: 948
-      height: 880
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: TrainCartGenerator.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
-  m_Pos:
-    serializedVersion: 2
-    x: 934
-    y: 73
-    width: 985
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 1b425d4a1507d4344a453deec43ef22d, type: 3}
-  targetAssetGuid: 1b425d4a1507d4344a453deec43ef22d
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 26
-      column: 26
-      characterIndex: 20
-      line: 11
-    _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 16
-    - 32
-    - 48
-    - 64
-    - 80
-    - 96
-    - 112
-    - 128
-    - 144
-    - 160
-    - 176
-    - 192
-    - 208
-    - 224
-    - 240
-    - 256
-    - 272
-    - 304
-    - 320
-    - 336
-    - 352
-    - 368
-    - 384
-    - 400
-    - 416
-    - 432
-    - 448
-    - 464
-    - 480
-    - 496
-    - 512
-    codeViewRect:
-      serializedVersion: 2
-      x: 32
-      y: 0
-      width: 948
-      height: 880
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: ArchitectureTheme.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
-  m_Pos:
-    serializedVersion: 2
-    x: 934
-    y: 73
-    width: 985
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: e3ee50fa9a432244a8904cf07a53166f, type: 3}
-  targetAssetGuid: e3ee50fa9a432244a8904cf07a53166f
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 4
-      column: 4
-      characterIndex: 1
-      line: 8
-    _selectionStartPosition:
-      virtualColumn: 47
-      column: 47
-      characterIndex: 47
-      line: 8
-    hasSelection: 1
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 16
-    - 32
-    - 48
-    - 64
-    - 80
-    - 96
-    - 112
-    - 128
-    - 144
-    - 160
-    - 176
-    - 192
-    - 208
-    - 224
-    - 240
-    - 256
-    - 272
-    - 288
-    - 304
-    - 320
-    - 336
-    - 352
-    - 368
-    - 384
-    - 400
-    - 416
-    - 432
-    - 448
-    - 464
-    - 480
-    - 496
-    - 512
-    - 528
-    - 544
-    - 560
-    - 576
-    - 592
-    - 608
-    - 624
-    codeViewRect:
-      serializedVersion: 2
-      x: 32
-      y: 0
-      width: 948
-      height: 880
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: BabelChamber.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 934
-    y: 73
-    width: 985
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 793143d1ed0346741a474dd639e3a0bd, type: 3}
-  targetAssetGuid: 793143d1ed0346741a474dd639e3a0bd
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 58
-      column: 58
-      characterIndex: 52
-      line: 17
-    _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 16
-    - 32
-    - 48
-    - 64
-    - 80
-    - 96
-    - 112
-    - 128
-    - 144
-    - 160
-    - 176
-    - 192
-    - 208
-    - 224
-    - 240
-    - 256
-    - 272
-    - 288
-    - 304
-    - 320
-    - 336
-    - 352
-    - 368
-    - 384
-    - 400
-    - 416
-    - 432
-    codeViewRect:
-      serializedVersion: 2
-      x: 32
-      y: 0
-      width: 948
-      height: 880
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &22
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: AddShelvesToWalls.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/
-  m_Pos:
-    serializedVersion: 2
-    x: 934
-    y: 73
-    width: 985
+    width: 1395
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1376,18 +1035,18 @@ MonoBehaviour:
     scrollPosition: {x: 0, y: 0}
     scrollPositionLine: 0
     scrollPositionOffset: 0
-    searchString: 
+    searchString: SetupBookShelves
     caretPosition:
-      virtualColumn: 34
-      column: 34
-      characterIndex: 31
-      line: 6
+      virtualColumn: 26
+      column: 26
+      characterIndex: 17
+      line: 40
     _selectionStartPosition:
-      virtualColumn: 17
-      column: 17
-      characterIndex: 14
-      line: 6
-    hasSelection: 1
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
     hiddenLinesStart: 
     hiddenLinesCount: 
     lineNumbersOffset: 0
@@ -1444,11 +1103,763 @@ MonoBehaviour:
     - 800
     - 816
     - 832
+    - 848
     codeViewRect:
       serializedVersion: 2
       x: 32
       y: 0
-      width: 948
+      width: 1358
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BabelBookcase.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 524
+    y: 73
+    width: 1395
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 9ba978c51dcf3eb478ccbbf44c5a29a6, type: 3}
+  targetAssetGuid: 9ba978c51dcf3eb478ccbbf44c5a29a6
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 29
+      column: 29
+      characterIndex: 17
+      line: 25
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 128
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 240
+    - 256
+    - 272
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 368
+    - 384
+    - 400
+    - 416
+    - 432
+    - 448
+    - 464
+    - 480
+    - 496
+    - 512
+    - 528
+    - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    - 688
+    codeViewRect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 1358
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BabelShelf.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 1240
+    y: 73
+    width: 679
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: b1af6a1f966b3404393fbcd0163e014c, type: 3}
+  targetAssetGuid: b1af6a1f966b3404393fbcd0163e014c
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 38
+      column: 38
+      characterIndex: 29
+      line: 16
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 128
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 240
+    - 256
+    - 272
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 368
+    - 384
+    - 400
+    - 416
+    - 432
+    - 448
+    - 464
+    - 480
+    - 496
+    - 512
+    - 528
+    - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    codeViewRect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 642
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BabelBook.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 829
+    y: 73
+    width: 1090
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 9df9a73b788979a4fa806f78af7cb899, type: 3}
+  targetAssetGuid: 9df9a73b788979a4fa806f78af7cb899
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 25
+      column: 25
+      characterIndex: 16
+      line: 26
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 128
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 240
+    - 256
+    - 272
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 368
+    - 384
+    - 400
+    - 416
+    - 432
+    - 448
+    - 464
+    - 480
+    - 496
+    - 512
+    - 528
+    - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    - 688
+    codeViewRect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 1053
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BabelPage.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 829
+    y: 73
+    width: 1090
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 08b2e4093aa2d8c4ea27fe2ff64a5208, type: 3}
+  targetAssetGuid: 08b2e4093aa2d8c4ea27fe2ff64a5208
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 35
+      column: 35
+      characterIndex: 26
+      line: 19
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 128
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 240
+    - 256
+    - 272
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 368
+    - 384
+    - 400
+    - 416
+    - 432
+    - 448
+    - 464
+    - 480
+    - 496
+    - 512
+    - 528
+    - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    codeViewRect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 1053
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: TextDownload.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/
+  m_Pos:
+    serializedVersion: 2
+    x: 930
+    y: 73
+    width: 989
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 2af16a3d96a3fad4da32b49db5844fc4, type: 3}
+  targetAssetGuid: 2af16a3d96a3fad4da32b49db5844fc4
+  textEditor:
+    scrollPosition: {x: 0, y: 20}
+    scrollPositionLine: 1
+    scrollPositionOffset: 4
+    searchString: 
+    caretPosition:
+      virtualColumn: 9
+      column: 9
+      characterIndex: 3
+      line: 26
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 128
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 240
+    - 256
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 368
+    - 384
+    - 400
+    - 416
+    - 432
+    - 448
+    - 464
+    - 480
+    - 496
+    - 512
+    - 528
+    - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    - 688
+    - 704
+    - 720
+    - 736
+    - 752
+    - 768
+    - 784
+    - 800
+    - 816
+    - 832
+    - 848
+    - 864
+    - 880
+    - 896
+    - 912
+    - 928
+    - 944
+    - 960
+    - 976
+    - 992
+    - 1008
+    - 1024
+    - 1040
+    - 1056
+    - 1072
+    - 1088
+    - 1104
+    - 1120
+    - 1152
+    - 1168
+    - 1184
+    - 1200
+    - 1216
+    - 1232
+    - 1248
+    - 1264
+    - 1280
+    - 1296
+    - 1312
+    - 1328
+    - 1344
+    - 1360
+    - 1376
+    - 1392
+    - 1408
+    codeViewRect:
+      serializedVersion: 2
+      x: 32
+      y: 20
+      width: 937
+      height: 865
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &24
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BabelBookVolumeToText.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 1518
+    y: 73
+    width: 401
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 1ef2aaa2f51edda4ab799209c0c98d23, type: 3}
+  targetAssetGuid: 1ef2aaa2f51edda4ab799209c0c98d23
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 13
+      column: 13
+      characterIndex: 4
+      line: 27
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 256
+    - 272
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 368
+    - 384
+    - 400
+    - 416
+    - 432
+    - 464
+    - 480
+    - 496
+    - 512
+    - 528
+    - 544
+    codeViewRect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 364
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &25
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BabelChamber.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 524
+    y: 73
+    width: 1395
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 793143d1ed0346741a474dd639e3a0bd, type: 3}
+  targetAssetGuid: 793143d1ed0346741a474dd639e3a0bd
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 30
+      column: 30
+      characterIndex: 18
+      line: 30
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 16
+    - 32
+    - 48
+    - 64
+    - 80
+    - 96
+    - 112
+    - 128
+    - 144
+    - 160
+    - 176
+    - 192
+    - 208
+    - 224
+    - 240
+    - 256
+    - 272
+    - 288
+    - 304
+    - 320
+    - 336
+    - 352
+    - 368
+    - 384
+    - 400
+    - 416
+    - 432
+    - 448
+    - 464
+    - 480
+    - 496
+    - 512
+    - 528
+    - 544
+    - 560
+    - 576
+    - 592
+    - 608
+    - 624
+    - 640
+    - 656
+    - 672
+    - 688
+    - 704
+    - 720
+    - 736
+    - 752
+    - 768
+    - 784
+    - 800
+    - 816
+    - 832
+    - 848
+    codeViewRect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 1358
       height: 880
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}

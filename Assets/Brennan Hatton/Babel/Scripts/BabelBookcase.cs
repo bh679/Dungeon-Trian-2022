@@ -18,6 +18,7 @@ namespace BrennanHatton.LibraryOfBabel
 		
 		public void Setup(string _chamberId, int _wall)
 		{
+			Debug.Log("SetupBabelBookcase");
 			chamberId = _chamberId;
 			wallId = _wall;
 			for(int i = 0; i < shelves.Length; i++)
