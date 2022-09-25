@@ -36,6 +36,9 @@ namespace BrennanHatton.TrainCarts
 		
 		public StructuralElement<TrainDoorWall> entranceDoor, exitDoor;
 		
+		[Range(0,1)]
+		public float windowChance = 0;
+		
 		//public StructuralElement<CartTitle> title;
 		
 		public CartSeed seed;

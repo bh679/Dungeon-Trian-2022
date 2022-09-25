@@ -11,15 +11,17 @@ namespace BrennanHatton.LibraryOfBabel
 {
 	public abstract class TextDownload : MonoBehaviour 
 	{
-		public static string url="https://libraryofbabel.info/book.cgi"; //url of web
+		public static string url="https://libraryofbabel.info/"; //url of web
+		public static string bookWebPage = "book.cgi";
+		public static string anglishizeWebPage = "anglishize.cgi";
 	
 		//regexp to parse html document
 		private static string regexp="<div class = \"bookrealign\" id = \"real\"><PRE id = \"textblock\">[a-z.,\\s]*<\\/PRE><\\/div>";
 		private static string titleregex="<\\/form><H3>[a-z,]*<\\/H3>";
 	
 	
-		private IEnumerator GetPage2 (BookPosition book) {
-			string url = generateUrl(book);
+		private IEnumerator GetPage2 (BookPosition book, bool anglishized = false) {
+			string url = generateUrl(book, anglishized);
 			WWW www = new WWW(url);
 			yield return www;
 			string text=TextDownload.ParsePage(www.text);
@@ -34,8 +36,8 @@ namespace BrennanHatton.LibraryOfBabel
 			string text=TextDownload.ParseTitle(www.text);
 			OnTitle (text);
 		}
-		protected void GetPage(BookPosition book){
-			StartCoroutine(GetPage2 (book));
+		protected void GetPage(BookPosition book, bool anglishized = false){
+			StartCoroutine(GetPage2 (book, anglishized));
 		}
 		protected void GetTitle(BookPosition book){
 			StartCoroutine(GetTitle2 (book));
@@ -63,11 +65,11 @@ namespace BrennanHatton.LibraryOfBabel
 			title = Regex.Replace (title, "</H3>", "");
 			return title;
 		}
-		private static string generateUrl(BookPosition book){
+		private static string generateUrl(BookPosition book, bool anglishized = false){
 			string volume = book.volume.ToString ();
 			if (book.volume < 10)
 				volume = "0" + volume;
-			string fullUrl = url + "?" + book.room + "-w" + book.wall + "-s" + book.shelf + "-v" + volume + ":" + book.page;
+			string fullUrl = url + (anglishized?anglishizeWebPage:bookWebPage) + "?" + book.room + "-w" + book.wall + "-s" + book.shelf + "-v" + volume + ":" + book.page;
 			Debug.Log (fullUrl);
 			return fullUrl;
 		}
