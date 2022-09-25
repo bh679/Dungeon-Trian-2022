@@ -23,7 +23,7 @@ public class PopulateShelf : MonoBehaviour
 		for(int i = 0; i < bookspots.Length; i++)
 		{
 			books[i] = Instantiate(bookPrefab, bookspots[i].position, bookspots[i].rotation, bookspots[i]);
-			books[i].transform.RotateAroundLocal(Vector3.up,180);
+			books[i].transform.RotateAroundLocal(Vector3.up,200*Mathf.Deg2Rad);
 		}
 	}
 	
