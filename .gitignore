@@ -15,6 +15,7 @@
 /Assets/Brennan Hatton/Developer Log
 /Assets/PolygonDungeonMap
 /Assets/Plugins/RootMotion
+/Assets/Gamemaster Audio - Pro Sound Collection/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

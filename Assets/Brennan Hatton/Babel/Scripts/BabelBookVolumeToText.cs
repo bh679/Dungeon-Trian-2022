@@ -10,11 +10,6 @@ namespace BrennanHatton.LibraryOfBabel
 		public BabelBook book;
 		public TMP_Text text;
 		bool loaded = false;
-		
-	    // Start is called before the first frame update
-	    void Start()
-	    {
-	    }
 	
 		
 	

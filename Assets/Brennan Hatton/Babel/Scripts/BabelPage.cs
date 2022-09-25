@@ -25,7 +25,20 @@ namespace BrennanHatton.LibraryOfBabel
 	    void Start()
 		{
 			GetPage(position);
-	    }
+		}
+	    
+	    
+		
+		public void TurnPage(bool forward)
+		{
+			if(forward && position.page < 410)
+				position.page++;
+			else if(position.page > 0)
+				position.page--;
+				
+			GetPage(position);
+			
+		}
 	
 	    
 		protected override void OnPage (string page)
