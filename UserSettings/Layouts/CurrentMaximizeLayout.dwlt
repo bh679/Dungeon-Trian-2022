@@ -229,7 +229,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: a8bf0500
       m_LastClickedID: 0
       m_ExpandedIDs: 8c08a4ffc608a4ff1e28a4ff2029a4ff3a29a4ff642aa4ff682aa4ff4eaca4ff96aca4ffb6aca4ff0c1bb3ff321bb3ff1259b3ff0c5ab3ff265ab3ff745cb3ff785cb3ff10bcb3ff58bcb3ff78bcb3ff3cc7ceff46c7ceff60c7ceff66c7ceff6ac7ceff90ccceff78cdceffa0cdceffc0cdceff68d1d3ff7ad1d3ff06e4d3ff08e5d3ff22e5d3ff4ce6d3ff50e6d3ff3227d4ff7a27d4ff9a27d4ffb41ed5ff0e1fd5ff0a28d5ff7a57d5ff8c57d5ffee66d5ff1867d5ff3267d5ff5c68d5ff6068d5ff021fd6ff8a1fd6ffaa1fd6ffa24ed6ffb44ed6ff345ed6ff665ed6ff805ed6ffaa5fd6ffae5fd6ff4c16d7ffd416d7fff416d7ff045ed7ff5c71d7ff9e71d7ffb871d7ff0674d7ff0a74d7ffac2ad8ff342bd8ff542bd8ffa4e5d9ffc4e5d9ff30e8d9ff50e8d9fffa09dcff160bdcff360bdcffc0aaddffc6aaddffe2abddff02acddffd299deff8697e5ff041ae6ffd61ae6ff1c1ce6ff5ec3e7ffec72e9ff4873e9ff427ce9ffa206eaff800deaffd20deaffca16eaffd850efff2e51efffaa56effffe59efff5a5aefff5263efff2482f2ff7c82f2ff748bf2ff9829fbffbc29fbff582ffbffc23dfcffc83dfcffcc3dfcff0240fcff0640fcff2040fcff2a40fcff3641fcff5044fcffd045fcff1471fcff6472fcff6a72fcff6e72fcffa474fcffa874fcffc274fcffcc74fcffce74fcff2675fcff787afcff6aebfcff70ebfcff76ebfcff7cebfcff80ebfcff86ebfcff8cebfcff92ebfcff98ebfcff9eebfcffa4ebfcffaaebfcffaeebfcffb4ebfcffbaebfcffc6ebfcffccebfcffd2ebfcffd8ebfcffdeebfcffe4ebfcffeaebfcfff0ebfcfff4ebfcfffaebfcff00ecfcff06ecfcff0cecfcff12ecfcff16ecfcff1cecfcff22ecfcff2aecfcff2eecfcff34ecfcff3aecfcff3eecfcff42ecfcff46ecfcff4eecfcff56ecfcff5aecfcff60ecfcff64ecfcff6aecfcff70ecfcff78ecfcff86ecfcff8cecfcff92ecfcffacecfcffb2ecfcffb8ecfcffbeecfcffc8ecfcffceecfcffd4ecfcffdaecfcffeaecfcfff0ecfcfff8ecfcff00edfcff04edfcff0aedfcff0eedfcff14edfcffb6eefcff9aeffcff68f0fcff24f1fcfffef1fcffb2f2fcff5cf3fcff00f4fcffe2f4fcffb2f5fcff2ef6fcffacfbfcff6e04fdff0807fdff8a0efdff7411fdfffe12fdff1021fdffc223fdff442bfdff9e2efdff1434fdff1834fdff8e39fdff043ffdff30fefdff2003feff882bfeffb05efeff3804ffff3609ffffb636ffff9447ffff265dffff085effff8a5effff6261ffffd661fffffa62ffff7866ffff20fbffffe0e9060030ea0600ca2e0700687c0700c47f070066920700b0940700f2a7080054a8080062a8080046ab0800
       m_RenameOverlay:
@@ -683,22 +683,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Gamemaster Audio - Pro Sound Collection/Misc/Paper
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Gamemaster Audio - Pro Sound Collection/Misc/Paper
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Projects\Dungeon Train 2022\Dungeon Train 2022 git
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 464}
-    m_SelectedIDs: 8cfd0900
-    m_LastClickedID: 654732
-    m_ExpandedIDs: 00000000089700000a9700000c9700000e970000109700001297000016970000189700001a970000aabf0500b0bf0500eabf050014c0050086c4050088c405008ac405003a6c0600a66c06006efd090094fd090000ca9a3b
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 08970000
+    m_LastClickedID: 38664
+    m_ExpandedIDs: 00000000089700000c9700000e970000109700001297000016970000189700001a970000aabf0500b0bf0500eabf050014c0050086c4050088c405008ac405003a6c0600a66c060000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -726,7 +726,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000089700000a9700000c9700000e97000010970000129700001497000016970000189700001a970000aabf0500b0bf0500cabf0500eabf050014c0050086c4050088c405008ac405003a6c0600a66c060000ca9a3b
+    m_ExpandedIDs: 00000000089700000c9700000e970000109700001297000016970000189700001a970000aabf0500b0bf0500eabf050014c0050086c4050088c405008ac405003a6c0600a66c060000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,9 +751,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: a8bf0500
+    m_LastClickedInstanceID: 376744
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000aca70000d0580000f65b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

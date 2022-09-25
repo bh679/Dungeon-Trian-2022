@@ -14,16 +14,13 @@ public class CartSeed : MonoBehaviour
 	
 	public string ProcessSeed(int intSeed)
 	{
-		Debug.Log("intSeed " + intSeed);
 		string seed;
 		
-		Debug.Log("dividBy2 " + dividBy2);
 		if(dividBy2)
 			intSeed = intSeed/2;
 		
 		seed = ToBase(intSeed,seedBase);
 		
-		Debug.Log("seed "+ seed);
 		return seed;
 	}
 		
@@ -43,7 +40,6 @@ public class CartSeed : MonoBehaviour
 				digits.Add((char)(65-10+num));
 				
 			number -= b;
-			Debug.Log("digits[i] " +digits[digits.Count-1]);
 		}
 		
 			

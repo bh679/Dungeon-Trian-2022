@@ -16,10 +16,10 @@ namespace BrennanHatton.LibraryOfBabel
 			position = new BookPosition();
 			
 			position.room = _chamberId;
-			position.wall = _wallId;
-			position.shelf = _shelfId;
-			position.volume = _volume;
-			position.page = pageId;
+			position.wall = _wallId+1;
+			position.shelf = _shelfId+1;
+			position.volume = _volume+1;
+			position.page = pageId+1;
 			
 		}
 		

@@ -19,30 +19,16 @@ namespace BrennanHatton.LibraryOfBabel
 		    cart = this.GetComponentInParent<TrainCart>();
 		    
 		    id = cart.seed;
-		    //StartCoroutine(SetupShelvesId());
 	    }
 	    
 		public void SetupBookShelves()
 		{
-			Debug.Log("SetupBookShelves");
 			id = cart.seed;
 			for(int i = 0; i < bookcases.Count; i++)
 			{
 				bookcases[i].Setup(id, i);
 			}
 		}
-	    
-		/*IEnumerator SetupShelvesId()
-		{
-			int i = 0;
-			while(bookcases.shelvesReady == false)
-			{
-				yield return new WaitForEndOfFrame();
-			}
-			id = cart.seed;
-			shelves.
-			yield return null;
-		}*/
 	
 	    // Update is called once per frame
 	    void Update()
