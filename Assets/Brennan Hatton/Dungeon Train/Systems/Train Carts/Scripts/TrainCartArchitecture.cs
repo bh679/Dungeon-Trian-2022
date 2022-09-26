@@ -28,6 +28,7 @@ namespace BrennanHatton.TrainCarts
 			for(int i = 0; i < trainCartStructure.floors.Length; i++)
 			{
 				trainCartStructure.floors[i].SetModel(Instantiate(theme.GetAFloor()).transform, this.transform);
+				trainCartStructure.floors[i].model.transform.localScale = Vector3.one;
 				yield return new WaitForFixedUpdate();
 			}
 			
@@ -36,14 +37,17 @@ namespace BrennanHatton.TrainCarts
 			for(int i = 0; i < trainCartStructure.roofs.Length; i++)
 			{
 				trainCartStructure.roofs[i].SetModel(Instantiate(theme.GetARoof()).transform, this.transform);
+				trainCartStructure.roofs[i].model.transform.localScale = Vector3.one;
 				yield return new WaitForFixedUpdate();
 			}
 				
 			trainCartStructure.entranceDoor.SetModel(Instantiate(theme.GetADoor()).transform, this.transform);
+			trainCartStructure.entranceDoor.model.transform.localScale = Vector3.one;
 			
 			yield return new WaitForFixedUpdate();
 			
 			trainCartStructure.exitDoor.SetModel(Instantiate(theme.GetADoor()).transform, this.transform);
+			trainCartStructure.exitDoor.model.transform.localScale = Vector3.one;
 			
 			yield return new WaitForFixedUpdate();
 			
@@ -53,21 +57,9 @@ namespace BrennanHatton.TrainCarts
 			for(int i = 0; i < trainCartStructure.walls.Length; i++)
 			{
 				trainCartStructure.walls[i].SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
+				trainCartStructure.walls[i].model.transform.localScale = Vector3.one;
 				yield return new WaitForFixedUpdate();
 			}
-			/*trainCartStructure.wallLeft.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
-			
-			yield return new WaitForFixedUpdate();
-			
-			trainCartStructure.wallRight.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
-			
-			yield return new WaitForFixedUpdate();
-			
-			trainCartStructure.wallLeft2.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);
-			
-			yield return new WaitForFixedUpdate();
-			
-			trainCartStructure.wallRight2.SetModel(Instantiate(theme.GetAWall()).transform, this.transform);*/
 		}
 	}
 
