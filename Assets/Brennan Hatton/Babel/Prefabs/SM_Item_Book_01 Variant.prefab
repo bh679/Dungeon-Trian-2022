@@ -133,6 +133,7 @@ MonoBehaviour:
   title: 
   titles:
   - {fileID: 3920634363319099285}
+  pos: 0
 --- !u!1 &1031943959803345189
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +269,62 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &2368153695645855949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4024616950684153712}
+  - component: {fileID: 8977974257986692113}
+  m_Layer: 0
+  m_Name: Collision Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4024616950684153712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2368153695645855949}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 3.6533337, y: 1.1555096, z: -7.426667}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1392547623662384663}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8977974257986692113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2368153695645855949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8214cd2f1da34fc48a7997d8b8884b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayOnEnable: 0
+  clips:
+  - {fileID: 8300000, guid: fb967deaf39ea1448a8e7bdace496965, type: 3}
+  - {fileID: 8300000, guid: 3fc16c0b825777d4ca3a6130bd9c78f1, type: 3}
+  - {fileID: 8300000, guid: 1b2ab5747a55c384789faf2893ab625f, type: 3}
+  - {fileID: 8300000, guid: 02175a6c0a3ecef429bef081ab13f43e, type: 3}
+  - {fileID: 8300000, guid: 5f1ed4fc0255f79478aa85bdb56cefe2, type: 3}
+  - {fileID: 8300000, guid: b218441a6af00304987286bb3f32cb16, type: 3}
+  - {fileID: 8300000, guid: e3356ec0cd7927e4a9335ccb5de147a5, type: 3}
+  - {fileID: 8300000, guid: 1ff1415f3541d5f44a9c4ad9a903e1c8, type: 3}
+  - {fileID: 8300000, guid: e4248a1d138002b4ca87b009fdbbc940, type: 3}
+  source: {fileID: 7155603277589244184}
 --- !u!1 &2701691755645219059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1415,43 @@ MonoBehaviour:
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1
+--- !u!114 &1217880967281765106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392547623662068445}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf67656e224e7474d9cdb26be5dc26da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets: []
+  exclude: []
+  layer:
+    serializedVersion: 2
+    m_Bits: 1
+  onCollisionEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8977974257986692113}
+        m_TargetAssemblyTypeName: BrennanHatton.Audio.PlayRandomClip, Assembly-CSharp
+        m_MethodName: playRandomClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onCollisionExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  veolictyRequired: 0.5
+  veolictyRequiredSqr: 0
 --- !u!114 &2564627810981783282
 MonoBehaviour:
   m_ObjectHideFlags: 0

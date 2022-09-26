@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BrennanHatton.Audio;
 
 namespace BrennanHatton.LibraryOfBabel
 {
@@ -10,6 +11,7 @@ namespace BrennanHatton.LibraryOfBabel
 		public Transform spawnPoint, releasePoint;
 		public Vector3 startVelocity, spitForce;
 		public float forceDelay = 2f;
+		public PlayRandomClip clips;
 		
 		public void SpawnRandomBook()
 		{
@@ -31,6 +33,7 @@ namespace BrennanHatton.LibraryOfBabel
 			Book.isKinematic = false;
 			Book.velocity = startVelocity;
 			Book.useGravity = false;
+			clips.playRandomClip();
 			
 			yield return new WaitForSeconds(forceDelay);
 			
