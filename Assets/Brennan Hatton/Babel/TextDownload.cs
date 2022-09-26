@@ -66,6 +66,7 @@ namespace BrennanHatton.LibraryOfBabel
 			return title;
 		}
 		private static string generateUrl(BookPosition book, bool anglishized = false){
+			Debug.Log(book.log());
 			string volume = book.volume.ToString ();
 			if (book.volume < 10)
 				volume = "0" + volume;
@@ -112,6 +113,11 @@ namespace BrennanHatton.LibraryOfBabel
 			shelf = 0;
 			volume = 0;
 			page = 0;
+		}
+		
+		public string log()
+		{
+			return room + " " + wall + " " + shelf + " " + volume + " " + page;
 		}
 	}
 }

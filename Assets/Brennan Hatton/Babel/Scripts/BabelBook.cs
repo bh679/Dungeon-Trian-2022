@@ -10,6 +10,7 @@ namespace BrennanHatton.LibraryOfBabel
 		
 		public BabelPage page;
 		public BookPosition position;
+		public BookTitle title;
 		
 		/*public void Setup(string _chamberId, int _wallId, int _shelfId, int _volume)
 		{
@@ -27,6 +28,8 @@ namespace BrennanHatton.LibraryOfBabel
 			volumeId = _volume;*/
 			newPosition.page = 1;
 			page.Setup(newPosition);
+			if(title != null)
+				title.GetBookTitle(newPosition);
 			setup = true;
 		}
 		
