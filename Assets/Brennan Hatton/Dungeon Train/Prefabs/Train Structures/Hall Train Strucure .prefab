@@ -198,6 +198,7 @@ Transform:
   - {fileID: 7776257573783535983}
   - {fileID: 8447630887456869907}
   - {fileID: 4249479417473092066}
+  - {fileID: 7598869588110308997}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -479,6 +480,116 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1859283090065211831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7588881940768564385}
+    m_Modifications:
+    - target: {fileID: 2132630071160554680, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_Name
+      value: Dispensor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705871018683540356, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: forceDelay
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705871018683540356, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: startForce.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705871018683540356, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: startForce.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7332643
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468184812492543824, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: time
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468184812492543824, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnRandomBook
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468184812492543824, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BrennanHatton.LibraryOfBabel.BookSpawner, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468184812492543824, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 375e5c81dd4c76241a8376ec1b9fdc8d, type: 3}
+--- !u!4 &7598869588110308997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1859283090065211831}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2384364340607160137
 PrefabInstance:
   m_ObjectHideFlags: 0

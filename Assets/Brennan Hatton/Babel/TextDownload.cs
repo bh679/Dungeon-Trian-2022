@@ -83,5 +83,35 @@ namespace BrennanHatton.LibraryOfBabel
 		public int shelf;
 		public int volume;
 		public int page;
+		
+		public BookPosition(string _room, int _wall, int _shelf,int _volume, int _page)
+		{
+			room = _room;
+			wall = _wall;
+			shelf = _shelf;
+			volume = _volume;
+			page = _page;
+		}
+		
+		//Creates a new book of null position or random
+		public BookPosition(bool isRandom = false)
+		{
+			if(isRandom)
+			{
+				room = Random.value.ToString();
+				wall = Random.Range(1,4);
+				shelf = Random.Range(1,5);
+				volume = Random.Range(1,32);
+				page = Random.Range(1,410);
+				
+				return;
+			}
+			
+			room = null;
+			wall = 0;
+			shelf = 0;
+			volume = 0;
+			page = 0;
+		}
 	}
 }

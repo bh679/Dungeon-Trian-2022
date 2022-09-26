@@ -33,6 +33,7 @@ namespace BrennanHatton.Audio
 		
 		public void playRandomClipVolumeScale(float volumeScale)
 		{
+			Random.seed = System.DateTime.Today.Second + System.DateTime.Today.Millisecond +System.DateTime.Today.Minute + System.DateTime.Today.Hour + System.DateTime.Today.Date.DayOfYear;
 			int id = Random.Range(0,clips.Length);
 			source.PlayOneShot(clips[id],volumeScale);
 			//Debug.Log(clips[id]);
