@@ -19,6 +19,7 @@ namespace BrennanHatton.LibraryOfBabel
 		public void SpawnBook(BookPosition position)
 		{
 			BabelBook newBook  = Instantiate(bookPrefab,spawnPoint.position,spawnPoint.rotation, this.transform);
+			newBook.Setup(position);
 			
 			StartCoroutine(SpitOutBook(newBook.GetComponent<Rigidbody>()));
 		}

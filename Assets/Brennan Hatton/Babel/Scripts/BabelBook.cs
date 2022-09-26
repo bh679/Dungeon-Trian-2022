@@ -6,24 +6,27 @@ namespace BrennanHatton.LibraryOfBabel
 {
 	public class BabelBook : MonoBehaviour
 	{
-		//public BookPosition position = new BookPosition();
-		
-		string chamberId;
-		public int wallId,  shelfId, volumeId;
 		public bool setup = false;
 		
 		public BabelPage page;
+		public BookPosition position;
 		
-		public void Setup(string _chamberId, int _wallId, int _shelfId, int _volume)
+		/*public void Setup(string _chamberId, int _wallId, int _shelfId, int _volume)
 		{
+			
+		}*/
+		
+		public void Setup(BookPosition newPosition)
+		{
+			position = newPosition;
 			//page = this.GetComponentInChildren<BabelPage>();
 			
-			chamberId = _chamberId;
+			/*chamberId = _chamberId;
 			wallId = _wallId;
 			shelfId = _shelfId;
-			volumeId = _volume;
-			
-			page.Setup(chamberId,wallId,shelfId,volumeId,0);
+			volumeId = _volume;*/
+			newPosition.page = 1;
+			page.Setup(newPosition);
 			setup = true;
 		}
 		

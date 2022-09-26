@@ -8,21 +8,21 @@ namespace BrennanHatton.LibraryOfBabel
 	{
 		public BabelShelf[] shelves;
 		
-		string chamberId;
-		int wallId;
-		
 		void Reset()
 		{
 			shelves = this.GetComponentsInChildren<BabelShelf>();
 		}
 		
-		public void Setup(string _chamberId, int _wall)
+		BookPosition position;
+		
+		public void Setup(BookPosition newPosition)
 		{
-			chamberId = _chamberId;
-			wallId = _wall;
+			position = newPosition;
+			
 			for(int i = 0; i < shelves.Length; i++)
 			{
-				shelves[i].Setup(chamberId, wallId, i);
+				newPosition.shelf = i+1;
+				shelves[i].Setup(newPosition);
 			}
 			
 		}

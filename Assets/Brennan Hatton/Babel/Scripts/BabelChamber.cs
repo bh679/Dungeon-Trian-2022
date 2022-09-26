@@ -9,7 +9,7 @@ namespace BrennanHatton.LibraryOfBabel
 	{
 		public TrainCart cart;
 		public List<BabelBookcase> bookcases = new List<BabelBookcase>();
-		public string id;
+		BookPosition position;
 		
 		public CartTitle title;
 		
@@ -18,15 +18,17 @@ namespace BrennanHatton.LibraryOfBabel
 	    {
 		    cart = this.GetComponentInParent<TrainCart>();
 		    
-		    id = cart.seed;
+		    position.room  = cart.seed;
 	    }
 	    
 		public void SetupBookShelves()
 		{
-			id = cart.seed;
+			
+			position.room  = cart.seed;
 			for(int i = 0; i < bookcases.Count; i++)
 			{
-				bookcases[i].Setup(id, i);
+				position.wall = i+1;
+				bookcases[i].Setup(position);
 			}
 		}
 	

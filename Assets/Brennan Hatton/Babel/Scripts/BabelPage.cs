@@ -12,14 +12,9 @@ namespace BrennanHatton.LibraryOfBabel
 		public TMP_Text text;
 		public UnityEvent onPageTurn;
 		
-		public void Setup(string _chamberId, int _wallId, int _shelfId, int _volume, int pageId){
-			position = new BookPosition();
-			
-			position.room = _chamberId;
-			position.wall = _wallId+1;
-			position.shelf = _shelfId+1;
-			position.volume = _volume+1;
-			position.page = pageId+1;
+		public void Setup(BookPosition newPosition)
+		{
+			position = newPosition;
 			
 		}
 		

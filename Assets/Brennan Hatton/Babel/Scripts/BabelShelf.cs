@@ -8,19 +8,16 @@ namespace BrennanHatton.LibraryOfBabel
 	{
 		public BabelBook[] books;
 		
-		string chamberId;
-		int wallId;
-		int shelfId;
+		BookPosition position;
 		
-		public void Setup(string _chamberId, int _wall, int _shelfId)
+		public void Setup(BookPosition newPosition)//string _chamberId, int _wall, int _shelfId)
 		{
+			position = newPosition;
 			books = this.GetComponentsInChildren<BabelBook>();
-			chamberId = _chamberId;
-			wallId = _wall;
-			shelfId = _shelfId;
 			for(int i = 0; i < books.Length; i++)
 			{
-				books[i].Setup(chamberId, wallId, shelfId, i);
+				newPosition.volume = i+1;
+				books[i].Setup(newPosition);
 			}
 			
 		}
