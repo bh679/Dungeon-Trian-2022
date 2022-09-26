@@ -156,7 +156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4462918659262928607
 Transform:
   m_ObjectHideFlags: 0
@@ -298,5 +298,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInside: 0
+  seed: 
   theme: {fileID: 0}
   tilesLength: 1.73206
