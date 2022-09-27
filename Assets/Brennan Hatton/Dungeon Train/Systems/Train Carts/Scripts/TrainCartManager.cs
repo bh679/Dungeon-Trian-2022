@@ -51,7 +51,7 @@ namespace BrennanHatton.TrainCarts
 		    	
 			position += newCart.length;
 			
-			endCarriage.transform.position += transform.forward*position;
+			endCarriage.transform.position = transform.position + transform.forward*position;
 			carts.Add(newCart);
 		}
 	}
