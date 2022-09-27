@@ -18,7 +18,7 @@ namespace BrennanHatton.LibraryOfBabel
 		{
 			if(book.setup && !loaded)
 			{
-				text.text = book.position.volume.ToString();
+				text.text = book.data.volume.ToString();
 				loaded = true;
 			}
 	    }

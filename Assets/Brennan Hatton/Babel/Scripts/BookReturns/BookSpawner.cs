@@ -12,14 +12,21 @@ namespace BrennanHatton.LibraryOfBabel
 		public Vector3 startVelocity, spitForce;
 		public float forceDelay = 2f;
 		public PlayRandomClip clips;
+		public bool instantSpawnFromReturns;
 		
 		public void SpawnRandomBook()
 		{
 			SpawnBook(new BookPosition(true));
 		}
 		
+		public void SpawnNextBook()
+		{
+			SpawnBook(BookReturnsManager.Instance.GetBook());
+		}
+		
 		public void SpawnBook(BookPosition position)
 		{
+			Debug.Log("spawning");
 			BabelBook newBook  = Instantiate(bookPrefab,spawnPoint.position,spawnPoint.rotation, this.transform);
 			newBook.Setup(position);
 			
@@ -52,7 +59,8 @@ namespace BrennanHatton.LibraryOfBabel
 	    // Update is called once per frame
 	    void Update()
 	    {
-	        
+		    if(instantSpawnFromReturns && BookReturnsManager.Instance.bookCount > 0)
+			    SpawnNextBook();
 	    }
 	}
 }

@@ -7,14 +7,14 @@ public class CartSeed : MonoBehaviour
 	
 	public int seedBase;
 	public bool dividBy2;
-	
+	public string seed;
 	
 	
 	//public string seed;
 	
 	public string ProcessSeed(int intSeed)
 	{
-		string seed;
+		//string seed;
 		
 		if(dividBy2)
 			intSeed = intSeed/2;

@@ -4,12 +4,31 @@ using UnityEngine;
 
 namespace BrennanHatton.LibraryOfBabel
 {
+	
+	public class BookMark
+	{
+		public int page,
+		characterStart,
+		length;
+	}
+	
+	[System.Serializable]
+	public class BookData : BookPosition 
+	{
+		List<BookMark> bookmark;
+		
+		public BookData(BookPosition position)
+		{
+			CopyBookPosition(position);
+		}
+	}
+	
 	public class BabelBook : MonoBehaviour
 	{
 		public bool setup = false;
 		
 		public BabelPage page;
-		public BookPosition position;
+		public BookData data;
 		public BookTitle title;
 		
 		/*public void Setup(string _chamberId, int _wallId, int _shelfId, int _volume)
@@ -19,7 +38,7 @@ namespace BrennanHatton.LibraryOfBabel
 		
 		public void Setup(BookPosition newPosition)
 		{
-			position = newPosition;
+			data = new BookData(newPosition);
 			//page = this.GetComponentInChildren<BabelPage>();
 			
 			/*chamberId = _chamberId;

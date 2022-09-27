@@ -78,7 +78,7 @@ namespace BrennanHatton.LibraryOfBabel
 	}
 	
 	[System.Serializable]
-	public struct BookPosition{
+	public class BookPosition{
 		public string room;
 		public int wall;
 		public int shelf;
@@ -118,6 +118,16 @@ namespace BrennanHatton.LibraryOfBabel
 		public string log()
 		{
 			return room + " " + wall + " " + shelf + " " + volume + " " + page;
+		}
+		
+		
+		public void CopyBookPosition(BookPosition position)
+		{
+			room = position.room;
+			wall = position.wall;
+			shelf = position.shelf;
+			volume = position.volume;
+			page = position.page;
 		}
 	}
 }

@@ -65,7 +65,7 @@ namespace BrennanHatton.LibraryOfBabel
 				titles[i].text = title;
 			}
 			
-			Debug.Log ("On Title:" + title);
+			//Debug.Log ("On Title:" + title);
 		}
 		
 	}

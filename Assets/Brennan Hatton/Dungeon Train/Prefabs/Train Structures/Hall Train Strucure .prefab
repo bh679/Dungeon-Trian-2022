@@ -407,6 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seedBase: 10
   dividBy2: 0
+  seed: 
 --- !u!1 &8244488838878166546
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +555,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4249479417473092066
 Transform:
   m_ObjectHideFlags: 0
@@ -665,6 +666,11 @@ PrefabInstance:
       propertyPath: startForce.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5705871018683540356, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
+      propertyPath: instantSpawnFromReturns
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8122553912876021554, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
         type: 3}
       propertyPath: m_RootOrder
@@ -727,8 +733,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8468184812492543824, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468184812492543824, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
+        type: 3}
       propertyPath: TimedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SpawnRandomBook
+      value: SpawnNextBook
       objectReference: {fileID: 0}
     - target: {fileID: 8468184812492543824, guid: 375e5c81dd4c76241a8376ec1b9fdc8d,
         type: 3}
