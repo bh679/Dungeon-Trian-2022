@@ -32,7 +32,7 @@ namespace BrennanHatton.TrainCarts
 			if(architecture == null)
 				architecture = this.gameObject.AddComponent<TrainCartArchitecture>();
 				
-			trainCartStructure = Instantiate(structurePrefab, Vector3.zero, Quaternion.identity, this.transform);
+			trainCartStructure = Instantiate(structurePrefab, this.transform.position, this.transform.rotation, this.transform);
 				
 			architecture.SetThemeAndStructure(newTheme, trainCartStructure);
 		}
