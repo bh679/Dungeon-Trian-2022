@@ -9,6 +9,7 @@ namespace BrennanHatton.TrainCarts
 	public class TrainCartManager : MonoBehaviour
 	{
 		public TrainCartGenerator generator;
+		public GameObject endCarriage;
 		
 		public int totalTrainCarts = 3;
 		public List<TrainCart> carts = new List<TrainCart>();
@@ -49,7 +50,8 @@ namespace BrennanHatton.TrainCarts
 			newCart.transform.position += transform.forward*position;
 		    	
 			position += newCart.length;
-		    	
+			
+			endCarriage.transform.position += transform.forward*position;
 			carts.Add(newCart);
 		}
 	}
