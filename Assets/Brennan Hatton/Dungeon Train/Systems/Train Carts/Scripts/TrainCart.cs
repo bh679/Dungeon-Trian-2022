@@ -40,6 +40,7 @@ namespace BrennanHatton.TrainCarts
 		public void SetPlayerInside()
 		{
 			playerInside = true;
+			trainCartStructure.SetPlayerInside();
 		}
 	}
 

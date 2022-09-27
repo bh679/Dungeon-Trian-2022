@@ -44,6 +44,12 @@ namespace BrennanHatton.TrainCarts
 		public CartSeed seed;
 		
 		public float length = 5;
+	
+		public void SetPlayerInside()
+		{
+			exitDoor.model.CloseDoor();
+		}
+		
 	}
 
 }

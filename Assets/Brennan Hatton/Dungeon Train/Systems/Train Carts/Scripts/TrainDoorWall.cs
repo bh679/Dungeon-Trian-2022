@@ -8,7 +8,7 @@ namespace BrennanHatton.TrainCarts
 	public class TrainDoorWall : MonoBehaviour
 	{
 		
-		public GameObject WindowShutter, Lock;
+		public GameObject WindowShutter, Lock, Door;
 		
 		//public Door door;
 		
@@ -19,11 +19,13 @@ namespace BrennanHatton.TrainCarts
 		
 		public void OpenDoor()
 		{
+			Door.gameObject.SetActive(false);
 			//	door.Open();
 		}
 		
 		public void CloseDoor()
 		{
+			Door.gameObject.SetActive(true);
 			//	door.Close();
 		}
 		
@@ -34,7 +36,7 @@ namespace BrennanHatton.TrainCarts
 		
 		void Start()
 		{
-			CloseDoor();
+			//CloseDoor();
 			//CloseWindow();
 		}
 	}
