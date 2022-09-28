@@ -14,7 +14,7 @@ public class CartSeed : MonoBehaviour
 	
 	//public string seed;
 	
-	public string ProcessSeed(int intSeed)
+	public virtual string ProcessSeed(int intSeed)
 	{
 		//string seed;
 		
