@@ -35,6 +35,11 @@ namespace BrennanHatton.LibraryOfBabel
 			_returns.Add(book);
 		}
 		
+		public void ReturnRandomBook()
+		{
+			_returns.Add(new BookData(true));
+		}
+		
 		public BookData GetBook()
 		{
 			if(_returns.Count > 0)

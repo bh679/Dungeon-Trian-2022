@@ -17,6 +17,11 @@ namespace BrennanHatton.LibraryOfBabel
 	{
 		List<BookMark> bookmark;
 		
+		public BookData(bool random = false)
+		{
+			CopyBookPosition(new BookPosition(random));
+		}
+		
 		public BookData(BookPosition position)
 		{
 			CopyBookPosition(position);
@@ -45,7 +50,8 @@ namespace BrennanHatton.LibraryOfBabel
 			wallId = _wallId;
 			shelfId = _shelfId;
 			volumeId = _volume;*/
-			newPosition.page = 1;
+			if(newPosition.page == 0)
+				newPosition.page = 1;
 			page.Setup(newPosition);
 			if(title != null)
 				title.GetBookTitle(newPosition);

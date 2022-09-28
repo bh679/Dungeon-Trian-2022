@@ -1204,6 +1204,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fef903d2d12d3c46b6a046f667b2a2a, type: 3}
+--- !u!1 &390170249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 390170251}
+  - component: {fileID: 390170250}
+  m_Layer: 0
+  m_Name: The Narrative Machine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &390170250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390170249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507cd8b8aac175247911e2c955fc3ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  books:
+  - room: 4czvfghazjtvytz1lgjr95hc1jp88lt1xr3xnfy4rzmqcvupnchlyb9hc7ghnmv790l3ajjoqu32qmqtmghht6otyk33s9u3hxrbdzxfrxgq89dpv58495vpbgb5nlj30fonlq8ac2m9cpfi3mped47ct7pflxplp1iqpvetr020suz8pe22bv1knq7nrpdecyoq9i92slqygunfzif7k8rtg3y01rsbe1uwbhq6bifu4xjmt5hkqvvzihjjgt5noc7p7jtkbvdmajvg2bz7ep66kp6sfm75k6pe5jtq1qg3xhww0jrsrldqhzmkvgnrtpg6pcu8akqnbnlkkt3u5us7vwj0xx8pcq3ltmbudrtlm1jeo04hyfe85pj31hqc6g2l1kijod6xwnu7asjlshpmtglht8sy9jy5qpumym5inbw0vls8a3mwds8o8hqg1uomy90wshuykyv9kk5cbm52haw9z44xmjdnb3jct7mpz5rmjtpy8s07udkvdyoyukkz494ouzo9v9vedm3mhoy2z5n27tx9ut17vatyw99sfauccf1d33ogk74q2y75y8x2qci8xrcyntd1y8czuk7k0r7yox5jxc1wtujnlr6k1bu8j5r7m9wy4avki5n0hf3ztlf8rj2gr6ghuz29xtzwy4jnsltvjt0s2pjz7d2rsl5cdaujsfztjc6w4z663knqzlcp3iwhm7tolqc8mbt0u2zsd4pzkjk80p1uhrls9fc4skdizqeissdywa28qpd02uwcyowmykave6y2qg52no0xc8wtl0usi933uo9dwbaid9bw9ork9ylfsqslhgmhu9kmsrr5gkcanr2z4elaavldj3d7p4d16c6hcfisfl3rjda0u6rfbyys32czj4zudm59ub3qp1i0kryvyvsxg4gzmi9g7umt5s97tqcwckdb2zcv3g7vqav2nmwfn2itf4e4o33soanazxzb9goddcabwikohvhe6lrmn5kmnmzlsqsd61uq6ebs595fn18loftpjd07a3u0ft5p819qwj4hd93xw929xecuz8e80yet7g0pgbszz1eiclau83077djq1uws8oa9r53wf4jbaxrwygivci7laxq9ud6ezgbg62dn6uwqo52lqq0m75mw2jsx1ny7meyop4eeben5ffkg384aa4gz3aj4llmvtmrw7musd6plsaf6qtpu5t7pnsr6ibnu38v6u8vtzc2sdnp5r12rvyno7fcg70p9uypc2q43cwn7wvta6iomddl9kxrtexbcip1l614y1or4dybzi1gj7q3m32u0uwca9opn6dg6myfqdzlkt3ltativf0avczi6b15sgtp9k5b6w4tvzr33sxlvq64p9gl9p824zlbblxftbpvo70o29xgsfk5uou62ddy53jeq84hsnw001dgdm195ga1qm2brhkyl943h79hejn2cs2gnhbpgyfyzh83qz8je0rd6uafeb5uwiws5jz32u88w7zgr9s6myc12d4dlvqfhjlk3clrwzowuozndsrixv5sp1hix7z52nwegddxuzz9vkevyiybalbivnarwx6qumdg4ft125z5uwea7ooiicn7kvwk8b2vwtsc711e4rbwg5xgejh667kd8a4fvewajiuonqvyo7tfk4ednu4ir0t3zaprm8ecoykp2s13xlfsphk387mkopo6apa43u2hx6l67u1y4bbfosdipdq4b5cad287b8zlef55ql95c3v3d5vvmttdrmrmolby11j8irzcmb316qb56kwpu58db5h7np9anobfpgbushrzobnwubjqmq245voc2ualvbeg6b0xjlu0kxx3cdkmid1rmuajfcplvtjl2dgmqv1xcnv35tsneyfxl6nma65rg2003lj04sxadpxp43y6c2xww2x673zdju3wdcljtsof5k0wdaxcmyjgvial47wc1b0aslk96vsj9ln4k7zxg579s080k2wyilgsjp3h0kf09pn4phuv6v6lc7v2n06hpsk9837w4rb24ndb0xpez3m3a8nt520o4hjdufsfh7lzfgg8kupo87taytrxhksmcv59ov7ed2gdwltg11dn1li1czt810qzdnysh062ddux0jexcsaqdh920j0g86izkp24o5qiwx4rdbmj1b683blirudvzvdvi7ar0w0kgi5ii2lnhu6sb3iegzl20uztiaz2kb24zsmmdt3jf0fhfskxby7xu5xmk20iu7q3zhy9jkx77v7r2j2klay90zxbgfxpblxzhlltnjuh3ah7h1nm5i2urwi29qnri4df9y30567p0528bv78z6rjc92dej8deruogz8oab8fmjyriu6rwqhh4tacabxpuy3c4uz7rg129v42p9sgjeqy37pbr7tdl8zzknnf1v7xlly96bqds0xwa43gjo8ci9q46om5p8jprthx2i86z7v9fpaopvaaf7wz5a1r0n1x11uqdwqdzk69e5pvr5i0jp128hefdwqm1erhhqcv22strz2ps3n9ifqnvbivnqtlamqucdewjyrpkel7vvqw1am23n7xq1khzi7br2ycam70z2pr9shf8bar1w54l41f7no81xstkqv59glx5fp4ecbioso6bkulmvldv0v3gnrxh4fnmom9f1y62a8jfrr9g3xypmti51wdomqrno59rxhp2kbk84tuceayv0l8wn7413d6j0t6v6dexnmxhmujp37iv7keu2zdk2pv2fcyne2mivisbi7tqis5232xt07yk5oth9vt3b8r7vx2xaau50knxj2nxcwyt09qf8hmax5b4u90nfeykbwitkhag46wgse0lfqevqwrxr8f9oiojee2t16e8u5aupw8s255tb2q94xmonquxwsfuyqf1259gi6wkue3b1ukbsls0svhw5myofvus9ebmlmpho14qcp8i9l09yvf5qziyhplo0vcafx6m1l0kzzugcqbccpgv8snmexbs9xvx5ggdy0jpzlx7dl1u90l96t0l2tjisalao6bes1paodnfmo5uyb09szm5b7jg6jl6idwreejg53r0m8ubvu982xmbz0uywsq2slcyb1nsq0kftvzlje82kvn2roii2k8bcb4ji2x28qtxl7uksa3925d6rkvcjy7cu9d2ocmmloee3osiyly675c3zaa97o37bmb2fnijfbko4updkudgchjy4e86y1nsj
+    wall: 2
+    shelf: 3
+    volume: 5
+    page: 23
+--- !u!4 &390170251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390170249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.043756273, y: -16.07697, z: 2.6846704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &419306390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5084,8 +5134,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1699445894}
   - component: {fileID: 1699445893}
+  - component: {fileID: 1699445895}
   m_Layer: 0
-  m_Name: Babel
+  m_Name: The Great Babeller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5119,6 +5170,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1699445895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699445892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a84e00888db6f345960cc2b11ec7a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1699445893}
+        m_TargetAssemblyTypeName: BrennanHatton.LibraryOfBabel.BookReturnsManager,
+          Assembly-CSharp
+        m_MethodName: ReturnRandomBook
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  key: 30
+  pressType: 0
 --- !u!1001 &1766163689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6266,5 +6347,17 @@ PrefabInstance:
       propertyPath: endCarriage
       value: 
       objectReference: {fileID: 1388043426}
+    - target: {fileID: 6946810115346571935, guid: 698ea03cfe787b9468ab5b656e7709e8,
+        type: 3}
+      propertyPath: structurePrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 3207076808458304713, guid: 4aa4c3a3fdfbe9d48885c44b56f3264e,
+        type: 3}
+    - target: {fileID: 6946810115346571935, guid: 698ea03cfe787b9468ab5b656e7709e8,
+        type: 3}
+      propertyPath: structurePrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 6466554253709357063, guid: 05846f397ed1c7b4e91948321bedc960,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 698ea03cfe787b9468ab5b656e7709e8, type: 3}

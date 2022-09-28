@@ -8,6 +8,8 @@ public class CartSeed : MonoBehaviour
 	public int seedBase;
 	public bool dividBy2;
 	public string seed;
+	//public bool randomStart = true;
+	//static string seedStart;
 	
 	
 	//public string seed;

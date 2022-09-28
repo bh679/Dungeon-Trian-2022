@@ -38,13 +38,13 @@ namespace BrennanHatton.LibraryOfBabel
 			Collider col = Book.GetComponent<Collider>();
 			col.isTrigger = true;
 			Book.isKinematic = false;
-			Book.velocity = startVelocity;
+			Book.velocity = transform.rotation * startVelocity;
 			Book.useGravity = false;
 			clips.playRandomClip();
 			
 			yield return new WaitForSeconds(forceDelay);
 			
-			Book.AddForce(spitForce);
+			Book.AddForce(transform.rotation * spitForce);
 			Book.useGravity = true;
 			
 			col.isTrigger = false;
