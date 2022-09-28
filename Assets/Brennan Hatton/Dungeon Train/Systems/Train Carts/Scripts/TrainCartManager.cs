@@ -42,10 +42,15 @@ namespace BrennanHatton.TrainCarts
 	    
 		void AddCartToEnd()
 		{
+			bool first = (carts.Count == 0);
+				
 			TrainCart newCart;
 			
 			newCart = generator.CreateCart(roomId);
 			roomId++;
+			
+			//if(first)
+			//	newCart - make itclose door
 		    	
 			newCart.transform.position += transform.forward*position;
 		    	
