@@ -15,12 +15,15 @@ namespace BrennanHatton.LibraryOfBabel
 		public void Setup(BookPosition newPosition)
 		{
 			position = newPosition;
+			//Debug.Log(position.Debug);
+			//Debug.Log(position.page);
 			
 		}
 		
 	    // Start is called before the first frame update
 	    void Start()
 		{
+			Debug.Log(position.page);
 			GetPage(position);
 		}
 	    
@@ -36,6 +39,7 @@ namespace BrennanHatton.LibraryOfBabel
 			onPageTurn.Invoke();
 			
 			GetPage(position);
+			Debug.Log(position.page);
 			
 		}
 	

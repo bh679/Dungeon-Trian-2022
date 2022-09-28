@@ -28,7 +28,8 @@ namespace BrennanHatton.LibraryOfBabel
 			OnPage (text);
 		}
 	
-		private IEnumerator GetTitle2 (BookPosition book) {
+		private IEnumerator GetTitle2 (BookPosition _book) {
+			BookPosition book = new BookPosition(_book);
 			book.page = 1;
 			string url = TextDownload.generateUrl(book);
 			WWW www = new WWW(url);
@@ -66,12 +67,12 @@ namespace BrennanHatton.LibraryOfBabel
 			return title;
 		}
 		private static string generateUrl(BookPosition book, bool anglishized = false){
-			Debug.Log(book.log());
+			//Debug.Log(book.log());
 			string volume = book.volume.ToString ();
 			if (book.volume < 10)
 				volume = "0" + volume;
 			string fullUrl = url + (anglishized?anglishizeWebPage:bookWebPage) + "?" + book.room + "-w" + book.wall + "-s" + book.shelf + "-v" + volume + ":" + book.page;
-			Debug.Log (fullUrl);
+			//Debug.Log (fullUrl);
 			return fullUrl;
 		}
 	
@@ -84,6 +85,17 @@ namespace BrennanHatton.LibraryOfBabel
 		public int shelf;
 		public int volume;
 		public int page;
+		
+		public string Debug{
+			get {
+				return "p:"+page + " v:" + volume + " s:" + shelf + " w:" + wall + " r:" + room;
+			}
+		}
+		
+		public BookPosition(BookPosition bookToCopy)
+		{
+			CopyBookPosition(bookToCopy);
+		}
 		
 		public BookPosition(string _room, int _wall, int _shelf,int _volume, int _page)
 		{

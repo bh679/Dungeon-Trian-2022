@@ -50,8 +50,10 @@ namespace BrennanHatton.LibraryOfBabel
 			wallId = _wallId;
 			shelfId = _shelfId;
 			volumeId = _volume;*/
-			if(newPosition.page == 0)
-				newPosition.page = 1;
+			//if(newPosition.page == 0)
+			//	newPosition.page = 1;
+			Debug.Log(newPosition.page);
+			Debug.Log(newPosition.log());
 			page.Setup(newPosition);
 			if(title != null)
 				title.GetBookTitle(newPosition);
