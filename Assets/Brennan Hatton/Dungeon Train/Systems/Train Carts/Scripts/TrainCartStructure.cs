@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace BrennanHatton.TrainCarts
 {
@@ -36,6 +37,8 @@ namespace BrennanHatton.TrainCarts
 		
 		public StructuralElement<TrainDoorWall> entranceDoor, exitDoor;
 		
+		public GameObject[] Contents;
+		
 		[Range(0,1)]
 		public float windowChance = 0;
 		
@@ -44,6 +47,14 @@ namespace BrennanHatton.TrainCarts
 		public void SetPlayerInside()
 		{
 			exitDoor.model.CloseDoor();
+		}
+		
+		public void PopulateContents()
+		{
+			for(int i = 0; i < Contents.Length; i++)
+			{
+				Contents[i].SetActive(true);
+			}
 		}
 		
 	}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138171596}
-  m_IndirectSpecularColor: {r: 0.3014136, g: 0.3819985, b: 0.5882779, a: 1}
+  m_IndirectSpecularColor: {r: 0.08596048, g: 0.13642637, b: 0.32298777, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1239,11 +1239,6 @@ MonoBehaviour:
     shelf: 5
     volume: 31
     page: 48
-  - room: 04uvto38hj135t6dg3ypp81vrkwdromxw14ry89b6mn4adwsorpdbiyetmsrhe44mu10wrtx07l0tm410xnjrp6b9qiyt6tev6umucxr806k4j7m7rlp0e7k7nqfea4bzpk3n3mkyqs6xsv5gaaigljliishsqk58c0d9ugjw23au8p6jp6tnuolf6mqsn1i1zx059zs6g2c93p1pt4f5brdqot44jpdsdzo1h7nx5ntiua3lpbbzdurpqao90prarg2dl0gnf3pm1f05cozvpqtc4gzshv64pnlyx92fh33bq7kf37gqix3pwf6e0f7n31v69oc4ddme1mwg66zocvagxcn0an5adpl4tsv1welj2pm0sihmx21mfr2zmqaetsu4acl92wk6gqqe63pspjtsige16xvjov71hrsbj09c5qo2dwr0offx50j4hkwlibp4lid5snktv7n1whmrozw61e3htanr0h0j9fx0fkuwf9ar2qjamdl8dn2d197zddtmf5x05hb1p1xnryyxinhv0pnqoufhtfrxxgkhf477yohe64j0clpr5fo7medxtwepbzw9bac4to73lmhmn88ezp99rpno0v38jup7heb19el592cxb9jkju0idcyn2zjx029yw0n3cj4osiq0wnbiub8xpv7rhx55ixkjrphcrqen6sule3gmnp8dmjslawsmaviogmn5ugqgtkt1vmhgccytxeqdd4cntov6ih1w07p7gtdetjhk3l4nnsobgztdof8kecbe1kt247c7zucwldopudblq4v0nklkxzpvr08ixlm6ne67kjruuo9bltfkg174yi8j3vb1ijlm5wuguixb5ldroqyihwegv404sxr3pyz1o3mkfwfxzwjdk3kq6sr4qywv18knl8rk72iumeluvrbemd8kswx6fgju8tqsn53f8h9jlvu88seibkra6exalas96a5fr4xe2otwcx7na5t9e6tq36egoh1jdyi9ztzkpic2i9wgfdwtogbzjf3bm18720328abz0b2miz9cd2batskb4ztbm5zgnl4uueqqghlial391sjv75801c3wf04i99l6fn6vttgk4vhhobr56ybrcf4rghkw5n5a0ap88loiyoh7i1o7x6tvs2c9diqr9sv6aeyvhkkz6qs9yg1dqp2yjxi3q80cfdc9iixrerp7n7ed2v6qt5wi3w2joabmsziurgkb1eo3x88t6ciwx4ppbl2v0cmsvzszrq11dj2kyp67jnemv4mwgz8vd0usbtt0uz3dq1gz50bdtr5vl1fzvdsx1kmz5bnrq02ei902cfeeih4vx6hy0tleyllk8vytrkp2ydjdc5zl0vno0pprnxnybpcyze2swa9w8uukpn6iavin5qdmi6amnw4p8fpprn282o72qnkp6osjix7aaxs8f7bhsuk17vvgx7lo3f1r4pesp1mjq6d4zcpmuatzpth3mtmmjy3o315t5a0kv3h5vsrnran62tpb8b3lef3x7j8gh14alwkfc52we7mdm9jjn2lnu1uc6xse8l3h3n4w25yz2uvdow6k2eoh2kbci7z7jh2yb1s24fpv2nbyl2kt9gd3pudmhnw3ok24i4fmiydic8iqvdgpoy6qvx5rl0ambuar2dub9isp8v6qwqahuuctepz6ip4uxljv4seg6ouumi8j9nb1vm8uqrwdgi5edf5cmwqw8029dgpsvg2bl4bpgo7ibwlhwnlkj91ro1ylsis4qlp31vzmhnnbcm09pcjmmsb4zbrx8k9uwwc6ivibw282x9sjygvedodz0x5sgnjxt9qj1guw55wkwmf78gbdcd5m487p536fkkfwqxu460st9wu5mkm4940pkxkaqxvbhmjn9p6l2fohq6lijxx9161yx33uzctckmlhil5fd1tkumwqjwppgdqfz2312nnq4f1q51457x3yrvmebmh7si3kjr6jrk6lh53s4ezgufkavs0ck6874jqz4djscwapasz9q3wdhqn35p3wou7fz1x9qdk4x7liinepn5nu40k9hnm68zylk7meb3w7mt3wxlfucbpvv68eb0gyvn0ungtq12mh8hxa5nrfra25cqdwyfj0opqi2w3ltvj6w3601nkre35zsvyf0u9ymsh15gp36x7k58lebauriibcf94en7hax386iwj9t9f4e6d658oewshsw8zs0n4lxc6oexisdbtbtpwbdmq01ujr6qo506vs5m301xv5t25kk1x8g0xb1zer7m366ujk7yb9v1how5f38iq2fxzqahf12htcpw1233vivhg88asvj038wi35d03lrqxm5fxvdcxlq79rixtgpft3xuk3i3c3er19533nbz2kl28o2g6z5jsko46003lij4iga0ijqvzjiwdppewlowp7fh8414g3djcfjl9pjb3bqur36rwuu1dtvj14pozz6al8ejh137w30zlbfin4lzf92us9b53ut74s2d7nv1i6zi3uv2gtef22tvxv0m8ibd4pphlxuixathqwnm3z0gxc40uuktabyy19c84updlyddt053hgmbry261laryumihlfpwrgfcy7d1zeb7btu808r3thvzcn8tl5k7wn3lvzvh1eqat7pv549ytadlgiqnzfv7skd0gmfgrkcnvpwqevuz69jci5y9lnzps8y5pu25yb7hyngib0e2g88ltrtjv8n63o3gzavxsxfxepoq9nrmh421jzg1df1wnxqt7zktoceb63mytmqrers186ubav6zfxp46b1tyxmm2o4hsb2cmxpl337v7v40fp5dwvdj4wdxq8nzyelcu37vowh7yavwq1yc1z20bcfvpbgur54d3oc14rkfhhmged9jamvj1mmy3zw80p8q0w93op0ejnnjunsdnbvt5z7e15ux5rt5tfonaokrmi9yuvih9pzkosf4t1xhah84am7nwtkvos70vuq8s6e142qa80ld99jz808hut2nys1vq4f5x11rg439t387qewghulka92mwljxi0e6n007vlulrnmtydwy0zaeyingts9p40lv280zi1je3mmgfyhcjgz5lcpdl8pdtij5tgzi8f5374b8z0vvxiadl23f9qbizdjb0mgbutunr5jqf7t9goc214an1jpl30m7284qc742xplimx5qn615blfjkz7yhcaofmmodee81lt6nbgjac
-    wall: 1
-    shelf: 5
-    volume: 7
-    page: 6
 --- !u!4 &390170251
 Transform:
   m_ObjectHideFlags: 0
@@ -4743,7 +4738,7 @@ PrefabInstance:
     - target: {fileID: 5117709272763234211, guid: 2af1d2045149fe743b81bc4d1a6f8406,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.43
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5117709272763234211, guid: 2af1d2045149fe743b81bc4d1a6f8406,
         type: 3}
@@ -7212,6 +7207,23 @@ PrefabInstance:
       propertyPath: endCarriage
       value: 
       objectReference: {fileID: 1388043426}
+    - target: {fileID: 6946810115346571935, guid: 698ea03cfe787b9468ab5b656e7709e8,
+        type: 3}
+      propertyPath: trainCarts.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946810115346571935, guid: 698ea03cfe787b9468ab5b656e7709e8,
+        type: 3}
+      propertyPath: trainCarts.Array.data[0]
+      value: 
+      objectReference: {fileID: 6412336964932352253, guid: d5a622b237ba12b48aa4521ded1c00d0,
+        type: 3}
+    - target: {fileID: 6946810115346571935, guid: 698ea03cfe787b9468ab5b656e7709e8,
+        type: 3}
+      propertyPath: trainCarts.Array.data[1]
+      value: 
+      objectReference: {fileID: 6412336964932352253, guid: c051b4681895f7347821b92cd39bb155,
+        type: 3}
     - target: {fileID: 6946810115346571935, guid: 698ea03cfe787b9468ab5b656e7709e8,
         type: 3}
       propertyPath: structurePrefabs.Array.data[0]

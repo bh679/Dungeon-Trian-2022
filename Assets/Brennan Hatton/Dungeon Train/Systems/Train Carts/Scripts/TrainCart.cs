@@ -11,12 +11,15 @@ namespace BrennanHatton.TrainCarts
 		//Tracks if the user is inside the cart
 		public bool playerInside = false;
 		
-		TrainCartArchitecture architecture;
-		TrainCartStructure trainCartStructure;
+		public ArchitectureTheme[] themesPrefabs;
+		public TrainCartStructure[] structurePrefabs;
+		
 		public string seed;
 		
-		
-		public ArchitectureTheme theme;
+		TrainCartArchitecture architecture;
+		TrainCartStructure trainCartStructure;
+		int themeId ,
+			structureId;
 		
 		public float tilesLength = 1;
 		public float length
@@ -25,17 +28,33 @@ namespace BrennanHatton.TrainCarts
 				return trainCartStructure.length;//ArchitectureTheme.tileSize * tilesLength;
 			}
 		}
-	
-		public void SetThemeAndStructure(ArchitectureTheme newTheme, TrainCartStructure structurePrefab)
+		
+		public void Create(string _seed)
 		{
-			theme = newTheme;
+			seed = _seed;
+			Random.seed = seed.GetHashCode();
+			
+			themeId  = Random.RandomRange(0,themesPrefabs.Length-1);
+			structureId = Random.RandomRange(0,structurePrefabs.Length-1);
+			
+			SetThemeAndStructure();
+			
+		}
+		
+		public void PopulateContents()
+		{
+			architecture.PopulateContents();
+		}
+	
+		public void SetThemeAndStructure()
+		{
 			
 			if(architecture == null)
 				architecture = this.gameObject.AddComponent<TrainCartArchitecture>();
 				
-			trainCartStructure = Instantiate(structurePrefab, this.transform.position, this.transform.rotation, this.transform);
+			trainCartStructure = Instantiate(structurePrefabs[structureId], this.transform.position, this.transform.rotation, this.transform);
 				
-			architecture.SetThemeAndStructure(newTheme, trainCartStructure);
+			architecture.SetThemeAndStructure(themesPrefabs[themeId], trainCartStructure);
 		}
 		
 		public void SetPlayerInside()

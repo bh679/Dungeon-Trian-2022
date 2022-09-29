@@ -13,6 +13,11 @@ namespace BrennanHatton.TrainCarts
 		//public StructuralElement floor, roof, wallLeft, wallLeft2, wallRight, wallRight2;
 		//public TrainDoorWall entranceDoor, exitDoor;
 		
+		public void PopulateContents()
+		{
+			trainCartStructure.PopulateContents();
+		}
+		
 		
 		public void SetThemeAndStructure(ArchitectureTheme newTheme, TrainCartStructure newtrainCartStructure)
 		{

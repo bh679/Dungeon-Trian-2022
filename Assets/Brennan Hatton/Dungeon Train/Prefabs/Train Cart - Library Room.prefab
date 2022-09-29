@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 6153461081057801129}
   - component: {fileID: 8425965514851213242}
   m_Layer: 0
-  m_Name: Train Cart
+  m_Name: Train Cart - Library Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -313,8 +313,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInside: 0
-  seed: {fileID: 0}
-  theme: {fileID: 0}
+  themesPrefabs:
+  - {fileID: 437711598154668191, guid: 1b6c89716cf1c7b418b644d066f2c21d, type: 3}
+  structurePrefabs:
+  - {fileID: 6466554253709357063, guid: 05846f397ed1c7b4e91948321bedc960, type: 3}
+  seed: 
   tilesLength: 1.73206
 --- !u!114 &6153461081057801129
 MonoBehaviour:

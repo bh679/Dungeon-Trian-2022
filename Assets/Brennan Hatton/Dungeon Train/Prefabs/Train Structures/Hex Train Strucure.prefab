@@ -676,6 +676,8 @@ MonoBehaviour:
     model: {fileID: 0}
     position: {fileID: 2222195018811100577}
     done: 0
+  Contents:
+  - {fileID: 6511630258327026084}
   windowChance: 0
   length: 7.1
 --- !u!1 &2277994701781361884
@@ -1576,7 +1578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8991563093190766723
 Transform:
   m_ObjectHideFlags: 0

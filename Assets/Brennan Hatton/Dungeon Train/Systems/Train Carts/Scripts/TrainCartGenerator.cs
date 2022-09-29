@@ -7,22 +7,19 @@ namespace BrennanHatton.TrainCarts
 
 	public class TrainCartGenerator : MonoBehaviour
 	{
-		public TrainCart trainCartPrefab;
+		public TrainCart[] trainCarts;
 		
-		public ArchitectureTheme[] themes;
-		public TrainCartStructure[] structurePrefabs;
 		int s = 0;
 	    
 		public TrainCart CreateCart(string seed)
 		{
-			TrainCart cart = Instantiate(trainCartPrefab, this.transform.position, this.transform.rotation, this.transform);
+			TrainCart cart = Instantiate(trainCarts[s], this.transform.position, this.transform.rotation, this.transform);
 			
-			cart.seed = seed;
-			Random.seed = cart.seed.GetHashCode();
+			cart.Create(seed);
 			
-			int id = Random.RandomRange(0,themes.Length-1);
-			cart.SetThemeAndStructure(themes[id],structurePrefabs[s]);
-			s = (s + 1) % structurePrefabs.Length;
+			//int id = Random.RandomRange(0,themes.Length-1);
+			//cart.SetThemeAndStructure(themes[id],structurePrefabs[s]);
+			s = (s + 1) % trainCarts.Length;
 			
 			return cart;
 		}

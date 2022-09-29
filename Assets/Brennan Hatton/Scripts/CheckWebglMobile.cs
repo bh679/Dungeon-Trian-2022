@@ -8,8 +8,10 @@ public class CheckWebglMobile : MonoBehaviour
 	
 	public GameObject[] mobileOnly, webGlNotMobile;
 	
+         #if !UNITY_EDITOR && UNITY_WEBGL
 	[DllImport("__Internal")]
 	private static extern bool IsMobile();
+         #endif
  
 	public bool isMobile()
 	{
