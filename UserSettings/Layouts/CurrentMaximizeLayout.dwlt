@@ -45,9 +45,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 824
+    x: 650
     y: 73
-    width: 707
+    width: 895
     height: 640
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 707, y: 619}
+  m_TargetSize: {x: 895, y: 619}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -67,15 +67,15 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 0
+  m_Stats: 1
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -353.5
-    m_HBaseRangeMax: 353.5
+    m_HBaseRangeMin: -447.5
+    m_HBaseRangeMax: 447.5
     m_VBaseRangeMin: -309.5
     m_VBaseRangeMax: 309.5
     m_HAllowExceedBaseRangeMin: 1
@@ -95,23 +95,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 707
+      width: 895
       height: 619
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 353.5, y: 309.5}
+    m_Translation: {x: 447.5, y: 309.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -353.5
+      x: -447.5
       y: -309.5
-      width: 707
+      width: 895
       height: 619
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 707, y: 640}
+  m_LastWindowPixelSize: {x: 895, y: 640}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -161,7 +161,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1533
+    width: 1547
     height: 947
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
@@ -187,7 +187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1533
+    width: 1547
     height: 661
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
@@ -210,7 +210,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 413
+    width: 327
     height: 661
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -242,7 +242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 412
+    width: 326
     height: 640
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -251,23 +251,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5231d7fe5831d7fe5e31d7fe6231d7fe4237d7fe4637d7feb238d7fed638d7fe6cd0d8fe72d0d8fe76d0d8fe52d6d8fe56d6d8fec2d7d8fee6d7d8fe9a90edfe3e92edfefc93edfe0094edfe74abedfe90abedfefcacedfe20adedfe6aecf4febaecf4fe0ef6f4fe868625ffd68625ff0a9025ff98ab32ffeaab32ff3eb532ff22b832ff72b832ffcac132ffb8c632ff08c732ff60d032ff3ad632ff90d632ffe4df32ffa0e432fff0e432ff44ee32ff103945ff484746ff024846ff264846ff98b746ff40c547ff44c547ff4cc547ff92c647ffb6c647ff5c464efffc4b4eff62ce4eff94ce4eff200e4fffa4d154ff56d754ff60d754ff7ad754ff80d754ff84d754ff74dc54ff78dc54ffe4dd54ff08de54ff709b57ff22a157ff2ca157ff46a157ff4ca157ff50a157ff44a657ff48a657ffb4a757ffd8a757ffb00b5afffe615afff8625aff12635affa8675affac675affb26f5affb66f5aff22715aff46715aff2c6362ff7ab962ff74ba62ff8eba62ff24bf62ff28bf62ff2ec762ff32c762ff9ec862ffc2c862ff3e2f74fff83474fffc3474ffae3575ff683b75ff6c3b75ff584075ffb84075ffbc4075ff284275ff4c4275ffbc2477ffc07b77ff708077ff748077ff2e2e79ffb02e79ffb28479ffba8479ffb48579ffce8579ff648a79ff688a79ff1e9379ff229379ff5a9479ff889479ff8e9479ffb29479ff98608dff3e618dff888791fff48f91ff2e9091ff489091ff4e9091ff529091ff829591ff869591fff29691ff169791ffeeafa7ff12fea7ffd4fea7ffeefea7ff8403a8ff8803a8ff2012a9ff8412a9fff413a9ff1814a9ff5cb4b0ffbc5fb1ff7860b1ff9c60b1ffdc0eb3ff360cb4fff20cb4ff160db4fffcb3b4ff585fb5ff1460b5ff3860b5fffe57bbff5e03bcff1a04bcff3e04bcff22c1c2ff440dd4ff980dd4ffe816d4ff7ab5eeffbab5eeffdab5eeffdc54f1ff46f3ffffd2f3ffff08f9ffffc2990100969b01008a9c0100c29c0100029d01009a9d0100c8ff040036ca060000540800
+      m_SelectedIDs: ca2570fe
+      m_LastClickedID: -26204726
+      m_ExpandedIDs: e42570fef29471fe443973fe588374fece8374fed48374fef88374fe668674fe545b8afe785b8afe1c518dfe40518dfe5c3d90fe803d90fe462b93fe6a2b93fec840a7fef07ea7feea7fa7fe00a7a7fe24a8a7fea669a8feb869a8febe69a8fec269a8fe4e70a8fe5270a8fe5670a8fe5a70a8fe5e70a8fe6470a8fe6a70a8fe6e70a8fe5c79a8fe6879a8fe6c79a8fed87aa8fefc7aa8fe1c33aefe6833aefec43caefea8ebbafe7031bbfe5231d7fe5831d7fe5e31d7fe6231d7fe4237d7fe4637d7feb238d7fed638d7fe6cd0d8fe72d0d8fe76d0d8fe52d6d8fe56d6d8fec2d7d8fee6d7d8fe9a90edfe3e92edfefc93edfe0094edfe74abedfe90abedfefcacedfe20adedfe6aecf4febaecf4fe0ef6f4fe868625ffd68625ff0a9025ff98ab32ffeaab32ff3eb532ff22b832ff72b832ffcac132ffb8c632ff08c732ff60d032ff3ad632ff90d632ffe4df32ffa0e432fff0e432ff44ee32ff103945ff484746ff024846ff264846ff98b746ff40c547ff44c547ff4cc547ff92c647ffb6c647ff5c464efffc4b4eff62ce4eff94ce4eff200e4fffa4d154ff56d754ff60d754ff7ad754ff80d754ff84d754ff74dc54ff78dc54ffe4dd54ff08de54ff709b57ff22a157ff2ca157ff46a157ff4ca157ff50a157ff44a657ff48a657ffb4a757ffd8a757ffb00b5afffe615afff8625aff12635affa8675affac675affb26f5affb66f5aff22715aff46715aff2c6362ff7ab962ff74ba62ff8eba62ff24bf62ff28bf62ff2ec762ff32c762ff9ec862ffc2c862ff3e2f74fff83474fffc3474ffae3575ff683b75ff6c3b75ff584075ffb84075ffbc4075ff284275ff4c4275ffbc2477ffc07b77ff708077ff748077ff2e2e79ffb02e79ffb28479ffba8479ffb48579ffce8579ff648a79ff688a79ff1e9379ff229379ff5a9479ff889479ff8e9479ffb29479ff98608dff3e618dff888791fff48f91ff2e9091ff489091ff4e9091ff529091ff829591ff869591fff29691ff169791ffeeafa7ff12fea7ffd4fea7ffeefea7ff8403a8ff8803a8ff2012a9ff8412a9fff413a9ff1814a9ff5cb4b0ffbc5fb1ff7860b1ff9c60b1ffdc0eb3ff360cb4fff20cb4ff160db4fffcb3b4ff585fb5ff1460b5ff3860b5fffe57bbff5e03bcff1a04bcff3e04bcff22c1c2ff440dd4ff980dd4ffe816d4ff7ab5eeffbab5eeffdab5eeffdc54f1ff46f3ffffd2f3ffff08f9ffffc2990100969b01008a9c0100c29c0100029d01009a9d0100c8ff040036ca06000e50080000540800fc990a00
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Book(Clone)
+        m_OriginalName: Book(Clone)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -26204700
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -292,9 +292,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 413
+    x: 327
     y: 0
-    width: 411
+    width: 323
     height: 661
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -324,9 +324,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 413
+    x: 327
     y: 73
-    width: 409
+    width: 321
     height: 640
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -529,9 +529,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.9757617, y: 1.9182795, z: 5.8691278}
+    m_Target: {x: 0.46711335, y: 0.5908028, z: 7.2705293}
     speed: 2
-    m_Value: {x: -2.9757617, y: 1.9182795, z: 5.8691278}
+    m_Value: {x: 0.46711335, y: 0.5908028, z: 7.2705293}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -578,13 +578,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0039673494, y: -0.84861, z: -0.006364672, w: 0.5289652}
+    m_Target: {x: -0.16227522, y: -0.6436256, z: 0.14223881, w: -0.73428965}
     speed: 2
-    m_Value: {x: -0.003967351, y: -0.8486103, z: -0.0063646743, w: 0.52896535}
+    m_Value: {x: -0.16248839, y: -0.6425234, z: 0.14199522, w: -0.7352542}
   m_Size:
-    m_Target: 1.6885417
+    m_Target: 0.31535235
     speed: 2
-    m_Value: 1.6885417
+    m_Value: 0.3153524
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -624,12 +624,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 824
+    x: 650
     y: 0
-    width: 709
+    width: 897
     height: 661
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -645,23 +645,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: FGConsole
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 661
-    width: 1533
+    width: 1547
     height: 286
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 0
+  m_Selected: 2
   m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
@@ -686,7 +686,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 734
-    width: 1532
+    width: 713
     height: 265
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -705,21 +705,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Brennan Hatton/Babel/Prefabs
+    - Assets/Brennan Hatton/Babel/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Brennan Hatton/Babel/Prefabs
+  - Assets/Brennan Hatton/Babel/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Projects\Dungeon Train 2022\Dungeon Train 2022 git
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: 04820000
-    m_LastClickedID: 33284
+    scrollPos: {x: 0, y: 143}
+    m_SelectedIDs: 0c820000
+    m_LastClickedID: 33292
     m_ExpandedIDs: 000000001e790000207900002279000024790000267900002c7900002e79000030790000527900005c79000096790000f0790000f27900000c820000a26c0200b26c020000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -773,9 +773,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 2c4e0b00
+    m_LastClickedInstanceID: 740908
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000aca70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -800,7 +800,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 22}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -827,7 +827,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 734
-    width: 1532
+    width: 1546
     height: 265
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -855,7 +855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 734
-    width: 825
+    width: 1546
     height: 265
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -876,12 +876,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1533
+    x: 1547
     y: 0
-    width: 387
+    width: 373
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -896,8 +896,15 @@ MonoBehaviour:
   - {fileID: 25}
   - {fileID: 26}
   - {fileID: 27}
+  - {fileID: 28}
+  - {fileID: 29}
+  - {fileID: 30}
+  - {fileID: 31}
+  - {fileID: 32}
+  - {fileID: 33}
+  - {fileID: 34}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 13
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -919,9 +926,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1533
+    x: 1547
     y: 73
-    width: 386
+    width: 372
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -989,9 +996,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1193
+    x: 574
     y: 73
-    width: 726
+    width: 1345
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1044,9 +1051,9 @@ MonoBehaviour:
     m_Tooltip: in Brennan Hatton/Babel/Scripts/
   m_Pos:
     serializedVersion: 2
-    x: 1533
+    x: 909
     y: 73
-    width: 386
+    width: 1010
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1058,12 +1065,12 @@ MonoBehaviour:
     scrollPosition: {x: 0, y: 0}
     scrollPositionLine: 0
     scrollPositionOffset: 0
-    searchString: 
+    searchString: newPosition
     caretPosition:
-      virtualColumn: 48
-      column: 48
-      characterIndex: 36
-      line: 30
+      virtualColumn: 55
+      column: 55
+      characterIndex: 44
+      line: 16
     _selectionStartPosition:
       virtualColumn: 0
       column: 0
@@ -1075,55 +1082,55 @@ MonoBehaviour:
     lineNumbersOffset: 0
     yLineOffsets:
     - 19
+    - 38
     - 57
     - 76
     - 95
+    - 114
     - 133
     - 152
+    - 171
     - 190
     - 209
+    - 228
     - 247
+    - 266
     - 285
+    - 304
     - 323
+    - 342
     - 361
+    - 380
     - 399
     - 418
+    - 437
     - 456
     - 475
+    - 494
     - 513
     - 532
+    - 551
     - 570
     - 589
     - 608
+    - 627
     - 646
     - 665
+    - 684
     - 703
+    - 722
     - 741
     - 760
+    - 779
+    - 798
     - 817
-    - 855
-    - 893
-    - 912
-    - 950
-    - 988
-    - 1007
-    - 1083
-    - 1121
-    - 1159
-    - 1178
-    - 1197
-    - 1216
-    - 1235
-    - 1254
-    - 1273
-    - 1292
-    - 1311
+    - 836
     codeViewRect:
       serializedVersion: 2
       x: 36
       y: 0
-      width: 330
-      height: 865
+      width: 969
+      height: 880
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
@@ -1147,9 +1154,9 @@ MonoBehaviour:
     m_Tooltip: in Brennan Hatton/Babel/Scripts/
   m_Pos:
     serializedVersion: 2
-    x: 826
+    x: 909
     y: 73
-    width: 1093
+    width: 1010
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1163,16 +1170,16 @@ MonoBehaviour:
     scrollPositionOffset: 0
     searchString: 
     caretPosition:
-      virtualColumn: 12
-      column: 12
-      characterIndex: 3
-      line: 23
+      virtualColumn: 26
+      column: 26
+      characterIndex: 14
+      line: 30
     _selectionStartPosition:
-      virtualColumn: 38
-      column: 38
-      characterIndex: 29
-      line: 23
-    hasSelection: 1
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
     hiddenLinesStart: 
     hiddenLinesCount: 
     lineNumbersOffset: 0
@@ -1220,7 +1227,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 36
       y: 0
-      width: 1052
+      width: 969
       height: 880
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
@@ -1245,9 +1252,9 @@ MonoBehaviour:
     m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
   m_Pos:
     serializedVersion: 2
-    x: 1056
+    x: 574
     y: 73
-    width: 863
+    width: 1345
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1256,8 +1263,8 @@ MonoBehaviour:
   targetAsset: {fileID: 11500000, guid: 189a46241e6bd8a41b05f379e7383ad1, type: 3}
   targetAssetGuid: 189a46241e6bd8a41b05f379e7383ad1
   textEditor:
-    scrollPosition: {x: 0, y: 473}
-    scrollPositionLine: 24
+    scrollPosition: {x: 0, y: 435}
+    scrollPositionLine: 22
     scrollPositionOffset: 17
     searchString: 
     caretPosition:
@@ -1302,6 +1309,7 @@ MonoBehaviour:
     - 475
     - 494
     - 513
+    - 532
     - 551
     - 570
     - 589
@@ -1327,10 +1335,12 @@ MonoBehaviour:
     - 969
     - 988
     - 1007
-    - 1045
+    - 1026
     - 1064
+    - 1083
     - 1102
     - 1121
+    - 1140
     - 1159
     - 1178
     - 1197
@@ -1340,14 +1350,11 @@ MonoBehaviour:
     - 1273
     - 1292
     - 1311
-    - 1330
-    - 1349
-    - 1368
     codeViewRect:
       serializedVersion: 2
       x: 36
-      y: 473
-      width: 807
+      y: 435
+      width: 1289
       height: 865
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
@@ -1372,9 +1379,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1097
+    x: 1072
     y: 73
-    width: 822
+    width: 847
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1468,120 +1475,12 @@ MonoBehaviour:
       serializedVersion: 2
       x: 36
       y: 207
-      width: 766
+      width: 791
       height: 865
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
 --- !u!114 &23
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: BabelBook.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Babel/Scripts/
-  m_Pos:
-    serializedVersion: 2
-    x: 1097
-    y: 73
-    width: 822
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 9df9a73b788979a4fa806f78af7cb899, type: 3}
-  targetAssetGuid: 9df9a73b788979a4fa806f78af7cb899
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 32
-      column: 32
-      characterIndex: 3
-      line: 25
-    _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 19
-    - 38
-    - 57
-    - 76
-    - 95
-    - 114
-    - 133
-    - 152
-    - 171
-    - 190
-    - 209
-    - 228
-    - 247
-    - 266
-    - 285
-    - 304
-    - 323
-    - 342
-    - 361
-    - 380
-    - 399
-    - 418
-    - 437
-    - 456
-    - 475
-    - 494
-    - 513
-    - 532
-    - 551
-    - 570
-    - 589
-    - 608
-    - 627
-    - 646
-    - 665
-    - 684
-    - 703
-    - 722
-    - 741
-    - 760
-    - 779
-    - 798
-    - 817
-    - 836
-    - 855
-    - 874
-    - 893
-    - 912
-    - 931
-    codeViewRect:
-      serializedVersion: 2
-      x: 36
-      y: 0
-      width: 766
-      height: 865
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1666,7 +1565,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &25
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1797,7 +1696,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &26
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1877,6 +1776,80 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
+--- !u!114 &26
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: TransformFunctions.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1217
+    y: 73
+    width: 702
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: f2614387c3812234485214e9e4730d4d, type: 3}
+  targetAssetGuid: f2614387c3812234485214e9e4730d4d
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 33
+      column: 33
+      characterIndex: 33
+      line: 4
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 19
+    - 38
+    - 57
+    - 76
+    - 95
+    - 114
+    - 133
+    - 152
+    - 171
+    - 190
+    - 209
+    - 228
+    - 247
+    - 266
+    - 285
+    codeViewRect:
+      serializedVersion: 2
+      x: 36
+      y: 0
+      width: 661
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
 --- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 61
@@ -1892,36 +1865,460 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Populator.cs
+    m_Text: TrainPropParentManager.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Brennan Hatton/Babel/
+    m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1210
+    x: 1072
     y: 73
-    width: 709
+    width: 847
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 82ea8a9df46f39c4c9f84b4200d6d5cb, type: 3}
-  targetAssetGuid: 82ea8a9df46f39c4c9f84b4200d6d5cb
+  targetAsset: {fileID: 11500000, guid: 9e7bd79e2cf65b0418dec0ae5dc2c761, type: 3}
+  targetAssetGuid: 9e7bd79e2cf65b0418dec0ae5dc2c761
   textEditor:
-    scrollPosition: {x: 0, y: 399}
-    scrollPositionLine: 21
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
     scrollPositionOffset: 0
     searchString: 
     caretPosition:
+      virtualColumn: 16
+      column: 16
+      characterIndex: 4
+      line: 15
+    _selectionStartPosition:
       virtualColumn: 0
       column: 0
       characterIndex: 0
-      line: 5
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 19
+    - 38
+    - 57
+    - 76
+    - 95
+    - 114
+    - 133
+    - 152
+    - 171
+    - 190
+    - 209
+    - 228
+    - 247
+    - 266
+    - 285
+    - 304
+    - 323
+    - 342
+    - 361
+    - 380
+    - 399
+    - 418
+    - 437
+    - 456
+    codeViewRect:
+      serializedVersion: 2
+      x: 36
+      y: 0
+      width: 806
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &28
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: LoadTextMessage.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1072
+    y: 73
+    width: 847
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 1a0832586779640498b8d9c1b8cfd9da, type: 3}
+  targetAssetGuid: 1a0832586779640498b8d9c1b8cfd9da
+  textEditor:
+    scrollPosition: {x: 0, y: 93}
+    scrollPositionLine: 4
+    scrollPositionOffset: 17
+    searchString: startRandomFrequency
+    caretPosition:
+      virtualColumn: 32
+      column: 32
+      characterIndex: 26
+      line: 49
     _selectionStartPosition:
-      virtualColumn: 38
-      column: 38
-      characterIndex: 38
-      line: 5
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 19
+    - 38
+    - 57
+    - 76
+    - 95
+    - 114
+    - 133
+    - 152
+    - 171
+    - 190
+    - 209
+    - 228
+    - 247
+    - 266
+    - 285
+    - 304
+    - 323
+    - 342
+    - 361
+    - 380
+    - 399
+    - 418
+    - 437
+    - 456
+    - 475
+    - 494
+    - 513
+    - 532
+    - 551
+    - 570
+    - 589
+    - 608
+    - 627
+    - 646
+    - 665
+    - 684
+    - 703
+    - 722
+    - 741
+    - 760
+    - 779
+    - 798
+    - 817
+    - 836
+    - 855
+    - 874
+    - 893
+    - 912
+    - 931
+    - 950
+    - 969
+    - 988
+    - 1007
+    codeViewRect:
+      serializedVersion: 2
+      x: 36
+      y: 93
+      width: 791
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &29
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BabelPage.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 1547
+    y: 73
+    width: 372
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 08b2e4093aa2d8c4ea27fe2ff64a5208, type: 3}
+  targetAssetGuid: 08b2e4093aa2d8c4ea27fe2ff64a5208
+  textEditor:
+    scrollPosition: {x: 0, y: 796}
+    scrollPositionLine: 28
+    scrollPositionOffset: 36
+    searchString: 
+    caretPosition:
+      virtualColumn: 12
+      column: 12
+      characterIndex: 3
+      line: 52
+    _selectionStartPosition:
+      virtualColumn: 33
+      column: 33
+      characterIndex: 33
+      line: 52
+    hasSelection: 1
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 19
+    - 57
+    - 76
+    - 95
+    - 114
+    - 133
+    - 171
+    - 190
+    - 228
+    - 247
+    - 285
+    - 304
+    - 342
+    - 361
+    - 399
+    - 418
+    - 456
+    - 475
+    - 513
+    - 551
+    - 589
+    - 627
+    - 646
+    - 665
+    - 684
+    - 722
+    - 741
+    - 760
+    - 798
+    - 817
+    - 836
+    - 855
+    - 874
+    - 893
+    - 931
+    - 950
+    - 988
+    - 1026
+    - 1064
+    - 1102
+    - 1121
+    - 1159
+    - 1178
+    - 1197
+    - 1235
+    - 1254
+    - 1273
+    - 1292
+    - 1311
+    - 1349
+    - 1368
+    - 1406
+    - 1444
+    - 1482
+    - 1501
+    - 1520
+    - 1558
+    - 1577
+    - 1615
+    - 1634
+    - 1653
+    - 1672
+    codeViewRect:
+      serializedVersion: 2
+      x: 36
+      y: 796
+      width: 316
+      height: 865
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &30
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BookmarkManager.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 1547
+    y: 73
+    width: 372
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: bff311504c8ea13478725eba86ed2df2, type: 3}
+  targetAssetGuid: bff311504c8ea13478725eba86ed2df2
+  textEditor:
+    scrollPosition: {x: 0, y: 36}
+    scrollPositionLine: 1
+    scrollPositionOffset: 17
+    searchString: 
+    caretPosition:
+      virtualColumn: 10
+      column: 10
+      characterIndex: 3
+      line: 20
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 19
+    - 57
+    - 76
+    - 95
+    - 133
+    - 152
+    - 171
+    - 209
+    - 228
+    - 266
+    - 304
+    - 361
+    - 380
+    - 437
+    - 456
+    - 494
+    - 513
+    - 532
+    - 589
+    - 608
+    - 703
+    - 741
+    - 760
+    - 817
+    - 855
+    - 874
+    - 950
+    - 988
+    - 1007
+    - 1026
+    - 1083
+    - 1102
+    - 1159
+    - 1178
+    - 1216
+    - 1235
+    - 1254
+    - 1330
+    - 1406
+    - 1444
+    - 1482
+    - 1520
+    - 1539
+    - 1558
+    - 1577
+    - 1596
+    - 1615
+    - 1634
+    - 1653
+    codeViewRect:
+      serializedVersion: 2
+      x: 36
+      y: 36
+      width: 316
+      height: 865
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &31
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: TrainCartManager.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/Train Carts/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 853
+    y: 73
+    width: 1066
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: deea76b685881bb45a7ec1a24a2c6d8f, type: 3}
+  targetAssetGuid: deea76b685881bb45a7ec1a24a2c6d8f
+  textEditor:
+    scrollPosition: {x: 0, y: 1442}
+    scrollPositionLine: 75
+    scrollPositionOffset: 17
+    searchString: 
+    caretPosition:
+      virtualColumn: 12
+      column: 12
+      characterIndex: 3
+      line: 111
+    _selectionStartPosition:
+      virtualColumn: 55
+      column: 55
+      characterIndex: 46
+      line: 111
     hasSelection: 1
     hiddenLinesStart: 
     hiddenLinesCount: 
@@ -1975,13 +2372,17 @@ MonoBehaviour:
     - 874
     - 893
     - 912
+    - 931
     - 950
+    - 969
     - 988
     - 1007
     - 1026
     - 1045
     - 1064
     - 1083
+    - 1102
+    - 1121
     - 1140
     - 1159
     - 1178
@@ -1997,12 +2398,354 @@ MonoBehaviour:
     - 1368
     - 1387
     - 1406
+    - 1425
+    - 1444
+    - 1463
+    - 1482
+    - 1501
+    - 1520
+    - 1539
+    - 1558
+    - 1577
+    - 1596
+    - 1615
+    - 1634
+    - 1672
+    - 1691
+    - 1710
+    - 1729
+    - 1748
+    - 1767
+    - 1786
+    - 1805
+    - 1824
+    - 1843
+    - 1862
+    - 1881
+    - 1900
+    - 1919
+    - 1938
+    - 1957
+    - 1976
+    - 1995
+    - 2014
+    - 2033
+    - 2052
+    - 2071
+    - 2090
+    - 2109
+    - 2128
+    - 2147
+    - 2166
+    - 2185
+    - 2204
+    - 2223
+    - 2242
+    - 2261
+    - 2280
+    - 2299
+    - 2318
+    codeViewRect:
+      serializedVersion: 2
+      x: 46
+      y: 1442
+      width: 1000
+      height: 865
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &32
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: BabelTeleporter.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 843
+    y: 73
+    width: 1076
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 950679ee521ae8848b2b6c833869ea44, type: 3}
+  targetAssetGuid: 950679ee521ae8848b2b6c833869ea44
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 69
+      column: 69
+      characterIndex: 60
+      line: 22
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 19
+    - 38
+    - 57
+    - 76
+    - 95
+    - 114
+    - 133
+    - 152
+    - 171
+    - 190
+    - 209
+    - 228
+    - 247
+    - 266
+    - 285
+    - 304
+    - 323
+    - 342
+    - 361
+    - 380
+    - 399
+    - 418
+    - 456
+    - 475
+    - 494
+    - 513
+    - 532
     codeViewRect:
       serializedVersion: 2
       x: 36
-      y: 399
-      width: 653
-      height: 865
+      y: 0
+      width: 1035
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &33
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: EventAfterTime.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Scripts/Utilities/
+  m_Pos:
+    serializedVersion: 2
+    x: 853
+    y: 73
+    width: 1066
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 66563b6a4e0c2b74b90057612789d8a4, type: 3}
+  targetAssetGuid: 66563b6a4e0c2b74b90057612789d8a4
+  textEditor:
+    scrollPosition: {x: 0, y: 473}
+    scrollPositionLine: 24
+    scrollPositionOffset: 17
+    searchString: 
+    caretPosition:
+      virtualColumn: 12
+      column: 12
+      characterIndex: 3
+      line: 49
+    _selectionStartPosition:
+      virtualColumn: 23
+      column: 23
+      characterIndex: 23
+      line: 49
+    hasSelection: 1
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 19
+    - 38
+    - 57
+    - 76
+    - 95
+    - 114
+    - 133
+    - 152
+    - 171
+    - 190
+    - 209
+    - 228
+    - 247
+    - 266
+    - 285
+    - 304
+    - 323
+    - 342
+    - 361
+    - 380
+    - 399
+    - 418
+    - 437
+    - 456
+    - 475
+    - 494
+    - 513
+    - 532
+    - 551
+    - 570
+    - 589
+    - 608
+    - 627
+    - 646
+    - 665
+    - 684
+    - 703
+    - 722
+    - 741
+    - 760
+    - 779
+    - 798
+    - 817
+    - 836
+    - 855
+    - 874
+    - 893
+    - 912
+    - 931
+    - 950
+    - 969
+    - 988
+    - 1007
+    - 1026
+    - 1045
+    - 1064
+    - 1083
+    - 1102
+    - 1121
+    - 1140
+    - 1159
+    - 1178
+    - 1197
+    - 1216
+    - 1235
+    - 1254
+    - 1273
+    - 1292
+    - 1311
+    - 1330
+    - 1349
+    codeViewRect:
+      serializedVersion: 2
+      x: 36
+      y: 473
+      width: 1010
+      height: 880
+    tokenTooltip: {fileID: 0}
+    argumentsHint: {fileID: 0}
+    collapsedRegions: []
+--- !u!114 &34
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Bookmark.cs
+    m_Image: {fileID: 0}
+    m_Tooltip: in Brennan Hatton/Babel/Scripts/
+  m_Pos:
+    serializedVersion: 2
+    x: 684
+    y: 73
+    width: 1235
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  targetAsset: {fileID: 11500000, guid: 800fd434454a98e459a214f00f08a43b, type: 3}
+  targetAssetGuid: 800fd434454a98e459a214f00f08a43b
+  textEditor:
+    scrollPosition: {x: 0, y: 0}
+    scrollPositionLine: 0
+    scrollPositionOffset: 0
+    searchString: 
+    caretPosition:
+      virtualColumn: 56
+      column: 56
+      characterIndex: 50
+      line: 11
+    _selectionStartPosition:
+      virtualColumn: 0
+      column: 0
+      characterIndex: 0
+      line: 0
+    hasSelection: 0
+    hiddenLinesStart: 
+    hiddenLinesCount: 
+    lineNumbersOffset: 0
+    yLineOffsets:
+    - 19
+    - 38
+    - 57
+    - 76
+    - 95
+    - 114
+    - 133
+    - 152
+    - 171
+    - 190
+    - 209
+    - 228
+    - 247
+    - 266
+    - 285
+    - 304
+    - 323
+    - 342
+    - 361
+    - 380
+    codeViewRect:
+      serializedVersion: 2
+      x: 36
+      y: 0
+      width: 1194
+      height: 880
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []

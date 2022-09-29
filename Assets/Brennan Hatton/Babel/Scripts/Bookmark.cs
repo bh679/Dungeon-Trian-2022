@@ -7,6 +7,13 @@ namespace BrennanHatton.LibraryOfBabel
 	
 	public class Bookmark : MonoBehaviour
 	{
-		public BookPosition position;
+		BookPosition position;
+		
+		public void SetBookmark(BookPosition newPosition)
+		{
+			position = new BookPosition(newPosition);
+			
+			
+		}
 	}
 }

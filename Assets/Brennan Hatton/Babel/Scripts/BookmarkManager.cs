@@ -37,7 +37,9 @@ namespace BrennanHatton.LibraryOfBabel
 			
 			BabelBook book = chamber.bookcases[bookPos.wall-1].shelves[bookPos.shelf-1].books[bookPos.volume-1];
 			bookmarks.Add(Instantiate(bookmarkPrefab, book.transform.position, book.transform.rotation));
-			bookmarks[bookmarks.Count-1].position = bookPos;
+			book.data.page = bookPos.page;
+			book.page.position.page = bookPos.page;
+			bookmarks[bookmarks.Count-1].SetBookmark(bookPos);
 			
 			yield return null;
 		}
