@@ -1,12 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class PopulateShelf : MonoBehaviour
+public class Populator : MonoBehaviour
 {
+	public bool runOnStart = true;
 	public Transform[] bookspots;
 	public GameObject[] books;
 	public GameObject bookPrefab;
+	public float yRotation = 0;
+	public bool checkSubPopulator = false;
+	
+	public bool finished = false;
 	
 	
 	void Reset()
@@ -17,7 +23,18 @@ public class PopulateShelf : MonoBehaviour
 			bookspots[i] = this.transform.GetChild(i);
 	}
 	
-	IEnumerator MakeDaBookz()
+	void Start()
+	{
+		if(runOnStart)
+			MakeDaBookz();
+	}
+	
+	public void MakeDaBookz()
+	{
+		StartCoroutine(_MakeDaBookz());
+	}
+	
+	IEnumerator _MakeDaBookz()
 	{
 		books = new GameObject[bookspots.Length];
 		for(int i = 0; i < bookspots.Length; i++)
@@ -30,21 +47,23 @@ public class PopulateShelf : MonoBehaviour
 			}
 			
 			books[i] = Instantiate(bookPrefab, bookspots[i].position, bookspots[i].rotation, bookspots[i]);
-			books[i].transform.RotateAroundLocal(Vector3.up,200*Mathf.Deg2Rad);
+			books[i].transform.RotateAroundLocal(Vector3.up,yRotation*Mathf.Deg2Rad);
+			
+			
+			
+			if(checkSubPopulator)
+			{
+				Populator subPop = books[i].GetComponentInChildren<Populator>();//might need to turn this into an array in the future
+				
+				if(subPop != null)
+				{
+					while(!subPop.finished)
+						yield return new WaitForEndOfFrame();
+				}
+			}
 		}
 		
+		finished = true;
 		yield return null;
 	}
-	
-    // Start is called before the first frame update
-    void Start()
-    {
-	    StartCoroutine(MakeDaBookz());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

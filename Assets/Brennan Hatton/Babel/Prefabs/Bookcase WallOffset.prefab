@@ -42,7 +42,7 @@ PrefabInstance:
     - target: {fileID: 3542791741605062091, guid: c9971a6f7bd2e35489fa561c983205f5,
         type: 3}
       propertyPath: m_Name
-      value: Book Cabinate
+      value: Book Bookcase
       objectReference: {fileID: 0}
     - target: {fileID: 4283515760475500984, guid: c9971a6f7bd2e35489fa561c983205f5,
         type: 3}

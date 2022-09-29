@@ -7,24 +7,38 @@ namespace BrennanHatton.LibraryOfBabel
 	public class BabelBookcase : MonoBehaviour
 	{
 		public BabelShelf[] shelves;
-		
 		public BookPosition position;
-		
-		void Reset()
-		{
-			shelves = this.GetComponentsInChildren<BabelShelf>();
-		}
+		public bool setup = false;
+		public Populator populator;
+		public int numberOfShelves = 5;
 		
 		public void Setup(BookPosition newPosition)
 		{
 			position = new BookPosition(newPosition);
 			
-			for(int i = 0; i < shelves.Length; i++)
+			StartCoroutine(_setup(newPosition));
+		}
+		
+		IEnumerator _setup(BookPosition newPosition)
+		{
+			//while(!populator.finished)
+			//	yield return new WaitForEndOfFrame();
+			
+			//shelves = populator.GetComponentsInChildren<BabelShelf>();
+			shelves = new BabelShelf[numberOfShelves];
+			for(int i = 0; i < numberOfShelves; i++)
 			{
+				while(populator.books[i] == null)
+					yield return new WaitForEndOfFrame();
+				
+				shelves[i] = populator.books[i].GetComponentInChildren<BabelShelf>();
 				newPosition.shelf = i+1;
 				shelves[i].Setup(newPosition);
 			}
 			
+			setup = true;
+			
+			yield return null;
 		}
 	}
 }
