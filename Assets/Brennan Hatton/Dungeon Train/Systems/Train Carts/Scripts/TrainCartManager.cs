@@ -22,6 +22,7 @@ namespace BrennanHatton.TrainCarts
 		
 		public BigInteger roomId;
 		public int seedBase = 35;
+		public int cartsSharingSeed = 2;
 		
 	    // Start is called before the first frame update
 	    void Start()
@@ -54,6 +55,7 @@ namespace BrennanHatton.TrainCarts
 		    }
 	    }
 	    
+		int iCarts = 0;
 		void AddCartToEnd()
 		{
 			bool first = (carts.Count == 0);
@@ -61,8 +63,12 @@ namespace BrennanHatton.TrainCarts
 			TrainCart newCart;
 			
 			newCart = generator.CreateCart("0"+MyBigIntegerExtensions.ToRadixString(roomId,seedBase));
-			roomId++;
-			
+			iCarts++;
+			if(iCarts == cartsSharingSeed)
+			{
+				roomId++;
+				iCarts = 0;
+			}
 			//if(first)
 			//	newCart - make itclose door
 		    	

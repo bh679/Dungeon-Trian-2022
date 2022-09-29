@@ -14,7 +14,7 @@ namespace BrennanHatton.LibraryOfBabel
 		
 		public void Setup(BookPosition newPosition)
 		{
-			position = newPosition;
+			position = new BookPosition(newPosition);
 			
 			if(position.page == 0)
 				position.page = 1;
