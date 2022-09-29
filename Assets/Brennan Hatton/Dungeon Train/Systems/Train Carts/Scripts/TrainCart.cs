@@ -61,6 +61,7 @@ namespace BrennanHatton.TrainCarts
 		{
 			playerInside = true;
 			trainCartStructure.SetPlayerInside();
+			InstantiateList.Instance.Clear();
 		}
 	}
 

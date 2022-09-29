@@ -33,6 +33,14 @@ namespace BrennanHatton.LibraryOfBabel
 			{
 				if(trainCartStructure.walls[i].done)
 				{
+					int id = InstantiateList.Instance.GetLine();
+					
+					while(InstantiateList.Instance.IsMyTurn(id) == false)
+					{
+						yield return new WaitForEndOfFrame();
+					}
+					
+					
 					AddToWall(trainCartStructure.walls[i].position);
 					yield return new WaitForEndOfFrame();
 					i++;
