@@ -24,6 +24,21 @@ namespace BrennanHatton.TrainCarts
 		public int seedBase = 35;
 		public int cartsSharingSeed = 2;
 		
+		public static TrainCartManager Instance { get; private set; }
+		private void Awake() 
+		{ 
+			// If there is an instance, and it's not me, delete myself.
+    
+			if (Instance != null && Instance != this) 
+			{ 
+				Destroy(this); 
+			} 
+			else 
+			{ 
+				Instance = this; 
+			} 
+		}
+		
 	    // Start is called before the first frame update
 	    void Start()
 		{
