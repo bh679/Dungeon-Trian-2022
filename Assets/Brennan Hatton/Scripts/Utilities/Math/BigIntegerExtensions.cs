@@ -25,7 +25,7 @@ namespace BrennanHatton.Math
 			for (; value > 0; value /= radix) {
 				int d = (int)(value % radix);
 	
-				sb += ((char)(d < 10 ? '0' + d : 'A' - 10 + d));
+				sb += ((char)(d < 10 ? '0' + d : 'a' - 10 + d));
 			}
 	
 			string retVal = "";
@@ -53,7 +53,7 @@ namespace BrennanHatton.Math
 			{
 				int CharIdx = digits.IndexOf(value[i]);
 				if ((CharIdx >= radix) || (CharIdx < 0))
-					throw new ArgumentOutOfRangeException("Value", digits[CharIdx], "Invalid character in the input string.");
+					throw new ArgumentOutOfRangeException("Value", digits[CharIdx], "Invalid character in the input string. " + digits[CharIdx]);
 	
 				RetValue = RetValue * radix + CharIdx ;
 			}

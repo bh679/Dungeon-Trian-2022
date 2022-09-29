@@ -15,6 +15,9 @@ namespace BrennanHatton.LibraryOfBabel
 		public void Setup(BookPosition newPosition)
 		{
 			position = newPosition;
+			
+			if(position.page == 0)
+				position.page = 1;
 			//Debug.Log(position.Debug);
 			//Debug.Log(position.page);
 			
@@ -33,7 +36,7 @@ namespace BrennanHatton.LibraryOfBabel
 		{
 			if(forward && position.page < 410)
 				position.page++;
-			else if(position.page > 0)
+			else if(position.page > 1)
 				position.page--;
 			
 			onPageTurn.Invoke();

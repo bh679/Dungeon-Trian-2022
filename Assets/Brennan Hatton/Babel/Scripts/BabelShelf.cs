@@ -12,7 +12,7 @@ namespace BrennanHatton.LibraryOfBabel
 		
 		public void Setup(BookPosition newPosition)//string _chamberId, int _wall, int _shelfId)
 		{
-			position = newPosition;
+			position = new BookPosition(newPosition);
 			books = this.GetComponentsInChildren<BabelBook>();
 			for(int i = 0; i < books.Length; i++)
 			{
