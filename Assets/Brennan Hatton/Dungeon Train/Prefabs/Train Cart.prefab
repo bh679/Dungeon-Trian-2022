@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInside: 0
-  seed: 
+  seed: {fileID: 0}
   theme: {fileID: 0}
   tilesLength: 1.73206
 --- !u!114 &6153461081057801129

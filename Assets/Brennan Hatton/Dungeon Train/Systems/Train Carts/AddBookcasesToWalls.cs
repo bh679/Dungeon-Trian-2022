@@ -10,6 +10,7 @@ namespace BrennanHatton.LibraryOfBabel
 	{
 		
 		public TrainCartStructure trainCartStructure;
+		public TrainCart cart;
 		public GameObject prefabToAdd;
 		public List<GameObject> bookcases = new List<GameObject>();
 		public BabelChamber chamber;
@@ -20,6 +21,7 @@ namespace BrennanHatton.LibraryOfBabel
 	    void Start()
 		{
 			WallsToAdd = new bool[trainCartStructure.walls.Length];
+			cart = trainCartStructure.GetComponentInParent<TrainCart>();
 			
 			StartCoroutine(AddToWallWhenReady());
 	    }
@@ -38,7 +40,7 @@ namespace BrennanHatton.LibraryOfBabel
 				yield return new WaitForEndOfFrame();
 			}
 			
-			chamber.SetupBookShelves();
+			chamber.SetupBookShelves(cart.seed);
 			
 			yield return null;
 		}

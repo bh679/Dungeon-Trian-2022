@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Numerics;
+using BrennanHatton.Math;
 
 namespace BrennanHatton.TrainCarts
 {
@@ -16,7 +18,10 @@ namespace BrennanHatton.TrainCarts
 		
 		float position = 0;
 		
-		int roomId = 0;
+		//int roomId = 0;
+		
+		public BigInteger roomId;
+		public int seedBase = 35;
 		
 	    // Start is called before the first frame update
 	    void Start()
@@ -46,7 +51,7 @@ namespace BrennanHatton.TrainCarts
 				
 			TrainCart newCart;
 			
-			newCart = generator.CreateCart(roomId);
+			newCart = generator.CreateCart(MyBigIntegerExtensions.ToRadixString(roomId,seedBase));
 			roomId++;
 			
 			//if(first)
@@ -58,6 +63,22 @@ namespace BrennanHatton.TrainCarts
 			
 			endCarriage.transform.position = transform.position + transform.forward*position;
 			carts.Add(newCart);
+		}
+		
+		public void TeleportToCart(string seed)
+		{
+			roomId = MyBigIntegerExtensions.Parse(seed, seedBase);
+			
+			for(int i =0 ;i < totalTrainCarts; i++)
+			{
+				DestroyObject(carts[i].gameObject);
+			}
+			
+			for(int i =0 ;i < totalTrainCarts; i++)
+			{
+				AddCartToEnd();
+			}
+			
 		}
 	}
 }

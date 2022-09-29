@@ -39,10 +39,6 @@ namespace BrennanHatton.TrainCarts
 		[Range(0,1)]
 		public float windowChance = 0;
 		
-		//public StructuralElement<CartTitle> title;
-		
-		public CartSeed seed;
-		
 		public float length = 5;
 	
 		public void SetPlayerInside()

@@ -822,8 +822,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2048324614690236527}
   - component: {fileID: 6466554253709357063}
-  - component: {fileID: 4517311488721117016}
-  - component: {fileID: 4488104563672941366}
   m_Layer: 0
   m_Name: Hex Train Strucure
   m_TagString: Untagged
@@ -931,38 +929,7 @@ MonoBehaviour:
     position: {fileID: 2222195018811100577}
     done: 0
   windowChance: 0
-  seed: {fileID: 4517311488721117016}
   length: 7.1
---- !u!114 &4517311488721117016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2213129707347542340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6f7b1dc2da20e941971f2081457ba1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seedBase: 35
-  dividBy2: 1
-  seed: 
---- !u!114 &4488104563672941366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2213129707347542340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1acab07048586d458674e66996189ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seedBase: 35
-  dividBy2: 1
-  seed: 
 --- !u!1 &2277994701781361884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,7 +2128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 793143d1ed0346741a474dd639e3a0bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cartSeed: {fileID: 4517311488721117016}
   bookcases: []
   title: {fileID: 8677056845840991499}
 --- !u!114 &4785473142049535629
@@ -2177,6 +2143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trainCartStructure: {fileID: 6466554253709357063}
+  cart: {fileID: 0}
   prefabToAdd: {fileID: 1895670673036404848, guid: 134dc29b64d07b04d862ac7c672b373a,
     type: 3}
   bookcases: []
