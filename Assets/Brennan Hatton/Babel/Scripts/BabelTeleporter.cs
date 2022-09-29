@@ -20,6 +20,7 @@ namespace BrennanHatton.LibraryOfBabel
 		public void Teleport(BookPosition position)
 		{
 			TrainCartManager.Instance.TeleportToCart(position.room);
+			TrainCartManager.Instance.carts[0].GetComponentInChildren<BookmarkManager>().HighlightBook(position);
 		}
 	}
 

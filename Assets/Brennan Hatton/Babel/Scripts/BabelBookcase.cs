@@ -16,7 +16,7 @@ namespace BrennanHatton.LibraryOfBabel
 		{
 			position = new BookPosition(newPosition);
 			
-			StartCoroutine(_setup(newPosition));
+			StartCoroutine(_setup(position));
 		}
 		
 		IEnumerator _setup(BookPosition newPosition)

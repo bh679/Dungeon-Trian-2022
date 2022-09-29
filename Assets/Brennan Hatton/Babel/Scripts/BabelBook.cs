@@ -40,9 +40,9 @@ namespace BrennanHatton.LibraryOfBabel
 		public void Setup(BookPosition newPosition)
 		{
 			data = new BookData(newPosition);
-			page.Setup(newPosition);
+			page.Setup((BookPosition)data);
 			if(title != null)
-				title.GetBookTitle(newPosition);
+				title.GetBookTitle((BookPosition)data	);
 			setup = true;
 		}
 	}

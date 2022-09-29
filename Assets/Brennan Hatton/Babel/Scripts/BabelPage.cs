@@ -10,7 +10,7 @@ namespace BrennanHatton.LibraryOfBabel
 	{
 		public BookPosition position;
 		public TMP_Text text;
-		public UnityEvent onPageTurn;
+		public UnityEvent onPageTurn, onPageLoad;
 		
 		public void Setup(BookPosition newPosition)
 		{
@@ -50,7 +50,8 @@ namespace BrennanHatton.LibraryOfBabel
 		protected override void OnPage (string page)
 		{
 			Debug.Log ("On Page:" + page);
-			text.text = page.Remove(0,61);//removes "<div class = "bookrealign" id = "real"><PRE id = "textblock">"
+			text.text = page.Remove(0,61);
+			onPageLoad.Invoke();
 		}
 	
 		protected override void OnTitle (string title)

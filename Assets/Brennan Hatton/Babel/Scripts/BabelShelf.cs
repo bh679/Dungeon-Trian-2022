@@ -8,7 +8,7 @@ namespace BrennanHatton.LibraryOfBabel
 	public class BabelShelf : MonoBehaviour
 	{
 		public BabelBook[] books;
-		BookPosition position;
+		public BookPosition position;
 		public bool setup = false;
 		public Populator populator;
 		
@@ -16,7 +16,7 @@ namespace BrennanHatton.LibraryOfBabel
 		{
 			position = new BookPosition(newPosition);
 			
-			StartCoroutine(_setup(newPosition));
+			StartCoroutine(_setup(position));
 		}
 		
 		IEnumerator _setup(BookPosition newPosition)

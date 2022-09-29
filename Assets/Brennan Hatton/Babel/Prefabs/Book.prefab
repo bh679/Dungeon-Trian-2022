@@ -743,6 +743,7 @@ GameObject:
   - component: {fileID: 8378982861883402706}
   - component: {fileID: 6619722997628343414}
   - component: {fileID: 8480446689603271831}
+  - component: {fileID: 5089186309050946323}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -867,6 +868,73 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onPageLoad:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5089186309050946323}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5089186309050946323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022528555805805437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a0832586779640498b8d9c1b8cfd9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingMessages:
+  - Loading
+  - Indexing
+  - Re-indexing
+  - Looking up
+  - Looking down
+  - Downloading
+  - Searching Library
+  - Exploring
+  - Digging deeper
+  - Where is this dam text?
+  - Finding Shelf
+  - Finding Page
+  - Finding Library
+  - Finding Book
+  - Taking a quick break
+  - Testing the internet
+  - Grabbing a coffee
+  - Saying hi to mum
+  - Babysitting a small dog for a friend of a friend, who I only met once, but they
+    left a really good impression and I hope we can become good friends after this
+    becuase they are very funny
+  - Double checking
+  - Restoring faith in humanity
+  - Questioning everything
+  - Hello
+  - Dont worry, Im getting it
+  - This page will be populated soon
+  - Just relax whileI find it
+  - It could be anywhere
+  - Im checking the internet
+  - Im checking the library
+  - It should be here in the library somewhere
+  - The page you are looking for is being loaded
+  - hmmmm....
+  - This is not the text you are looking for
+  text: {fileID: 4614488977300474960}
+  startDelay: 2
+  startRandomFrequency: 5
+  maxLines: 40
 --- !u!1 &6578874356954152945
 GameObject:
   m_ObjectHideFlags: 0

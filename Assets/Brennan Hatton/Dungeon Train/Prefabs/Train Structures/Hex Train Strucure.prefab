@@ -1572,6 +1572,7 @@ GameObject:
   - component: {fileID: 8991563093190766723}
   - component: {fileID: 3637334293128448483}
   - component: {fileID: 4785473142049535629}
+  - component: {fileID: 6728916255490343327}
   m_Layer: 0
   m_Name: Babel Chamber
   m_TagString: Untagged
@@ -1627,6 +1628,22 @@ MonoBehaviour:
     type: 3}
   bookcases: []
   chamber: {fileID: 3637334293128448483}
+--- !u!114 &6728916255490343327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511630258327026084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff311504c8ea13478725eba86ed2df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chamber: {fileID: 3637334293128448483}
+  bookmarkPrefab: {fileID: 3542252116428172487, guid: fe61e885c20db7c4db9c72fffb7ed21a,
+    type: 3}
+  bookmarks: []
 --- !u!1 &6560802214087186091
 GameObject:
   m_ObjectHideFlags: 0

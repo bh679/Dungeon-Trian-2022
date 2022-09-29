@@ -12,12 +12,13 @@ namespace BrennanHatton.TrainCarts
 		{
 			if(parentWhenDropped == null)
 			{
-				TrainCart cart = GetComponentInParent<TrainCart>();
+				TrainCart cart = TrainCartManager.Instance.carts[1];
 				
 				parentWhenDropped = cart.transform;
-				
-				this.transform.SetParent(parentWhenDropped);
 			}
+			
+			this.transform.SetParent(parentWhenDropped);
+			
 		}
 	}
 }
