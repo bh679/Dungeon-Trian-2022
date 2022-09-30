@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 #if PUNVOICE
-using Photon.Voice.Unity;
+using Photon.Voice.PUN;
 #endif
 
 namespace BrennanHatton.Networking.PUN.Voice
 {
-
+	
+	
 	public class NetworkedPlayerSpeaking : MonoBehaviour
 	{
 		public Image recorderImage;
@@ -29,7 +30,6 @@ namespace BrennanHatton.Networking.PUN.Voice
 		    if(recorderImage.enabled)
 		    	recorderImage.transform.localScale = Vector3.one * Random.Range(1,1.2f);
 		}
-		using Photon.Voice.Unity;
 #endif
 	}
 
