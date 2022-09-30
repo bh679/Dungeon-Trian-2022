@@ -63,6 +63,8 @@ MonoBehaviour:
   - {fileID: 123934, guid: c6cb56b5c70f4f14ebf96689fda29f2c, type: 3}
   roofs:
   - {fileID: 5130698840645821400, guid: 22b3ec0fda9741b41990ad7eebccee30, type: 3}
+  - {fileID: 5515780101155764773, guid: a70f8b0c0d17cc546a3f723295fb7e38, type: 3}
+  - {fileID: 5515780101155764773, guid: a70f8b0c0d17cc546a3f723295fb7e38, type: 3}
   windows:
   - {fileID: 437711598154668189}
   - {fileID: 160924, guid: 78466d0b55e39444a95c774fd1461854, type: 3}

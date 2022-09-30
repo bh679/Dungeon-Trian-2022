@@ -5212,6 +5212,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1654835181286922616, guid: 2af1d2045149fe743b81bc4d1a6f8406,
+        type: 3}
+      propertyPath: MinElevation
+      value: -20
+      objectReference: {fileID: 0}
     - target: {fileID: 1743046181540392321, guid: 2af1d2045149fe743b81bc4d1a6f8406,
         type: 3}
       propertyPath: m_Layer
@@ -6053,6 +6058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPlayersPerRoom: 20
+  hexroomsPerNetroom: 100
 --- !u!4 &1522322818
 Transform:
   m_ObjectHideFlags: 0

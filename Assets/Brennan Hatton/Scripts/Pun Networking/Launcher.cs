@@ -94,13 +94,11 @@ namespace BrennanHatton.Networking.PUN
 			{
 				
 				string newName = MyBigIntegerExtensions.ToRadixString(seedInt, seedBase);
-				Debug.Log("New Room Id");
 				roomName = newName;
 				roomNameInt = seedInt;
 				
 				if(PhotonNetwork.InRoom)
 				{
-					Debug.Log("Changing Rooms");
 					PhotonNetwork.LeaveRoom();
 				}
 				else
