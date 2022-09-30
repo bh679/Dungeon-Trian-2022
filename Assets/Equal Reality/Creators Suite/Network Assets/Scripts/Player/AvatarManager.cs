@@ -13,15 +13,8 @@ public class AvatarManager : MonoBehaviour
 	public setMaterial materialSetter;
 	int activeId = 0;
 	
-	/*public static List<AvatarManager> avatars = new List<AvatarManager>();
-	
-	void Awake(){
-		avatars.Add(this);
-	}*/
-	
 	public void SetAvatar()
 	{
-		//Debug.Log(photonView.Owner.CustomProperties + " " + (photonView.Owner.CustomProperties.ContainsKey(PlayerCustomProperties.AvatarId)).ToString());
 		int previousId = activeId;
 		
 		if(photonView.Owner.CustomProperties.ContainsKey(PlayerCustomProperties.AvatarId))
@@ -34,7 +27,7 @@ public class AvatarManager : MonoBehaviour
 	void EnableFromSeed()
 	{
 		int seed = Random.seed;
-		//Debug.LogError(activeId);
+		
 		Random.seed = activeId;
 		eyes.enableRandom();
 		mouth.enableRandom();
@@ -66,7 +59,7 @@ public class AvatarManager : MonoBehaviour
 			
 			for(int i =0 ; i < children.Length; i++)
 			{
-				children[i].gameObject.layer = LayerMask.NameToLayer("Player");
+				children[i].gameObject.layer = LayerMask.NameToLayer("PlayerInvisible");
 			}
 		}
 	}
