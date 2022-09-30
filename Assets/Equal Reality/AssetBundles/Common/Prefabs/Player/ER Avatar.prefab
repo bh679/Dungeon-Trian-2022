@@ -1194,8 +1194,6 @@ MonoBehaviour:
   - {fileID: 5776503634152126796}
   - {fileID: 3043386793320545560}
   - {fileID: 563260725003412844}
-  - {fileID: 1711428416734247167}
-  - {fileID: 8042641864642287238}
   - {fileID: 815633328735951611}
   - {fileID: 6362080426517073353}
   - {fileID: 9138904546945797346}
@@ -1211,7 +1209,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: a19b6ef55f7ddb14d89533e22db35d31, type: 2}
   - {fileID: 2100000, guid: 0f7fcfd9114b00a4a94286908de06e02, type: 2}
   - {fileID: 2100000, guid: a0202435504c56740b9ff332aebbb3aa, type: 2}
-  - {fileID: 2100000, guid: eb999626d6058cc44befb7b74eb0f052, type: 2}
   - {fileID: 2100000, guid: 6375f1055973c6148bd76281a9da0375, type: 2}
   - {fileID: 2100000, guid: 00c65e8ea5229c04e9b596885018c4bf, type: 2}
   - {fileID: 2100000, guid: 94a89ebdf8dcec24cb30b72696adb4ce, type: 2}
