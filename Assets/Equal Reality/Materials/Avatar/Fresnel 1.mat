@@ -8,15 +8,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fresnel 1
-  m_Shader: {fileID: -6465566751694194690, guid: c481fcfc5ec4f8740a5ab7b2aa612cfa,
-    type: 3}
-  m_ValidKeywords: []
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords:
+  - _ALPHABLEND_ON
+  - _SPECULARHIGHLIGHTS_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -167,7 +169,7 @@ Material:
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EnableHeightBlend: 0
     - _EnableInstancedPerPixelNormal: 1
     - _EnvironmentReflections: 1
@@ -208,13 +210,13 @@ Material:
     - _SoftParticlesNearFadeDistance: 0
     - _SpecSource: 0
     - _SpecularHighlights: 0
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _Strength: 2.13
     - _Surface: 0
     - _Transition: 1
     - _UVSec: 0
     - _WorkflowMode: 1
-    - _ZWrite: 1
+    - _ZWrite: 0
     - __dirty: 1
     m_Colors:
     - _BaseColor: {r: 0.1764706, g: 0.6039216, b: 1, a: 0.343}
