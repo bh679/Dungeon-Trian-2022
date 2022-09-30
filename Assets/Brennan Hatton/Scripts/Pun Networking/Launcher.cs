@@ -85,10 +85,14 @@ namespace BrennanHatton.Networking.PUN
 		{
 			if(string.Compare(roomName,newName) != 0)
 			{
+				Debug.Log("New Room Id");
 				roomName = newName;
 				
 				if(PhotonNetwork.InRoom)
+				{
+					Debug.Log("Changing Rooms");
 					PhotonNetwork.LeaveRoom();
+				}
 				else
 					PhotonNetwork.JoinRoom(roomName);
 			}

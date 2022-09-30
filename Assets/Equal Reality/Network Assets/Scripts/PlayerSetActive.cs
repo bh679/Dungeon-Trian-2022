@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using ExitGames.Client.Photon;
-using EqualReality.Networking.Events;
+using BrennanHatton.LibraryOfBabel.Networking.Events;
 using EqualReality.Networking;
 
 public class PlayerSetActive : MonoBehaviourPunCallbacks
@@ -92,7 +92,7 @@ public class PlayerSetActive : MonoBehaviourPunCallbacks
 		if(photonView.IsMine)
 		{
 			appId = SceneManager.GetActiveScene().buildIndex;
-			SendEventManager.SendChangeScene(appId, -1, -1, false);
+			//SendEventManager.SendChangeCartEvent(); -- put this back in when you figure out how to send it without the whole cart number
 		}
 		
 		EnableIfInSceneFromProperties();
@@ -115,7 +115,7 @@ public class PlayerSetActive : MonoBehaviourPunCallbacks
 		if(photonView.IsMine)
 		{
 			appId = SceneManager.GetActiveScene().buildIndex;
-			SendEventManager.SendChangeScene(appId, -1, -1, false);
+			//SendEventManager.SendChangeCartEvent(appId, -1, -1, false); -- put this back in when you figure out how to send it without the whole cart number
 		}
 		else
 			EnableIfInSceneFromProperties();
@@ -140,6 +140,7 @@ public class PlayerSetActive : MonoBehaviourPunCallbacks
 		}
 	}
 	
+	//make this check what art they are in
 	public void EnableIfInSceneFromProperties()
 	{
 		if(photonView.Owner == null)
@@ -200,21 +201,16 @@ public class PlayerSetActive : MonoBehaviourPunCallbacks
 	{		
 		
 		byte eventCode = photonEvent.Code;
-		if (eventCode == SendEventManager.ChangeSceneEventCode)
+		if (eventCode == SendEventManager.ChangeCartEventCode)
 		{
 			Debug.Log("eventCode == SendEventManager.ChangeSceneEventCode" + " " + photonView.Owner.NickName);
 			object[] data = (object[])photonEvent.CustomData;
 				
 			int senderId = (int)data[0];
-			int _appId = (int)data[1];
-			/*int sceneId = (int)data[2];
-			int knotId = (int)data[3];
-			bool fromFacilitator = (bool)data[4];
+			string _room = (string)data[1];
 			
-			Debug.Log(_appId + " " + sceneId + " " + knotId + " " + fromFacilitator);*/
-			
-			if(senderId == photonView.Owner.ActorNumber)
-				SetPlayerActive(_appId == SceneManager.GetActiveScene().buildIndex);
+			//if(senderId == photonView.Owner.ActorNumber) - TODO make it check the cart the player is in and turn them on
+				//	SetPlayerActive(_room == SceneManager.GetActiveScene().buildIndex);
 		}
 	}
 	

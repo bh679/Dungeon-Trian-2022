@@ -1,21 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using ExitGames.Client.Photon;
 using Photon.Realtime;
 using Photon.Pun;
 
-namespace EqualReality.Networking.Events
+namespace BrennanHatton.LibraryOfBabel.Networking.Events
 {
 	
-	/*public class ReceiveNameChangeEvent : MonoBehaviour, IOnEventCallback
+	public class RecieveBookReturnEvent : MonoBehaviour, IOnEventCallback
 	{
-		public UnityEvent onReceive; 
 		
-		void Reset()
-		{
-		}
+		//public NetworkPlacerSpawner PlayerManager;
 		
 		private void OnEnable()
 		{
@@ -31,15 +27,16 @@ namespace EqualReality.Networking.Events
 		{
 			byte eventCode = photonEvent.Code;
 			
-			if(eventCode == SendEventManager.BecomeFacilitatorEventCode)
+			if(eventCode == SendEventManager.ReturnBookEventCode)
 			{
 				object[] data = (object[])photonEvent.CustomData;
 				int id = (int)data[0];
+				BookPosition book = new BookPosition((string)data[1],(int)data[2],(int)data[3],(int)data[4],(int)data[5]);
+				Debug.Log("ReceiveEvent SendEventManager.ReturnBookEventCode" + id);
 				
+				BookReturnsManager.Instance.Return(new BookData(book));
 				
-				onReceive.Invoke();
 			}
 		}
-	}*/
-
+	}
 }

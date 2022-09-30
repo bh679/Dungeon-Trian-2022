@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
-using EqualReality.Networking.Events;//the need for this should be removed into a seperate class, that references this class to get what it needs
+using BrennanHatton.LibraryOfBabel.Networking.Events;
 using EqualReality.Networking;
 using BrennanHatton.Utilities;
 

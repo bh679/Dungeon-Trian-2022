@@ -1,30 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using BrennanHatton.LibraryOfBabel.Networking.Events;
 
 namespace BrennanHatton.LibraryOfBabel
 {
-
-	public class ReturnBook : MonoBehaviour
+	public class ReturnBookTMPInput : MonoBehaviour
 	{
-		public bool onTrigger = true;
-		public static bool networked = true;
-		
-		private void OnTriggerEnter(Collider other)
+		public bool networked = true;
+		    
+		public void Return(TMP_Text text)
 		{
-			if(!onTrigger)
-				return;
-			
-			BabelBook book = other.GetComponent<BabelBook>();
-			
-			if(book == null)
-				return;
-			
-			Return(book.data);
-				
-			Destroy(book.gameObject);
+			Return(text.text);
 		}
+		    
+		public void Return(string url)
+		{
+			Return(new BookData(url));
+		}
+		public void Return(BookPosition position)
+		{
+			Return(new BookData(position));
+		}
+		
 		
 		public void Return(BookData book)
 		{

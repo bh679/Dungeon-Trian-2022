@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace EqualReality.Networking.Events
+namespace BrennanHatton.LibraryOfBabel.Networking.Events
 {
 	
 	public class SendChangeNameEvent : MonoBehaviour
