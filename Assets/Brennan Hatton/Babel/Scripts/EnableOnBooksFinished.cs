@@ -9,13 +9,16 @@ public class EnableOnBooksFinished : MonoBehaviour
 {
 	public BabelShelf shelf;
 	
-	public GameObject target;
+	public GameObject[] target;
 
     // Update is called once per frame
     void Update()
     {
 	    if(shelf.setup)
-		    target.SetActive(true);
+	    {
+	    	for(int i = 0 ;i < target.Length; i++)
+		    	target[i].SetActive(true);
+	    }
     }
 }
 }
