@@ -19,6 +19,7 @@ namespace BrennanHatton.Networking.PUN
 		private byte maxPlayersPerRoom = 4;
 		string roomName = "0";
 		BigInteger roomNameInt = BigInteger.Zero;
+		public int hexroomsPerNetroom = 100;
         #endregion
 
 
@@ -87,12 +88,8 @@ namespace BrennanHatton.Networking.PUN
 		public void SetRoomFromSeed(BigInteger seedInt, int seedBase)
 		{
 			
-			//BigInteger seedInt = MyBigIntegerExtensions.Parse(seedStr, seedBase);
-			Debug.Log(seedInt);
-			seedInt = (seedInt/100)*100;
-			Debug.Log(seedInt);
+			seedInt = (seedInt/hexroomsPerNetroom)*hexroomsPerNetroom;
 		    	
-			
 			if(roomNameInt != seedInt)
 			{
 				
