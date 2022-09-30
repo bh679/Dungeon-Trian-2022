@@ -64,9 +64,12 @@ namespace BrennanHatton.TrainCarts
 			carts[1].PopulateContents();
 		}
 	
+		public bool cartChanged = false;
+		public bool teleported = false;
 	    // Update is called once per frame
 	    void Update()
-	    {
+		{
+			cartChanged = false;
 		    if(carts[1].playerInside)
 		    {
 		    	DestroyObject(carts[0].gameObject);
@@ -74,6 +77,8 @@ namespace BrennanHatton.TrainCarts
 		    	
 		    	AddCartToEnd();
 			    carts[1].PopulateContents();
+			    
+			    cartChanged = true;
 		    }
 	    }
 	    
@@ -115,7 +120,17 @@ namespace BrennanHatton.TrainCarts
 			
 			
 			SetupCarts();
+			teleported = true;
 			
+			StartCoroutine(teleportedFalse());
+		}
+		
+		IEnumerator teleportedFalse()
+		{
+			yield return new WaitForEndOfFrame();
+			yield return new WaitForEndOfFrame();
+			
+			teleported = false;
 		}
 	}
 }

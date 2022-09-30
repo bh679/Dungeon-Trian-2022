@@ -3786,6 +3786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12675b647b3684147bd3fff3c7024cfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  networked: 1
 --- !u!1 &1311247838
 GameObject:
   m_ObjectHideFlags: 0
@@ -6031,6 +6032,7 @@ GameObject:
   - component: {fileID: 1522322817}
   - component: {fileID: 1522322819}
   - component: {fileID: 1522322820}
+  - component: {fileID: 1522322821}
   m_Layer: 0
   m_Name: Network Manager
   m_TagString: Untagged
@@ -6092,6 +6094,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerPrebName: Network Player
+--- !u!114 &1522322821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522322816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63e4b1bd64917d46a7a3c286c8f598a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1567142619
 GameObject:
   m_ObjectHideFlags: 0
@@ -6903,6 +6917,7 @@ GameObject:
   - component: {fileID: 1699445894}
   - component: {fileID: 1699445893}
   - component: {fileID: 1699445895}
+  - component: {fileID: 1699445896}
   m_Layer: 0
   m_Name: The Great Babeller
   m_TagString: Untagged
@@ -6968,6 +6983,18 @@ MonoBehaviour:
         m_CallState: 2
   key: 30
   pressType: 0
+--- !u!114 &1699445896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699445892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dddde4d65b321b44ba385227b0db6a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1766163689
 PrefabInstance:
   m_ObjectHideFlags: 0

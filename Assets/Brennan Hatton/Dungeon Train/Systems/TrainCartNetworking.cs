@@ -17,12 +17,11 @@ namespace BrennanHatton.TrainCarts.Networking
 	    }
 	
 	    // Update is called once per frame
-	    void Update()
+		void Update()
 	    {
-		    if(TrainCartManager.Instance.carts[1].playerInside)
+		    if(TrainCartManager.Instance.cartChanged || TrainCartManager.Instance.teleported)//.carts[1].playerInside)
 		    {
-		    	string roomName = TrainCartManager.Instance.carts[1].seed;
-		    	launcher.SetRoomName(roomName);
+		    	launcher.SetRoomFromSeed(TrainCartManager.Instance.roomId+1, TrainCartManager.Instance.seedBase);
 		    }
 	    }
 	}

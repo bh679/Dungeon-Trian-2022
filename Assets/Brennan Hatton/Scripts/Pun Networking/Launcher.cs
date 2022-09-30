@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;//for the callbacks
+using BrennanHatton.Math;
+using System.Numerics;
 
 
 namespace BrennanHatton.Networking.PUN
@@ -15,7 +17,8 @@ namespace BrennanHatton.Networking.PUN
 		[Tooltip("The maximum number of players per room. When a room is full, it can't be joined by new players, and so new room will be created")]
 		[SerializeField]
 		private byte maxPlayersPerRoom = 4;
-		string roomName = "00";
+		string roomName = "0";
+		BigInteger roomNameInt = BigInteger.Zero;
         #endregion
 
 
@@ -81,12 +84,22 @@ namespace BrennanHatton.Networking.PUN
 			}
 		}
 		
-		public void SetRoomName(string newName)
+		public void SetRoomFromSeed(BigInteger seedInt, int seedBase)
 		{
-			if(string.Compare(roomName,newName) != 0)
+			
+			//BigInteger seedInt = MyBigIntegerExtensions.Parse(seedStr, seedBase);
+			Debug.Log(seedInt);
+			seedInt = (seedInt/100)*100;
+			Debug.Log(seedInt);
+		    	
+			
+			if(roomNameInt != seedInt)
 			{
+				
+				string newName = MyBigIntegerExtensions.ToRadixString(seedInt, seedBase);
 				Debug.Log("New Room Id");
 				roomName = newName;
+				roomNameInt = seedInt;
 				
 				if(PhotonNetwork.InRoom)
 				{
