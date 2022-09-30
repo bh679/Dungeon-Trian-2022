@@ -26,6 +26,11 @@ namespace BrennanHatton.LibraryOfBabel
 		{
 			CopyBookPosition(position);
 		}
+		
+		public BookData(string url)
+		{
+			CopyBookPosition(new BookPosition(url));
+		}
 	}
 	
 	public class BabelBook : MonoBehaviour

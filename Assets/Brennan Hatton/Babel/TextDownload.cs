@@ -92,6 +92,30 @@ namespace BrennanHatton.LibraryOfBabel
 			}
 		}
 		
+		public BookPosition(string url)
+		{
+			url = Helper.GetAfterOrAll(url,"?");
+			
+			room =  Helper.GetUntilOrEmpty(url,"-").Remove(0,1);
+			
+			url =  Helper.GetAfterOrAll(url,"-").Remove(0,2);
+			
+			wall =  int.Parse(Helper.GetUntilOrEmpty(url,"-"));
+			
+			url =  Helper.GetAfterOrAll(url,"-").Remove(0,2);
+			
+			shelf =  int.Parse(Helper.GetUntilOrEmpty(url,"-"));
+			
+			url =  Helper.GetAfterOrAll(url,"-").Remove(0,2);
+			
+			volume =  int.Parse(Helper.GetUntilOrEmpty(url,":"));
+			
+			url =  Helper.GetAfterOrAll(url,":").Remove(0,1);
+			
+			if(int.TryParse(url,out page) == false)
+				page =  int.Parse(url.Remove(url.Length-1,1));
+		}
+		
 		public BookPosition(BookPosition bookToCopy)
 		{
 			CopyBookPosition(bookToCopy);
