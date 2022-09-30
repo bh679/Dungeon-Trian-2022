@@ -4118,6 +4118,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1506169896}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1506261150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5117709272727730633, guid: 2af1d2045149fe743b81bc4d1a6f8406,
+    type: 3}
+  m_PrefabInstance: {fileID: 1518060132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1506261157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506261150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9560e911de58f4cb0d9f82e68ff296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Device: 0
 --- !u!1001 &1518060132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5079,6 +5098,7 @@ GameObject:
   - component: {fileID: 1522322818}
   - component: {fileID: 1522322817}
   - component: {fileID: 1522322819}
+  - component: {fileID: 1522322820}
   m_Layer: 0
   m_Name: Network Manager
   m_TagString: Untagged
@@ -5127,6 +5147,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   launcher: {fileID: 1522322817}
+--- !u!114 &1522322820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522322816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c4e9fe743894a43aba83085607d6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPrebName: Network Player
 --- !u!1 &1567142619
 GameObject:
   m_ObjectHideFlags: 0
