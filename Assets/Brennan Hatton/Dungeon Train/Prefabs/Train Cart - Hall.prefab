@@ -314,7 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInside: 0
   themesPrefabs:
-  - {fileID: 437711598154668191, guid: 1b6c89716cf1c7b418b644d066f2c21d, type: 3}
+  - {fileID: 437711598154668191, guid: bfa0fbb2935ae1142b1414ec67e2f43c, type: 3}
   structurePrefabs:
   - {fileID: 3207076808458304713, guid: 4aa4c3a3fdfbe9d48885c44b56f3264e, type: 3}
   seed: 
