@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 437711598154668190}
   - component: {fileID: 437711598154668191}
   m_Layer: 0
-  m_Name: Dungeon Theme
+  m_Name: Dungeon Theme - Synty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
