@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 437711598154668190}
   - component: {fileID: 437711598154668191}
   m_Layer: 0
-  m_Name: Dungeon Theme
+  m_Name: Dungeon Theme - Synty - OPtamized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,11 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walls:
-  - {fileID: 174888, guid: 8f8b5d6c623b2fe4a9d00edeb386b528, type: 3}
-  - {fileID: 149828, guid: 3095eed88e39bec4bb5a519dac88fed9, type: 3}
-  - {fileID: 198756, guid: 340c9cec7d5a9fa44a3eabc7df30bf57, type: 3}
-  - {fileID: 195876, guid: 672ee923d7f567d4999ca9b98280f884, type: 3}
-  - {fileID: 198206, guid: 9f8634c7eb2d75149b0b37a811f69d18, type: 3}
+  - {fileID: 165716, guid: 780bc58852e53a34784cfcb8d82264af, type: 3}
+  - {fileID: 144948, guid: 6df01a9a28c120d45bfee85258eaf193, type: 3}
+  - {fileID: 106982, guid: 91bb4fdacb569984cba632ab36d11cd3, type: 3}
+  - {fileID: 114872, guid: b4191d68c2a1c2248bfb287f6808c3a8, type: 3}
+  - {fileID: 163056, guid: 7a1f053d1121e9b41be4092b6c54d826, type: 3}
+  - {fileID: 146100, guid: dd634b59fa7ca984abe932a8cf395c9f, type: 3}
   floors:
   - {fileID: 137298, guid: 9830f561f80768b4f92139c1c15bc835, type: 3}
   - {fileID: 121644, guid: 67f6358a70929f943ae115f8b4bcf075, type: 3}
