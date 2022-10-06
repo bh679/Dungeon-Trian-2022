@@ -38,6 +38,7 @@ namespace BrennanHatton.TrainCarts
 		public StructuralElement<TrainDoorWall> entranceDoor, exitDoor;
 		
 		public GameObject[] Contents;
+		public GameObject[] LOD;
 		
 		[Range(0,1)]
 		public float windowChance = 0;
@@ -54,6 +55,10 @@ namespace BrennanHatton.TrainCarts
 			for(int i = 0; i < Contents.Length; i++)
 			{
 				Contents[i].SetActive(true);
+			}
+			for(int i = 0; i < LOD.Length; i++)
+			{
+				LOD[i].SetActive(false);
 			}
 		}
 		

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,12 +43,12 @@ MonoBehaviour:
     y: 0
     width: 633
     height: 286
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 49}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 46}
   m_Panes:
-  - {fileID: 48}
-  - {fileID: 49}
+  - {fileID: 45}
+  - {fileID: 46}
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &3
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2160
+  controlID: 154
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 718
+  controlID: 99
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 719
+  controlID: 100
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 53
+  controlID: 101
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 54
+  controlID: 102
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,11 +266,11 @@ MonoBehaviour:
     y: 0
     width: 394
     height: 661
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 45}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 42}
   m_Panes:
-  - {fileID: 45}
+  - {fileID: 42}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -292,11 +292,11 @@ MonoBehaviour:
     y: 0
     width: 100
     height: 661
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 46}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 43}
   m_Panes:
-  - {fileID: 46}
+  - {fileID: 43}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
@@ -318,11 +318,11 @@ MonoBehaviour:
     y: 0
     width: 709
     height: 661
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 44}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 41}
   m_Panes:
-  - {fileID: 44}
+  - {fileID: 41}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &14
@@ -346,9 +346,9 @@ MonoBehaviour:
     height: 286
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 47}
+  m_ActualView: {fileID: 44}
   m_Panes:
-  - {fileID: 47}
+  - {fileID: 44}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &15
@@ -370,16 +370,13 @@ MonoBehaviour:
     y: 0
     width: 717
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 50}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 47}
   m_Panes:
-  - {fileID: 50}
-  - {fileID: 51}
-  - {fileID: 52}
-  - {fileID: 43}
-  - {fileID: 42}
-  - {fileID: 41}
+  - {fileID: 47}
+  - {fileID: 48}
+  - {fileID: 49}
   - {fileID: 40}
   - {fileID: 39}
   - {fileID: 38}
@@ -3865,7 +3862,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: EyeContactController.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/EyeTracking/
+    m_Tooltip: in Equal Reality/EyeTracking/
   m_Pos:
     serializedVersion: 2
     x: 824
@@ -4134,7 +4131,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: NetworkPlayerSpawner.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/
   m_Pos:
     serializedVersion: 2
     x: 1253
@@ -4233,130 +4230,9 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: ReceiveJoinRoomEvent.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Events/
-  m_Pos:
-    serializedVersion: 2
-    x: 1253
-    y: 73
-    width: 666
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 5d82e3299b396ae49936d4dafdf97d31, type: 3}
-  targetAssetGuid: 5d82e3299b396ae49936d4dafdf97d31
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 6
-      column: 6
-      characterIndex: 6
-      line: 56
-    _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 19
-    - 38
-    - 57
-    - 76
-    - 95
-    - 114
-    - 133
-    - 152
-    - 171
-    - 190
-    - 209
-    - 247
-    - 266
-    - 285
-    - 304
-    - 323
-    - 342
-    - 361
-    - 380
-    - 399
-    - 418
-    - 437
-    - 456
-    - 475
-    - 494
-    - 513
-    - 532
-    - 551
-    - 570
-    - 589
-    - 627
-    - 646
-    - 684
-    - 703
-    - 722
-    - 741
-    - 760
-    - 779
-    - 798
-    - 817
-    - 836
-    - 855
-    - 874
-    - 893
-    - 931
-    - 950
-    - 1007
-    - 1026
-    - 1045
-    - 1083
-    - 1121
-    - 1140
-    - 1159
-    - 1178
-    - 1197
-    - 1216
-    - 1235
-    - 1254
-    - 1273
-    - 1292
-    - 1311
-    - 1330
-    codeViewRect:
-      serializedVersion: 2
-      x: 36
-      y: 0
-      width: 610
-      height: 865
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &22
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
     m_Text: PlayerListToText.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/UI/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/UI/
   m_Pos:
     serializedVersion: 2
     x: 901
@@ -4559,7 +4435,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &23
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4576,7 +4452,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: PlayersInRoom.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/UI/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/UI/
   m_Pos:
     serializedVersion: 2
     x: 901
@@ -4735,7 +4611,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &24
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4752,7 +4628,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: PlayerSetActive.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/
   m_Pos:
     serializedVersion: 2
     x: 824
@@ -5029,7 +4905,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &25
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5046,7 +4922,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: NickNameGenerator.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Player/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/Player/
   m_Pos:
     serializedVersion: 2
     x: 1089
@@ -5125,7 +5001,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &26
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5142,7 +5018,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: NetworkPlayer.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Player/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/Player/
   m_Pos:
     serializedVersion: 2
     x: 1253
@@ -5241,106 +5117,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &27
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: ReceiveChoseGameObjectEvent.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Events/
-  m_Pos:
-    serializedVersion: 2
-    x: 1089
-    y: 73
-    width: 830
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 71a13fd6cacf71146bde889711044c13, type: 3}
-  targetAssetGuid: 71a13fd6cacf71146bde889711044c13
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 30
-      column: 30
-      characterIndex: 30
-      line: 6
-    _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 19
-    - 38
-    - 57
-    - 76
-    - 95
-    - 114
-    - 133
-    - 152
-    - 171
-    - 190
-    - 209
-    - 228
-    - 247
-    - 266
-    - 285
-    - 304
-    - 323
-    - 342
-    - 361
-    - 380
-    - 399
-    - 418
-    - 437
-    - 456
-    - 475
-    - 494
-    - 513
-    - 532
-    - 551
-    - 570
-    - 589
-    - 608
-    - 627
-    - 646
-    - 665
-    - 684
-    - 703
-    - 722
-    - 741
-    - 760
-    codeViewRect:
-      serializedVersion: 2
-      x: 36
-      y: 0
-      width: 789
-      height: 880
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &28
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5419,7 +5196,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &29
+--- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5436,7 +5213,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: NetworkManager.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/
   m_Pos:
     serializedVersion: 2
     x: 1089
@@ -5650,7 +5427,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &30
+--- !u!114 &28
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5741,108 +5518,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &31
-MonoBehaviour:
-  m_ObjectHideFlags: 61
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 233c5be4b3c6a2f42af54a964d938960, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: ReceiveChangeScriptEvent.cs
-    m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Events/
-  m_Pos:
-    serializedVersion: 2
-    x: 1089
-    y: 73
-    width: 830
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  targetAsset: {fileID: 11500000, guid: 5b8415e384cd9684a9bda91021af4493, type: 3}
-  targetAssetGuid: 5b8415e384cd9684a9bda91021af4493
-  textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
-    searchString: 
-    caretPosition:
-      virtualColumn: 30
-      column: 30
-      characterIndex: 30
-      line: 6
-    _selectionStartPosition:
-      virtualColumn: 0
-      column: 0
-      characterIndex: 0
-      line: 0
-    hasSelection: 0
-    hiddenLinesStart: 
-    hiddenLinesCount: 
-    lineNumbersOffset: 0
-    yLineOffsets:
-    - 19
-    - 38
-    - 57
-    - 76
-    - 95
-    - 114
-    - 133
-    - 152
-    - 171
-    - 190
-    - 209
-    - 228
-    - 247
-    - 266
-    - 285
-    - 304
-    - 323
-    - 342
-    - 361
-    - 380
-    - 399
-    - 418
-    - 437
-    - 456
-    - 475
-    - 494
-    - 513
-    - 532
-    - 551
-    - 570
-    - 589
-    - 608
-    - 627
-    - 646
-    - 665
-    - 684
-    - 703
-    - 722
-    - 741
-    - 760
-    - 779
-    - 798
-    codeViewRect:
-      serializedVersion: 2
-      x: 36
-      y: 0
-      width: 789
-      height: 880
-    tokenTooltip: {fileID: 0}
-    argumentsHint: {fileID: 0}
-    collapsedRegions: []
---- !u!114 &32
+--- !u!114 &29
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5859,7 +5535,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: PlayerCustomProperties.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Player/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/Player/
   m_Pos:
     serializedVersion: 2
     x: 901
@@ -5985,7 +5661,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &33
+--- !u!114 &30
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6002,7 +5678,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: AvatarUI.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Player/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/Player/
   m_Pos:
     serializedVersion: 2
     x: 901
@@ -6082,7 +5758,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &34
+--- !u!114 &31
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6204,7 +5880,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &35
+--- !u!114 &32
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6303,7 +5979,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &36
+--- !u!114 &33
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6320,7 +5996,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: AvatarManager.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Player/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/Player/
   m_Pos:
     serializedVersion: 2
     x: 1203
@@ -6461,7 +6137,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &37
+--- !u!114 &34
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6478,7 +6154,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: NetworkVoiceManager.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Voice/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/Voice/
   m_Pos:
     serializedVersion: 2
     x: 1089
@@ -6603,7 +6279,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &38
+--- !u!114 &35
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6620,7 +6296,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: Mute.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Voice/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/Voice/
   m_Pos:
     serializedVersion: 2
     x: 1089
@@ -6705,7 +6381,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &39
+--- !u!114 &36
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6722,7 +6398,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: NetworkedPlayerSpeaking.cs
     m_Image: {fileID: 0}
-    m_Tooltip: in Equal Reality/Creators Suite/Network Assets/Scripts/Voice/
+    m_Tooltip: in Equal Reality/Network Assets/Scripts/Voice/
   m_Pos:
     serializedVersion: 2
     x: 1089
@@ -6800,7 +6476,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &40
+--- !u!114 &37
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7110,7 +6786,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &41
+--- !u!114 &38
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7290,7 +6966,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &42
+--- !u!114 &39
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7493,7 +7169,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &43
+--- !u!114 &40
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7510,7 +7186,7 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: TrainCartNetworking.cs
     m_Image: {fileID: 0}
-    m_Tooltip: 
+    m_Tooltip: in Brennan Hatton/Dungeon Train/Systems/
   m_Pos:
     serializedVersion: 2
     x: 1089
@@ -7582,7 +7258,7 @@ MonoBehaviour:
     tokenTooltip: {fileID: 0}
     argumentsHint: {fileID: 0}
     collapsedRegions: []
---- !u!114 &44
+--- !u!114 &41
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7675,7 +7351,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &45
+--- !u!114 &42
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7709,7 +7385,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e6a3ddffaa23e2ff8ef6e3ff9ef6e3ffa25be6ff8cf7ffffb0f9ffffc2f9ffffc6f9ffffdef9ffffe8f9ffff20fbfffff4ffffff
+      m_ExpandedIDs: 2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -7733,7 +7409,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &46
+--- !u!114 &43
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7959,9 +7635,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.39277533, y: 0.70483077, z: 7.558913}
+    m_Target: {x: 0.6659553, y: 1.1297512, z: 6.7349963}
     speed: 2
-    m_Value: {x: -0.00070705265, y: 1.6853861, z: 0.13715416}
+    m_Value: {x: 0.39277533, y: 0.70483077, z: 7.558913}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -8008,13 +7684,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10818585, y: -0.44750684, z: 0.054641224, w: -0.8860304}
+    m_Target: {x: 0.074055746, y: 0.8944529, z: -0.16137414, w: 0.4104232}
     speed: 2
-    m_Value: {x: -0.0040963786, y: -0.99551475, z: 0.07931082, w: -0.051415447}
+    m_Value: {x: 0.10818584, y: 0.44750682, z: -0.05464122, w: 0.8860303}
   m_Size:
-    m_Target: 0.31535235
+    m_Target: 2.0895069
     speed: 2
-    m_Value: 0.40222278
+    m_Value: 0.31535235
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -8039,7 +7715,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &47
+--- !u!114 &44
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8081,7 +7757,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Equal Reality/AssetBundles/Common/Shared Envionment Assets/Materials/Avatar
+    - Assets/Equal Reality
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
@@ -8093,10 +7769,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 795}
-    m_SelectedIDs: 36e00100
-    m_LastClickedID: 122934
-    m_ExpandedIDs: 00000000e86f0000ea6f0000ec6f0000ee6f0000f06f0000f26f0000f46f0000f66f0000f86f0000fa6f0000fc6f0000fe6f0000007000000270000004700000067000004070000042700000388000004c800000a49b0000a69b000024b9010030b9010038e001003ae001003ce001003ee0010042e0010044e0010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 207}
+    m_SelectedIDs: 64970000
+    m_LastClickedID: 38756
+    m_ExpandedIDs: 000000004497000046970000489700004a9700004c9700004e97000050970000529700005497000056970000589700005a9700005c9700005e97000060970000629700006497000066970000689700006a9700006c9700006e97000070970000729700007497000076970000789700007a97000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8124,7 +7800,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e86f0000ea6f0000ec6f0000ee6f0000f06f0000f26f0000f46f0000f66f0000f86f0000fa6f0000fc6f0000fe6f000000700000027000000470000006700000
+    m_ExpandedIDs: 000000004497000046970000489700004a9700004c9700004e97000050970000529700005497000056970000589700005a9700005c9700005e97000060970000629700006497000066970000689700006a9700006c9700006e97000070970000729700007497000076970000789700007a970000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8151,22 +7827,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000aca70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DontDestroyOnLoad
-      m_OriginalName: DontDestroyOnLoad
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 138748
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 14}
     m_CreateAssetUtility:
@@ -8180,7 +7856,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &48
+--- !u!114 &45
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8209,7 +7885,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &49
+--- !u!114 &46
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8237,7 +7913,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &50
+--- !u!114 &47
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8279,7 +7955,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &51
+--- !u!114 &48
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8307,7 +7983,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &52
+--- !u!114 &49
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
