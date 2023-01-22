@@ -1241,7 +1241,7 @@ GameObject:
   - component: {fileID: 390170251}
   - component: {fileID: 390170250}
   m_Layer: 0
-  m_Name: The Narrative Machine
+  m_Name: The Babel Narrative Machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1814,16 +1814,15 @@ MonoBehaviour:
   DisconnectAfterKeepAlive: 0
   KeepAliveInBackground: 60000
   ApplyDontDestroyOnLoad: 1
-  logLevel: 3
+  logLevel: 0
   enableSupportLogger: 0
   updateInterval: 50
   runInBackground: 1
   statsResetInterval: 1000
-  speakerPrefab: {fileID: 7183988976757019752, guid: 8efab1054b6b3d444a921e2df16c505c,
-    type: 3}
+  speakerPrefab: {fileID: 0}
   primaryRecorder: {fileID: 613163459}
-  globalRecordersLogLevel: 3
-  globalSpeakersLogLevel: 3
+  globalRecordersLogLevel: 0
+  globalSpeakersLogLevel: 0
   globalPlaybackDelay: -1
   globalPlaybackDelaySettings:
     MinDelaySoft: 200
@@ -2860,12 +2859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deea76b685881bb45a7ec1a24a2c6d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &923786348 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6946810115346571928, guid: 698ea03cfe787b9468ab5b656e7709e8,
-    type: 3}
-  m_PrefabInstance: {fileID: 6946810115270302668}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &956006220 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1447509483763425493, guid: 2af1d2045149fe743b81bc4d1a6f8406,
@@ -4182,38 +4175,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1388043426
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1388043427}
-  m_Layer: 0
-  m_Name: End Carriage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1388043427
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1388043426}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1470120955}
-  m_Father: {fileID: 923786348}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1388712543
 GameObject:
   m_ObjectHideFlags: 0
@@ -4661,104 +4622,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!1 &1470120951
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1470120955}
-  - component: {fileID: 1470120954}
-  - component: {fileID: 1470120953}
-  - component: {fileID: 1470120952}
-  m_Layer: 0
-  m_Name: Quad
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &1470120952
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470120951}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1470120953
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470120951}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: c2de147b18e4431458a1a7bdaa3a3fbb, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1470120954
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470120951}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1470120955
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470120951}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.24, y: 1.36, z: 7.57}
-  m_LocalScale: {x: 5, y: 5, z: 5}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1388043427}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1475113992
 GameObject:
   m_ObjectHideFlags: 0
@@ -6925,7 +6788,7 @@ GameObject:
   - component: {fileID: 1699445895}
   - component: {fileID: 1699445896}
   m_Layer: 0
-  m_Name: The Great Babeller
+  m_Name: Book Returns System - The Great Babeller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7417,6 +7280,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 440134, guid: 5afc051ea82884847b27233ef41ff811,
     type: 3}
   m_PrefabInstance: {fileID: 1907733778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1927586087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1388043426, guid: 698ea03cfe787b9468ab5b656e7709e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 6946810115270302668}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1934053066
 GameObject:
@@ -8395,6 +8264,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1388043427, guid: 698ea03cfe787b9468ab5b656e7709e8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6946810115346571928, guid: 698ea03cfe787b9468ab5b656e7709e8,
         type: 3}
       propertyPath: m_RootOrder
@@ -8464,7 +8337,7 @@ PrefabInstance:
         type: 3}
       propertyPath: endCarriage
       value: 
-      objectReference: {fileID: 1388043426}
+      objectReference: {fileID: 1927586087}
     - target: {fileID: 6946810115346571935, guid: 698ea03cfe787b9468ab5b656e7709e8,
         type: 3}
       propertyPath: trainCarts.Array.size

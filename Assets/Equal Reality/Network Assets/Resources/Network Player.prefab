@@ -1169,7 +1169,6 @@ GameObject:
   - component: {fileID: 3179216659849643767}
   - component: {fileID: 3501599003561410237}
   - component: {fileID: 8949623154151085198}
-  - component: {fileID: 3023217155208183347}
   m_Layer: 0
   m_Name: Network Player
   m_TagString: Untagged
@@ -1259,7 +1258,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6057863518934503614}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fcef117f62fd6a4ea9dc7f4b19520de, type: 3}
   m_Name: 
@@ -1291,24 +1290,6 @@ MonoBehaviour:
   head: {fileID: 2107789423556310980}
   body: {fileID: 7042580643888084056}
   materialSetter: {fileID: 3230678059772775319}
---- !u!114 &3023217155208183347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6057863518934503614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa6c41e7e8d57754ab4569ecbf715d5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  photonView: {fileID: 4374300166671522341}
-  facilitatorHat: {fileID: 4141174497077461853}
-  facilitatorSash: {fileID: 7980256131351897271}
-  onReceive:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &6941058842956345971
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,12 +2120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c13453f145c1345a7043f5198ed695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &7980256131351897271 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6270919238317863551, guid: 4c5df986b79b06e41a8c16491cf54bec,
-    type: 3}
-  m_PrefabInstance: {fileID: 4159451908505179848}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &9185929861858700753 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5099110463669025561, guid: 4c5df986b79b06e41a8c16491cf54bec,
