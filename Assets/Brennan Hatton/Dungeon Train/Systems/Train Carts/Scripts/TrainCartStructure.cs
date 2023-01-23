@@ -33,11 +33,11 @@ namespace BrennanHatton.TrainCarts
 	
 	public class TrainCartStructure : MonoBehaviour
 	{
-		public StructuralElement<Transform>[] floors, roofs, walls;//, wallLeft2, wallRight, wallRight2;
+		public StructuralElement<Transform>[] floors, roofs, walls, contents;//, wallLeft2, wallRight, wallRight2;
 		
 		public StructuralElement<TrainDoorWall> entranceDoor, exitDoor;
 		
-		public GameObject[] Contents;
+		public Transform[] contentsTypes;
 		public GameObject[] LOD;
 		
 		[Range(0,1)]
@@ -52,16 +52,26 @@ namespace BrennanHatton.TrainCarts
 		
 		public void PopulateContents()
 		{
-			for(int i = 0; i < Contents.Length; i++)
-			{
-				Contents[i].SetActive(true);
-			}
+			StartCoroutine(SetContents());
+			
 			for(int i = 0; i < LOD.Length; i++)
 			{
 				LOD[i].SetActive(false);
 			}
 		}
 		
+		IEnumerator SetContents()
+		{
+			for(int i = 0; i < contents.Length; i++)
+			{
+				contents[i].SetModel(Instantiate(contentsTypes[Random.Range(0,contentsTypes.Length)]).transform, this.transform);
+				contents[i].model.transform.localScale = Vector3.one;
+				contents[i].model.gameObject.SetActive(true);
+				yield return new WaitForFixedUpdate();
+			}
+			
+			yield return null;
+		}
 	}
 
 }

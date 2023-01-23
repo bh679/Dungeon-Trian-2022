@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4935449808943794959}
   - component: {fileID: 2327664113788638384}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Rigidbody Positions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1866885287139001222}
   - component: {fileID: 1355719274571391044}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2667545262497133903}
   - component: {fileID: 4933964747448258910}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Area 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429809172329992509}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: TableTopLoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8745067654931473694}
   - component: {fileID: 2106295378551948701}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Rigibodies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 801248280074999654}
   - component: {fileID: 2968007236210240959}
   - component: {fileID: 2610579668045666979}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: SM_Prop_Barrel_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
