@@ -26,15 +26,15 @@ namespace BrennanHatton.Props
 		int[] propChanceMatrix{
 			get{
 				
-				if(_propChanceMatrix == null
+				if(_propChanceMatrix == null || _propChanceMatrix.Length == 0
 				#if UNITY_EDITOR
 					|| Application.isPlaying == false
 				#endif
 				)
 				{
 					_propChanceMatrix = BrennanHatton.Props.ChanceMultiplier.CreateChanceMatrix(propData.ToArray());
+					
 				}
-				
 				
 				if(_propChanceMatrix.Length == 0)
 					Debug.Log("No prop data");

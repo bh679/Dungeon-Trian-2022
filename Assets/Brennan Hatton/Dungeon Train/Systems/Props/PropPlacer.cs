@@ -118,6 +118,9 @@ namespace BrennanHatton.Props
 				
 				TransformData transformData = new TransformData(positionGroup.PlaceInFreePosition().transform, this.transform);
 				
+				if(Instantiator.Instance == null)
+					Debug.LogError("Need Instantiator object in scene");
+				
 				//tell instantiator to create
 				Instantiator.Instance.CreateObject(propData[id].propType.GetProp(),transformData);
 			}
