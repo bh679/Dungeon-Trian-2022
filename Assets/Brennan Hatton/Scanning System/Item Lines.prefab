@@ -1,0 +1,2231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3052067678262661391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678262661384}
+  - component: {fileID: 3052067678262661387}
+  - component: {fileID: 3052067678262661386}
+  - component: {fileID: 3052067678262661385}
+  m_Layer: 0
+  m_Name: Title Post-Prefix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678262661384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678262661391}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679160673851}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678262661387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678262661391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: All Things
+  sharedLines:
+  - All Things
+  - The Banished
+  - Men
+  - Plague
+  - All
+  - All Things
+  - Lords
+  - Kings
+  - Blades
+  - The Unbecoming
+  - End Times
+  - Corona.
+  - Riches
+  - Goo
+  - Fame
+  - Fingers
+  - Unusual Things
+  - Trains
+  - Alex
+  - Boundlessness
+  - Vastness
+  - A Tiny Shoe
+  - Rational Thought
+  - Rigidity
+  - Mythology
+  - Ages
+  - Dreams
+  - Nightmares
+  - Art
+  - Majesty
+  - Roundness
+  - 'Flight '
+  - Furry
+  - Toponymy
+  followingLinesInOrder: []
+--- !u!114 &3052067678262661386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678262661391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678262661387}
+  storyFiles:
+  - {fileID: 4900000, guid: b71c8f7e10b52884c896ad7c535f0d8b, type: 3}
+--- !u!114 &3052067678262661385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678262661391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067678320585331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678320585340}
+  - component: {fileID: 3052067678320585343}
+  - component: {fileID: 3052067678320585342}
+  - component: {fileID: 3052067678320585341}
+  m_Layer: 0
+  m_Name: Food
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678320585340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678320585331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678320585343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678320585331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Butter
+  sharedLines:
+  - Butter
+  - Bubblegum
+  - Tea
+  - Sauce
+  - Toothpaste
+  - Mayonnaise
+  - Mushrooms
+  - Pie
+  - Milk
+  - Food
+  - Nourishment
+  followingLinesInOrder: []
+--- !u!114 &3052067678320585342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678320585331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678320585343}
+  storyFiles:
+  - {fileID: 4900000, guid: 6fc0190129e03cb4bad9848b037d44ec, type: 3}
+--- !u!114 &3052067678320585341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678320585331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067678333550111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678333550107}
+  - component: {fileID: 3052067678333550104}
+  - component: {fileID: 3052067678333550106}
+  - component: {fileID: 3052067678333550105}
+  m_Layer: 0
+  m_Name: People
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678333550107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678333550111}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679001566881}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678333550104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678333550111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Brennan Hatton
+  sharedLines:
+  - Brennan Hatton
+  - Bernie Sanders
+  - Wilson Taylor
+  - Ruth Vader Ginsburg
+  - Alexandria Ocasio-Cortez
+  - Dr. Avrana Kern
+  - Adrian Tchaikovsky
+  - Doctor Erma Lante
+  - Those Of We
+  - Meow Ludo Disco Gamma Meow Meow
+  - Jacinda Ardern
+  - Peter Norman
+  - Tony Hawk
+  - John Oliver
+  - Andrew Yang
+  - Sammy J
+  - Leo Moracchioli
+  - William Wallace
+  - Bob Ross
+  - Uncle Iroh
+  followingLinesInOrder: []
+--- !u!114 &3052067678333550106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678333550111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678333550104}
+  storyFiles:
+  - {fileID: 4900000, guid: a0aa0c81e052b8c4694e5b518fb55cdf, type: 3}
+--- !u!114 &3052067678333550105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678333550111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067678467862779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678467862724}
+  - component: {fileID: 3052067678467862727}
+  - component: {fileID: 3052067678467862726}
+  - component: {fileID: 3052067678467862725}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678467862724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678467862779}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678467862727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678467862779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Music
+  sharedLines:
+  - Music
+  - Rock
+  - Hip-hop
+  - Jazz
+  - Swing
+  - Dance
+  - Salsa
+  - Bachata
+  - Merengue
+  - Rock Step
+  - Chords
+  - Dance Zones
+  - Trumpets
+  - Rythem
+  - The Blues
+  followingLinesInOrder: []
+--- !u!114 &3052067678467862726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678467862779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678467862727}
+  storyFiles:
+  - {fileID: 4900000, guid: 9f68c98871839704696576e117c68d04, type: 3}
+--- !u!114 &3052067678467862725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678467862779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067678516854080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678516854081}
+  - component: {fileID: 3052067678516854092}
+  - component: {fileID: 3052067678516854083}
+  - component: {fileID: 3052067678516854082}
+  m_Layer: 0
+  m_Name: Titles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678516854081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678516854080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067678530274589}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678516854092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678516854080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: The Great Slayer of Men and Children
+  sharedLines:
+  - The Great Slayer of Men and Children
+  - The Immortal
+  - The Bringer of Truth
+  - The Reaper
+  - Storm-Weaver
+  - The Ambassador
+  - Bone Crushing Carver
+  - Fearful Blade
+  - Enchanted Steel Warblade
+  - Thunderstorm Copper Defender
+  - Hell's Scream, Shortsword of the Cataclysm
+  - Orenmir, Swiftblade of Dark Souls
+  - Silencer, Butcher of the Beast
+  - Slice of Life
+  - Klinge Nethersbane
+  - Barbarian Protector
+  - Gladiator Etcher
+  - Promised Skeletal Doomblade
+  - Wretched Mithril Protector
+  - Amnesia, Breaker of the Wicked
+  - Doombringer, Last Stand of the Sky
+  - Doombringer, Last Stand of the Sky\n
+  - Worldbreaker, Savagery, The Master.\n
+  - And devourer of all things.
+  - Devourer of gods.
+  - Prick, Glory of Magic
+  - Stalker of the night
+  - Worldbreaker, Savagery.
+  - Primitive Slicer
+  - Renewed Scimitar
+  - Banished Iron Slicer
+  - Reincarnated Gold Quickblade
+  - Blinkstrike, Last Hope of Nightmares
+  - Unending Tyranny, Pledge of the Insane
+  - Mournblade, Sculptor of the Plague
+  - Worldbreaker
+  - Savagery of thirst
+  - Primitive Slicer
+  - Renewed Scimitar
+  - Banished Iron Slicer
+  - Reincarnated Gold Quickblade
+  - Blinkstrike, Last Hope of Nightmares
+  - Unending Tyranny, Pledge of the Insane
+  - Mournblade, Sculptor of the Plague
+  - The Pointy
+  - Bloodquench Savagery
+  - Lich Deflector
+  - Mourning Crusader
+  - Burnished Gold Slicer
+  - Fire Infused Skeletal Crusader
+  - Doombringer, Longblade of Regret
+  - Blazeguard, Ender of Eternal Struggles
+  - Toothpick, Blood Blade of Agony
+  followingLinesInOrder: []
+--- !u!114 &3052067678516854083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678516854080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678516854092}
+  storyFiles:
+  - {fileID: 4900000, guid: e664d9338b302c54989ce409c2e52a74, type: 3}
+--- !u!114 &3052067678516854082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678516854080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067678530274588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678530274589}
+  m_Layer: 0
+  m_Name: Item Lines
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678530274589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678530274588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3052067679249296055}
+  - {fileID: 3052067679001566881}
+  - {fileID: 3052067678516854081}
+  - {fileID: 3052067679160673851}
+  - {fileID: 3052067679107686776}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3052067678698361885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678698361886}
+  - component: {fileID: 3052067678698361881}
+  - component: {fileID: 3052067678698361880}
+  - component: {fileID: 3052067678698361887}
+  m_Layer: 0
+  m_Name: Inclusion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678698361886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678698361885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678698361881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678698361885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Sexuality
+  sharedLines:
+  - Sexuality
+  - Positive Masculinity
+  - Feminism
+  - Inclusion
+  - Inclusivity
+  - Being a Good Friend
+  - Masculinity
+  - Feminity
+  - Women
+  - LGBT+
+  - Trans
+  - Queer
+  - Polyamory
+  - Being a Good Partner
+  - Respect
+  - Respectfulness
+  followingLinesInOrder: []
+--- !u!114 &3052067678698361880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678698361885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678698361881}
+  storyFiles:
+  - {fileID: 4900000, guid: f2857f45add1ad142adfdc1c89a51cb4, type: 3}
+--- !u!114 &3052067678698361887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678698361885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067678873009551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678873009544}
+  - component: {fileID: 3052067678873009547}
+  - component: {fileID: 3052067678873009546}
+  - component: {fileID: 3052067678873009545}
+  m_Layer: 0
+  m_Name: Colors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678873009544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678873009551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678873009547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678873009551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Red
+  sharedLines:
+  - Red
+  - Orange
+  - Yellow
+  - Green
+  - Blue
+  - Cyan
+  - Purple
+  - White
+  - Black
+  - Brown
+  - Magenta
+  - Tan
+  - Olive
+  - Maroon
+  - Navy
+  - Aquamarine
+  - Turquoise
+  - Silver
+  - Lime
+  - Teal
+  - Indigo
+  - Violet
+  - Pink
+  - Gray
+  - Off White
+  - Navy Blue
+  - Baby Pink
+  followingLinesInOrder: []
+--- !u!114 &3052067678873009546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678873009551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678873009547}
+  storyFiles:
+  - {fileID: 4900000, guid: 8d4dfa5f312db284fbe56059d3805933, type: 3}
+--- !u!114 &3052067678873009545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678873009551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067678879986020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678879986021}
+  - component: {fileID: 3052067678879986016}
+  - component: {fileID: 3052067678879986023}
+  - component: {fileID: 3052067678879986022}
+  m_Layer: 0
+  m_Name: Feelings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678879986021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678879986020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678879986016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678879986020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Doom
+  sharedLines:
+  - Doom
+  - Irony
+  - Love
+  - Kindness
+  - Savagery
+  - Happiness
+  - Wonder
+  - Pain
+  - Deception
+  - Greed
+  - Happy Times
+  - Creativity
+  - Thanks
+  - Gratitude
+  - Wholesomeness
+  - Trying too Hard
+  followingLinesInOrder: []
+--- !u!114 &3052067678879986023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678879986020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678879986016}
+  storyFiles:
+  - {fileID: 4900000, guid: 70fa1ef1c58fd4f448fefb2d4a8513c8, type: 3}
+--- !u!114 &3052067678879986022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678879986020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067678914666996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067678914666997}
+  - component: {fileID: 3052067678914666992}
+  - component: {fileID: 3052067678914666999}
+  - component: {fileID: 3052067678914666998}
+  m_Layer: 0
+  m_Name: Wholesome Things
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067678914666997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678914666996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067678914666992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678914666996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Cute Things
+  sharedLines:
+  - Cute Things
+  - Good Things
+  - Beauty
+  - Teddy Bears
+  - Pillows
+  - Healing
+  - Good Health
+  - Buttons
+  - Long Flowy Dresses
+  - Flowers
+  - Dandelions
+  - Friends
+  - Loved Ones
+  - All Things Nice
+  - Doing The Right Thing
+  followingLinesInOrder: []
+--- !u!114 &3052067678914666999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678914666996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067678914666992}
+  storyFiles:
+  - {fileID: 4900000, guid: 7da3b55f3b4a3bc4db842621409d99ee, type: 3}
+--- !u!114 &3052067678914666998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067678914666996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067679001566880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679001566881}
+  - component: {fileID: 3052067679001566892}
+  - component: {fileID: 3052067679001566883}
+  - component: {fileID: 3052067679001566882}
+  m_Layer: 0
+  m_Name: Names
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679001566881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679001566880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3052067678333550107}
+  - {fileID: 3052067679031510551}
+  m_Father: {fileID: 3052067678530274589}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679001566892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679001566880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Lucas
+  sharedLines:
+  - Lucas
+  - John
+  - Thomas
+  - Syther
+  - Reaper
+  - Palten
+  - Frank
+  - Richard
+  - Elizabeth
+  - Warren
+  - Rose
+  - Ali
+  - Betty
+  - Wilson
+  - Taylor
+  - Anthony
+  - Anna
+  - Jacky
+  - Olivia
+  - Oliver
+  - Amelia
+  - George
+  - Isla
+  - Harry
+  - Ava
+  - Noah
+  - Emily
+  - Jack
+  - Sophia
+  - Charlie
+  - Grace
+  - Leo
+  - Mia
+  - Jacob
+  - Poppy
+  - Freddie
+  - Ella
+  - Alfie
+  - 'Jenna '
+  - Kluth
+  - 'Svetlana '
+  - Entwistle
+  - 'Deanne '
+  - Hennigan
+  - 'Lucretia '
+  - Mcquaid
+  - 'Terri '
+  - Patty
+  - 'Ulrike '
+  - Mills
+  - 'Carola '
+  - Kotek
+  - 'Deidra '
+  - Dittman
+  - 'Virgen '
+  - Pua
+  - 'Nan '
+  - Derossett
+  - 'Aracelis '
+  - Pancake
+  - 'Jeffery '
+  - Naples
+  - 'Linwood '
+  - Winkler
+  - 'Kallie '
+  - Duerr
+  - 'Frieda '
+  - Strelow
+  - 'Shirleen '
+  - Schmuck
+  - 'Velma '
+  - Scutt
+  - 'Meryl '
+  - Arterburn
+  - 'Neal '
+  - Byrum
+  - 'Sam '
+  - Peed
+  - 'Sharice '
+  - Ottley
+  - 'Rosalva '
+  - Baier
+  - 'Julienne '
+  - Bayard
+  - 'Justin '
+  - Mckamey
+  - 'Kristen '
+  - Kirsch
+  - 'Long '
+  - Hartnett
+  - 'Eryn '
+  - Dimond
+  - 'Royce '
+  - Ronco
+  - 'Dania '
+  - Chavers
+  - 'Whitney '
+  - Maske
+  - 'Everett '
+  - Igoe
+  - 'Elois '
+  - Wahl
+  - 'Ahmad '
+  - Tindel
+  - 'Pamela '
+  - Finnegan
+  - 'Sulema '
+  - Fray
+  - 'Ciera '
+  - Jobe
+  - 'Jutta '
+  - Sword
+  - 'Solomon '
+  - Zeck
+  - 'Levi '
+  - Lemmon
+  - 'Rachelle '
+  - Huseby
+  - 'Brittaney '
+  - Beadle
+  - 'Rudolph '
+  - Gatti
+  - 'Margo '
+  - Ketcham
+  - 'Juana '
+  - Tarkington
+  - 'Anjelica '
+  - Lampley
+  - 'Dinah '
+  - Tillotson
+  - 'Desirae '
+  - Saracino
+  - 'Sherri '
+  - Hayman
+  - 'Cassidy '
+  - Puckett
+  - 'Lashaunda '
+  - Brant
+  - "Marva \_"
+  - "Yuri \_"
+  - "Elenore \_"
+  - "Shelton \_"
+  - "Sadie \_"
+  - "Marhta \_"
+  - "Gene \_"
+  - "Brook \_"
+  - "Robbyn \_"
+  - "Judie \_"
+  - "Love \_"
+  - "Kelsie \_"
+  - "Michal \_"
+  - "Boyd \_"
+  - "Weston \_"
+  - "Joaquina \_"
+  - "Ouida \_"
+  - "Winnie \_"
+  - "Lorene \_"
+  - "Shayla \_"
+  - "Kory \_"
+  - "Malia \_"
+  - "Nieves \_"
+  - "Efrain \_"
+  - "Tamara \_"
+  - "Tandra \_"
+  - "Luetta \_"
+  - "Kiara \_"
+  - "Jannette \_"
+  - "Walter \_"
+  - "Marlena \_"
+  - "Darlene \_"
+  - "Christine \_"
+  - "Shante \_"
+  - "Lauri \_"
+  - "Valentina \_"
+  - "Neva \_"
+  - "Mariella \_"
+  - "Carletta \_"
+  - "Karol \_"
+  - "Debbi \_"
+  - "Alec \_"
+  - "Vanita \_"
+  - "Fredricka \_"
+  - "Gwen \_"
+  - "Odessa \_"
+  - "Dionne \_"
+  - "Vicky \_"
+  - "Maryjane \_"
+  - "Tammara \_"
+  - Keturah
+  - Nolan
+  - Fermina
+  - Yoshiko
+  - Elenor
+  - Jessika
+  - Geoffrey
+  - Terica
+  - Melita
+  - Hien
+  - Jefferey
+  - Boyce
+  - Augustine
+  - Kyra
+  - Mandie
+  - Cameron
+  - Rosina
+  - Trula
+  - Christiana
+  - Blaine
+  - Cleta
+  - Tamela
+  - Maximina
+  - Jamee
+  - Philomena
+  - Toney
+  - Lorean
+  - Jacquelyne
+  - Roselyn
+  - Shanell
+  - Jerrie
+  - Michelina
+  - Priscilla
+  - Carolyne
+  - Adah
+  - Andree
+  - Olen
+  - Verda
+  - Sherryl
+  - Margherita
+  - Oma
+  - Kristle
+  - Misty
+  - Mica
+  - Chantell
+  - Rosalyn
+  - Cordell
+  - Aron
+  - Randell
+  - Karly
+  - Finn
+  - Jake
+  - Lady Rainicorn
+  - The Dog
+  - Dog
+  - Adam
+  - Adrian
+  - Bianca
+  - Viola
+  - Portia
+  - Fabian
+  - Arti-Fabian
+  - Lain
+  - Vitas
+  - Karst
+  - Holsten
+  - Guyen
+  - Senkovi
+  - Lante
+  - Ang
+  followingLinesInOrder: []
+--- !u!114 &3052067679001566883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679001566880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067679001566892}
+  storyFiles:
+  - {fileID: 4900000, guid: 19dbf19416f08514b9e29b31b221a1b6, type: 3}
+--- !u!114 &3052067679001566882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679001566880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067679028063200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679028063201}
+  - component: {fileID: 3052067679028063212}
+  - component: {fileID: 3052067679028063203}
+  - component: {fileID: 3052067679028063202}
+  m_Layer: 0
+  m_Name: Math
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679028063201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679028063200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679028063212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679028063200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Infinity
+  sharedLines:
+  - Infinity
+  - Rationality
+  - Mathematical Certainty
+  - Geometry
+  - Trigonometry
+  - Science
+  - Irrationality
+  - Pi
+  - Irrantional Numbers
+  - Fractions
+  - Numbers
+  - Square Root
+  - Negative One
+  - Zero
+  - A Million
+  - One Hundred
+  - Five
+  - Seven Point Two
+  - Maths
+  - Integers
+  - Functions
+  - Algorithms
+  - Algorithmic Bliss
+  followingLinesInOrder: []
+--- !u!114 &3052067679028063203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679028063200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067679028063212}
+  storyFiles:
+  - {fileID: 4900000, guid: 1d8056176c1a0c743abe9c0e97f1aba2, type: 3}
+--- !u!114 &3052067679028063202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679028063200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067679031510539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679031510551}
+  - component: {fileID: 3052067679031510548}
+  - component: {fileID: 3052067679031510550}
+  - component: {fileID: 3052067679031510549}
+  m_Layer: 0
+  m_Name: Discord People
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679031510551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679031510539}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679001566881}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679031510548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679031510539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Koli Drath
+  sharedLines:
+  - Koli Drath
+  - Bradley Sockington
+  - Train Wolfy
+  - Lone Wolfy
+  - LoneWolfy
+  - Ben Wolfy
+  - Wolfy
+  - Dan Mizu
+  - Q (She/They)
+  - Dwal from the hobit
+  - ImzGamer
+  - Erin Jank
+  - Harold
+  - JJ-4
+  - Meulen12
+  - Mr. Bread
+  - MrFunnkSandwich
+  - Pickle
+  - splderss
+  - whoelsebutbino
+  - -Phoenix-
+  - 2tmb
+  - BlitzVR
+  - TaigethenShade
+  - Alpha Questioneer
+  - The Questioner
+  - Auri
+  - bc732
+  - Beerdface
+  - Dragowolf
+  - Infinate0
+  - Jay Best
+  - LostLexyus
+  - MasterOfBalance
+  - Meow
+  - Narwhaluto
+  - Skeptic Party
+  - Spacey
+  - The Conductor
+  - The_Wan
+  - Ubiquitouz
+  - testedDsf
+  - testedDsf
+  - uQt
+  - Button
+  - HKNR
+  - Apple thing man person apple yum
+  - Eleyon
+  - TechTronic
+  - Kai
+  - Alextuxedo
+  - sojistar
+  - Shane Harris
+  - Orla Harris
+  - Shane from SideQuest
+  - Orla from SideQuest
+  - The Duke
+  - Bat
+  followingLinesInOrder: []
+--- !u!114 &3052067679031510550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679031510539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067679031510548}
+  storyFiles:
+  - {fileID: 4900000, guid: 598b7f32d781a0d4ab667a2e039e16eb, type: 3}
+--- !u!114 &3052067679031510549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679031510539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067679107686783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679107686776}
+  - component: {fileID: 3052067679107686777}
+  m_Layer: 0
+  m_Name: Words
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679107686776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679107686783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3052067678873009544}
+  - {fileID: 3052067678320585340}
+  - {fileID: 3052067680217378309}
+  - {fileID: 3052067678467862724}
+  - {fileID: 3052067679384550473}
+  - {fileID: 3052067678879986021}
+  - {fileID: 3052067680370117396}
+  - {fileID: 3052067679028063201}
+  - {fileID: 3052067678698361886}
+  - {fileID: 3052067678914666997}
+  - {fileID: 3052067679387165513}
+  m_Father: {fileID: 3052067678530274589}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679107686777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679107686783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: 
+  sharedLines: []
+  followingLinesInOrder:
+  - sharedLines:
+    - sharedLine: {fileID: 3052067678873009547}
+      weight: 1
+    - sharedLine: {fileID: 3052067678320585343}
+      weight: 1
+    - sharedLine: {fileID: 3052067680217378304}
+      weight: 1
+    - sharedLine: {fileID: 3052067678467862727}
+      weight: 1
+    - sharedLine: {fileID: 3052067679384550484}
+      weight: 1
+    - sharedLine: {fileID: 3052067678879986016}
+      weight: 1
+    - sharedLine: {fileID: 3052067680370117399}
+      weight: 1
+    - sharedLine: {fileID: 3052067679028063212}
+      weight: 1
+    - sharedLine: {fileID: 3052067678698361881}
+      weight: 1
+    - sharedLine: {fileID: 3052067678914666992}
+      weight: 1
+    - sharedLine: {fileID: 3052067679387165524}
+      weight: 1
+    chanceOfAdding: 1
+    connection: 
+    newLine: 0
+--- !u!1 &3052067679160673850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679160673851}
+  - component: {fileID: 3052067679160673796}
+  m_Layer: 0
+  m_Name: Title Combinations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679160673851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679160673850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3052067679952369583}
+  - {fileID: 3052067678262661384}
+  m_Father: {fileID: 3052067678530274589}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679160673796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679160673850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: 
+  sharedLines: []
+  followingLinesInOrder:
+  - sharedLines:
+    - sharedLine: {fileID: 3052067679952369578}
+      weight: 0
+    chanceOfAdding: 1
+    connection: 
+    newLine: 0
+  - sharedLines:
+    - sharedLine: {fileID: 3052067678262661387}
+      weight: 0.12
+    - sharedLine: {fileID: 3052067678873009547}
+      weight: 0.1
+    - sharedLine: {fileID: 3052067678320585343}
+      weight: 0.05
+    - sharedLine: {fileID: 3052067680217378304}
+      weight: 0.07
+    - sharedLine: {fileID: 3052067678467862727}
+      weight: 0.09
+    - sharedLine: {fileID: 3052067679384550484}
+      weight: 0.08
+    - sharedLine: {fileID: 3052067678879986016}
+      weight: 0.1
+    - sharedLine: {fileID: 3052067678698361881}
+      weight: 0.1
+    - sharedLine: {fileID: 3052067678914666992}
+      weight: 0.1
+    - sharedLine: {fileID: 3052067680370117399}
+      weight: 0.06
+    - sharedLine: {fileID: 3052067679028063212}
+      weight: 0.1
+    - sharedLine: {fileID: 3052067679387165524}
+      weight: 0.07
+    - sharedLine: {fileID: 3052067679001566892}
+      weight: 0.03
+    - sharedLine: {fileID: 3052067678333550104}
+      weight: 0.03
+    - sharedLine: {fileID: 3052067679031510548}
+      weight: 0.05
+    chanceOfAdding: 1
+    connection: ' of '
+    newLine: 0
+--- !u!1 &3052067679249296054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679249296055}
+  - component: {fileID: 3052067679249296048}
+  m_Layer: 0
+  m_Name: Weapon Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679249296055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679249296054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067678530274589}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679249296048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679249296054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: 
+  sharedLines: []
+  followingLinesInOrder:
+  - sharedLines:
+    - sharedLine: {fileID: 3052067679001566892}
+      weight: 1
+    chanceOfAdding: 1
+    connection: 
+    newLine: 0
+  - sharedLines:
+    - sharedLine: {fileID: 3052067679001566892}
+      weight: 1
+    chanceOfAdding: 0.4
+    connection: ' '
+    newLine: 0
+  - sharedLines:
+    - sharedLine: {fileID: 3052067679160673796}
+      weight: 1
+    chanceOfAdding: 0.75
+    connection: ', '
+    newLine: 0
+  - sharedLines:
+    - sharedLine: {fileID: 3052067678516854092}
+      weight: 1
+    chanceOfAdding: 0.2
+    connection: .
+    newLine: 1
+--- !u!1 &3052067679384550472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679384550473}
+  - component: {fileID: 3052067679384550484}
+  - component: {fileID: 3052067679384550475}
+  - component: {fileID: 3052067679384550474}
+  m_Layer: 0
+  m_Name: Places
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679384550473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679384550472}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679384550484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679384550472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Black Holes
+  sharedLines:
+  - Black Holes
+  - the Milky Way
+  - the Universe
+  - the Pacific
+  - the Depths
+  - the Ocean
+  - the Deep
+  - Oceania
+  - Atlantas
+  - the Sun
+  - the SolarSystem
+  - this Reality
+  - Reality
+  - The Mutliverse
+  - Backyards
+  - Planet Earth
+  - The Moon
+  - Ooo
+  - Skyrim
+  - Morrowind
+  - Cyrodiil
+  - O'brians Belt
+  - the Outer Worlds
+  - Australia
+  - the Gilgamesh
+  - Nod
+  - Kerns World
+  - the Old Empire
+  - the Voyager
+  - the Dungeon Train
+  followingLinesInOrder: []
+--- !u!114 &3052067679384550475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679384550472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067679384550484}
+  storyFiles:
+  - {fileID: 4900000, guid: e17a11b7c5ca1a1439ab44c61dd4c40a, type: 3}
+--- !u!114 &3052067679384550474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679384550472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067679387165512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679387165513}
+  - component: {fileID: 3052067679387165524}
+  - component: {fileID: 3052067679387165515}
+  - component: {fileID: 3052067679387165514}
+  m_Layer: 0
+  m_Name: Materials Elements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679387165513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679387165512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679387165524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679387165512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Iron
+  sharedLines:
+  - Iron
+  - Mithril
+  - Gold
+  - Fire
+  - Ice
+  - Light
+  - Darkness
+  - The Night
+  - Bronze
+  - Silver
+  - Titanium
+  - Wood
+  - Stone
+  - Sand
+  - Nature
+  - Earth
+  - Runes
+  - Crystal
+  followingLinesInOrder: []
+--- !u!114 &3052067679387165515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679387165512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067679387165524}
+  storyFiles:
+  - {fileID: 4900000, guid: b7d08932dd5c7bf4daf5ef4783f0dc34, type: 3}
+--- !u!114 &3052067679387165514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679387165512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067679952369582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067679952369583}
+  - component: {fileID: 3052067679952369578}
+  - component: {fileID: 3052067679952369577}
+  - component: {fileID: 3052067679952369576}
+  m_Layer: 0
+  m_Name: Title Prefix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067679952369583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679952369582}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679160673851}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067679952369578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679952369582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Princess
+  sharedLines:
+  - Princess
+  - Prince
+  - Queen
+  - King
+  - Lord
+  - Lady
+  - Master
+  - Lordess
+  - Servant
+  - God
+  - Goddess
+  - Wraith
+  - Ghost
+  - Titan
+  - Son
+  - Father
+  - Mother
+  - Daughter
+  - Sister
+  - Brother
+  - Lover
+  - Bringer
+  - Destroyer
+  - Gladiator
+  - Barbarian
+  - Stalker
+  - Plagued
+  - Doombringer
+  - Blazeguard
+  - Princess
+  - Developer
+  - Lead Developer
+  - Creator
+  - Owner
+  - Inventor
+  - Emperor
+  - Conqueror
+  - Captain
+  - Doctor
+  - PDH
+  - Graduate
+  - Master Chef
+  - Majesty
+  - Mayor
+  - Vice Chancellor
+  followingLinesInOrder: []
+--- !u!114 &3052067679952369577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679952369582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067679952369578}
+  storyFiles:
+  - {fileID: 4900000, guid: 6b160af74a4966e4c90d7a78c9762be9, type: 3}
+--- !u!114 &3052067679952369576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067679952369582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067680217378308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067680217378309}
+  - component: {fileID: 3052067680217378304}
+  - component: {fileID: 3052067680217378311}
+  - component: {fileID: 3052067680217378310}
+  m_Layer: 0
+  m_Name: Animals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067680217378309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067680217378308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067680217378304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067680217378308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: Puppies
+  sharedLines:
+  - Puppies
+  - Bats
+  - Small Chickens
+  - Chicks
+  - Unicorns
+  - Great White
+  - Mares
+  - Lions
+  - Cows
+  - Rats
+  - Mice
+  - Hippos
+  - Kittens
+  - Dogs
+  - Hamsters
+  - Dragons
+  - Earth Worms
+  - Ants
+  - Spiders
+  - Snakes
+  - The Fae
+  - Monkies
+  - Octopuses
+  - 
+  followingLinesInOrder: []
+--- !u!114 &3052067680217378311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067680217378308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067680217378304}
+  storyFiles:
+  - {fileID: 4900000, guid: 0b60d1f46c7b9de4db79093757e3f3a5, type: 3}
+--- !u!114 &3052067680217378310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067680217378308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3052067680370117387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052067680370117396}
+  - component: {fileID: 3052067680370117399}
+  - component: {fileID: 3052067680370117398}
+  - component: {fileID: 3052067680370117397}
+  m_Layer: 0
+  m_Name: Technology
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052067680370117396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067680370117387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3052067679107686776}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3052067680370117399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067680370117387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b37b6ba9c22dc4490f7ab7267ebd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstLine: The Developer
+  sharedLines:
+  - The Developer
+  - Binary
+  - Virtual Reality
+  - VR
+  - Oculus Quest
+  - Oculus
+  - Vive
+  - Windows
+  - Mac
+  - Artificial Intelligence
+  - The Game
+  - Google Maps
+  - Technology
+  followingLinesInOrder: []
+--- !u!114 &3052067680370117398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067680370117387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ee77c1e201b34593ba751d2a5966b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedLines: {fileID: 3052067680370117399}
+  storyFiles:
+  - {fileID: 4900000, guid: dd51fd136f422b9408382889bcd2e764, type: 3}
+--- !u!114 &3052067680370117397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052067680370117387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0795c6f87e1433c48b6a1f8200a1c3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
