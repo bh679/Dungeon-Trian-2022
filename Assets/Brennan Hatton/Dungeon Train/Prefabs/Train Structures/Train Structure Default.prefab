@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 7588881940768564385}
   - component: {fileID: 3207076808458304713}
   m_Layer: 0
-  m_Name: Train Strucure Default
+  m_Name: Train Structure Default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

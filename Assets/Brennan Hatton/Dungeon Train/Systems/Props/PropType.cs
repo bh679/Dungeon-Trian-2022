@@ -61,6 +61,20 @@ namespace BrennanHatton.Props
 			}
 			propData.AddRange(children);
 			
+			//get a list of props from prefab array
+			PrefabArray prefabs = this.gameObject.GetComponent<PrefabArray>();
+			
+			if(prefabs != null)
+			{
+				PropData[] prefabData = new PropData[prefabs.prefabs.Length];
+				for(int i =0; i < prefabs.prefabs.Length; i++)
+				{
+					prefabData[i] = new PropData();
+					prefabData[i].prop = prefabs.prefabs[i];
+				}
+				propData.AddRange(prefabData);
+			}
+			
 		}
 		#endif
 		
