@@ -23,6 +23,10 @@ namespace BrennanHatton.Props
 		}
 		public PropData[] propData = new PropData[0];
 		
+		[Range(0,100)]
+		public float mixDataChange = 75;
+		bool mixData = true;
+		
 		//Placers have a list of positions.
 		[SerializeField]
 		public PositionGroup positionGroup;
@@ -88,6 +92,7 @@ namespace BrennanHatton.Props
 			
 		}
 		
+		
 		//
 		public virtual void Place()
 		{
@@ -98,6 +103,11 @@ namespace BrennanHatton.Props
 			//Consider chance of zero
 			if(numberOfProps == 0)
 				return;
+			
+			int id = 0;
+			CheckMixingData();
+			if(mixData == false)
+				id = GetPropID();
 			
 			//for number of objects to place
 			for(int i = 0 ; i < numberOfProps; i++)
@@ -114,19 +124,28 @@ namespace BrennanHatton.Props
 				}
 				
 				//	get random prop id
-				int id = GetPropID();
+				if(mixData)
+					id = GetPropID();
 				
-				TransformData transformData = new TransformData(positionGroup.PlaceInFreePosition().transform, this.transform);
+				GameObject prop = propData[id].propType.GetProp();
+				
+				TransformData transformData = positionGroup.GetFreeTransformData(prop.transform);
+				transformData.SetParent(this.transform);
 				
 				if(Instantiator.Instance == null)
 					Debug.LogError("Need Instantiator object in scene");
 				
 				//tell instantiator to create
-				Instantiator.Instance.CreateObject(propData[id].propType.GetProp(),transformData);
+				Instantiator.Instance.CreateObject(prop,transformData);
 			}
 			
 			//exit
 			return;
+		}
+		
+		void CheckMixingData()
+		{
+			mixData = (Random.Range(0,100) < mixDataChange);
 		}
 		
 		/// <summary>

@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BrennanHatton.Utilities;
 
-namespace BrennanHatton.Positions.Extentions
+namespace BrennanHatton.Positions
 {
 	public class PositionArea : Position
 	{
 		public Vector3 center = Vector3.zero, size = Vector3.one;
+		public bool canBeTaken = false;
+		public bool checkSpaceIsFree = true;
 		
 		public bool Debugging = false;
 	    
@@ -14,22 +17,53 @@ namespace BrennanHatton.Positions.Extentions
 		/// Places object and saves reference
 		/// </summary>
 		/// <param name="objectToPlace"></param>
-		public override void Place(Transform objectToPlace)
+		public override TransformData GetFreeTransformData(Transform objectToPlace)
 		{
-			//track objects in this position
-			objectsInPosition.Add(objectToPlace);
+			Debug.Log("Place Area");
 			
 			//set position
 			Vector3 relativePosition = new Vector3(Random.Range(0,size.x)-size.x/2f,
 				Random.Range(0,size.y)-size.y/2f,
 				Random.Range(0,size.z)-size.z/2f);
+			Debug.Log("Positining: " + relativePosition);
 			
-			objectToPlace.position = this.transform.position + center + this.transform.rotation*relativePosition;
+			//check is space is free
+			if(checkSpaceIsFree)
+			{
+				int limit = 100;
+				BoxCollider[] boxs = objectToPlace.GetComponentsInChildren<BoxCollider>();
+				while (
+					IsSpaceFree(relativePosition, boxs, objectToPlace) == false
+					&& limit > 0
+				) {
+					relativePosition = new Vector3(Random.Range(0,size.x)-size.x/2f,
+						Random.Range(0,size.y)-size.y/2f,
+						Random.Range(0,size.z)-size.z/2f);
+					Debug.Log("Repositining: " + relativePosition);
+					limit--;
+					if(limit <= 0)
+						Debug.LogError("Couldnt find free space");
+				}
+			}
 			
-			//set rotation
-			objectToPlace.eulerAngles = GetEulerRotation();
+			TransformData data = new TransformData(this.transform.position + center + this.transform.rotation*relativePosition, GetEulerRotation());
 			
-			_isTaken = false;
+			Debug.Log(data.ToDebugString());
+			
+			_isTaken = canBeTaken;
+			
+			return data;
+		}
+		
+		bool IsSpaceFree(Vector3 relativePosition, BoxCollider[] boxs, Transform original)
+		{
+			for(int i = 0; i < boxs.Length; i++)
+			{
+				if(Physics.CheckBox(relativePosition+ boxs[i].center + (boxs[i].transform.position-original.position),boxs[i].size/2,Quaternion.identity,LayerMasks.Instance.placerColliders))
+					return false;
+			}
+			
+			return true;
 		}
 		
 		/*public override void RemoveAllObjects()

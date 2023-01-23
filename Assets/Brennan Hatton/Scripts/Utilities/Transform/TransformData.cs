@@ -10,6 +10,13 @@ namespace BrennanHatton.Utilities
 		Quaternion rotation, localRotation;
 		Transform parent;
 		
+		public TransformData(Vector3 _position, Vector3 _rotation)
+		{
+			position = _position;
+			localScale = Vector3.one;
+			rotation.SetEulerAngles(_rotation);
+		}
+		
 		public TransformData(Transform transform)
 		{
 			//local data
@@ -63,5 +70,14 @@ namespace BrennanHatton.Utilities
 			}
 		}
 		
+		public void SetParent(Transform newParent)
+		{
+			parent = newParent;
+		}
+		
+		public string ToDebugString()
+		{
+			return "position "+(position==null?"":position) + "\nlocalPosition: "+ (localPosition==null?"":localPosition) + "\nlocalScale: "+ (localScale==null?"":localScale) + "\nrotation: "+ (rotation==null?"":rotation) + "\nlocalRotation: "+(localRotation==null?"":localRotation) + "\nparent: "+(parent==null?"":parent.name);
+		}
 	}
 }

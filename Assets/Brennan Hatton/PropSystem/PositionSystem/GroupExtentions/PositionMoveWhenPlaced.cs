@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BrennanHatton.Utilities;
 
 //this class should not use inherentence but instead delegates / events.
 
-namespace BrennanHatton.Positions.Extentions
+namespace BrennanHatton.Positions
 {
 	/// <summary>
 	/// Moves the position after placing an object
@@ -58,13 +59,15 @@ namespace BrennanHatton.Positions.Extentions
 		/// </summary>
 		/// <param name="objectToPlace"></param>
 		/// <returns>position object was placed</returns>
-		public override void Place(Transform objectToPlace)
+		public override TransformData GetFreeTransformData(Transform objectToPlace)
 		{
 			//place object into position
-			base.Place(objectToPlace);
+			TransformData data = base.GetFreeTransformData(objectToPlace);
 			
 			//offset group
 			this.transform.localPosition += direction;
+			
+			return data;
 			
 		}
 	}

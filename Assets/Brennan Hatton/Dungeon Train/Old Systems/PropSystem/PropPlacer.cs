@@ -14,7 +14,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using BrennanHatton.Utilities;
 using BrennanHatton.Positions;
-using BrennanHatton.Positions.Extentions;
 
 namespace BrennanHatton.Props.Old
 {
@@ -256,7 +255,7 @@ namespace BrennanHatton.Props.Old
 			for(int i = 0; i < propsPlaced.Count; i++)
 			{
 				//free the position
-				positionGroup.FreePositionsFrom(propsPlaced[i].prop.transform);
+				//positionGroup.FreePositionsFrom(propsPlaced[i].prop.transform);
 				
 				//Destory the prop
 				DestroyObject(propsPlaced[i].prop.gameObject);
@@ -356,7 +355,7 @@ namespace BrennanHatton.Props.Old
 				if(propsPlaced[i].prop == prop)
 				{
 					//free the position
-					positionGroup.FreePositionsFrom(propsPlaced[i].prop.transform);
+					//positionGroup.FreePositionsFrom(propsPlaced[i].prop.transform);
 				
 					//delete reference.
 					propsPlaced.RemoveAt(i);
@@ -545,7 +544,7 @@ namespace BrennanHatton.Props.Old
 			
 			//get random position
 			//get transform data from position
-			positionGroup.PlaceInFreePosition(transformToPlace);
+			//positionGroup.PlaceInFreePosition(transformToPlace);
 		}
 		
 		

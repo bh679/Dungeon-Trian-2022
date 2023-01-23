@@ -28,40 +28,21 @@ namespace BrennanHatton.Positions
 			}
 		}
 		
-		//objects currently using this position
-		protected List<Transform> objectsInPosition = new List<Transform>();
-		
-		
-		/// <summary>
-		/// called by ObjectPositionPool.PlaceInFreePosition
-		/// Places object and saves reference
-		/// </summary>
-		/// <param name="objectToPlace"></param>
-		public virtual void Place(Transform objectToPlace)
+		public virtual TransformData GetFreeTransformData(Transform objectToPlace)
 		{
-			//if this is single use
 			if(!MutliUse)
 			{
 				//let developer know this is being used when it shouldnt be
 				if(_isTaken)
 					Debug.LogError("Position being used when it is already taken by: " + TransformUtils.HierarchyPath(transform,5));
 				
-				//remove existing objects from position
-				RemoveAllObjects();
-				
 				//this position is now taken
 				_isTaken = true;
 			}
 			
-			//track objects in this position
-			objectsInPosition.Add(objectToPlace);
+			TransformData data = new TransformData(this.transform.position, GetEulerRotation());
 			
-			//set position
-			objectToPlace.position = this.transform.position;
-	
-			//set rotation
-			objectToPlace.eulerAngles = GetEulerRotation();
-			
+			return data;
 		}
 		
 		/// <summary>
@@ -88,60 +69,7 @@ namespace BrennanHatton.Positions
 			return  intVal * roundRandomRotationTo;
 		}
 		
-		/// <summary>
-		/// Frees the position from this object
-		/// </summary>
-		/// <param name="objectToRemove"></param>
-		/// <returns></returns>
-		public void FreeFromObject(Transform objectToRemove)
-		{
-			//remve the object from the list
-			objectsInPosition.Remove(objectToRemove);
-			
-			//if it has no more objects
-			if(objectsInPosition.Count == 0)
-				//it is now free
-				_isTaken = false;
-		}
 		
-		//deprecated
-		public void RemoveReference(Transform objectToRemove)
-		{
-			Debug.LogError("public void RemoveReference(Transform objectToRemove) has been deprecated, remove this reference");
-		}
-		
-		
-		//deprecated
-		public void RemoveObjects(Transform objectToRemove)
-		{
-			Debug.LogError("public void RemoveReference(Transform objectToRemove) has been deprecated, remove this reference");
-			RemoveAllObjects();
-		}
-		
-		/// <summary>
-		/// Resets 
-		/// </summary>
-		public virtual void RemoveAllObjects()
-		{
-			/*#if UNITY_EDITOR
-			if(objectToRemove != null && objectToRemove == objectInPosition)
-				Debug.LogWarning("Removing wrong objects from position. " + objectToRemove.name);
-			#endif*/
-				
-			_isTaken = false;
-			
-			objectsInPosition = new List<Transform>();
-		}
-		
-		public void DebugObjectsInPosition()
-		{
-			string debugLog = gameObject.name + " holds: ";
-			for(int i = 0 ; i < objectsInPosition.Count; i++)
-				debugLog += objectsInPosition[i] + ", ";
-				
-				
-			//Debug.Log(debugLog + TransformUtils.HierarchyPath(this.transform));
-		}
 		
 	}
 }

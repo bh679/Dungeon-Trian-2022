@@ -62,6 +62,7 @@ namespace BrennanHatton.TrainCarts
 		
 		IEnumerator SetContents()
 		{
+			Debug.Log("Setting contents - " + transform.parent.name);
 			for(int i = 0; i < contents.Length; i++)
 			{
 				contents[i].SetModel(Instantiate(contentsTypes[Random.Range(0,contentsTypes.Length)]).transform, this.transform);

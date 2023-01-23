@@ -1,21 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BrennanHatton.Utilities;
 
-namespace BrennanHatton.Positions.Extentions
+namespace BrennanHatton.Positions
 {
 
 	public class PositionScale : Position
 	{
 	    
 		public Vector3 relativeScale = Vector3.one;
-	    
-		//called by ObjectPositionPool.PlaceInFreePosition
-		public override void Place(Transform objectToPlace)
+		
+		
+		public override TransformData GetFreeTransformData(Transform objectToPlace)
 		{
-			base.Place(objectToPlace);
+			//place object into position
+			TransformData data = base.GetFreeTransformData(objectToPlace);
 			
-			objectToPlace.localScale = new Vector3(objectToPlace.localScale.x * relativeScale.x, objectToPlace.localScale.y * relativeScale.y, objectToPlace.localScale.z * relativeScale.z );//this will need to change back at some point
+			objectToPlace.localScale = new Vector3(objectToPlace.localScale.x * relativeScale.x, objectToPlace.localScale.y * relativeScale.y, objectToPlace.localScale.z * relativeScale.z );
+			
+			return data;
+			
 		}
 	}
 

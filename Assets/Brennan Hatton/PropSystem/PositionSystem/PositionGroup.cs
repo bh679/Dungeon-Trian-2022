@@ -44,23 +44,6 @@ namespace BrennanHatton.Positions
 			}
 		}
 		
-		//Positions can be freed externally
-		public void FreePositionsFrom(Transform transform)
-		{
-			// --			this could be optamized with a reverse lookup dictionary.
-			
-			//for all positions
-			for(int i = 0; i < positions.Length; i++)
-			{
-				//if it is taken
-				if(positions[i].isTaken)
-				{
-					//free from this object
-					positions[i].FreeFromObject(transform);
-				}
-			}
-		}
-		
 		//deprecated
 		public void ResetAll(bool fixing = false)
 		{
@@ -68,7 +51,7 @@ namespace BrennanHatton.Positions
 		}
 		
 		//Position Groups can find a free position.
-		public virtual Position PlaceInFreePosition(Transform objectToPlace = null)
+		public virtual TransformData GetFreeTransformData(Transform objectToPlace)
 		{
 			//if there is no free space
 			if(!HasFreeSpace())
@@ -86,11 +69,9 @@ namespace BrennanHatton.Positions
 			}
 			
 			//repositions object
-			if(objectToPlace != null)
-				positions[id].Place(objectToPlace);
+			return positions[id].GetFreeTransformData(objectToPlace);
 			
-			//returns the position of the object
-			return positions[id];
+			
 		}
 		
 		/// <summary>
@@ -272,8 +253,6 @@ namespace BrennanHatton.Positions
 				if(positions[i] == null)
 					Debug.Log("Missing Positoin in group: " + TransformUtils.HierarchyPath(this.transform));
 				
-				//
-				positions[i].DebugObjectsInPosition();
 
 			}
 		}
