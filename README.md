@@ -11,7 +11,6 @@ https://discord.gg/nBUJ28D
 
 ## Pre-Installed:
 
-[Serializable Callbacks](https://github.com/Siccity/SerializableCallback)<br />
 [PUN 2](https://assetstore.unity.com/packages/tools/network/pun-2-free-119922) (free) -  <br />
 [Photon Voice 2](https://assetstore.unity.com/packages/tools/audio/photon-voice-2-130518) (free) 
 
