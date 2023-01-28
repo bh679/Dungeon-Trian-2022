@@ -47,6 +47,18 @@ namespace BrennanHatton.Props
 				objectsToCreate.Add(data);
 			}
 			
+			public void CreateObject(GameObject go, TransformDataDelegate transData, UnityEvent callback = null, string newName = null)
+			{
+				InstantiateData data = new InstantiateData();
+				data.objectToCreate = go;
+				data.transform = transData(go);
+				data.name = newName;
+				if(callback != null)
+					data.callback.AddListener(()=>callback.Invoke());
+				
+				objectsToCreate.Add(data);
+			}
+			
 		    // Start is called before the first frame update
 		    void Start()
 		    {

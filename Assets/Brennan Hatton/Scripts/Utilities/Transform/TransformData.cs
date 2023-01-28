@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 namespace BrennanHatton.Utilities
 {
+	
+	public delegate TransformData TransformDataDelegate(GameObject trans);
+	
 	public class TransformData{
 		Vector3 position, localPosition, localScale;
 		Quaternion rotation, localRotation;

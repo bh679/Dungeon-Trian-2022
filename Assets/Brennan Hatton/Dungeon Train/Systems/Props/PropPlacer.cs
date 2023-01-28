@@ -129,18 +129,35 @@ namespace BrennanHatton.Props
 				
 				GameObject prop = propData[id].propType.GetProp();
 				
-				TransformData transformData = positionGroup.GetFreeTransformData(prop.transform);
-				transformData.SetParent(this.transform);
+				TransformDataDelegate transCallback = GetPosition;
+				
+				/*transCallback.func = 
+				
+				()=>{
+					TransformData transformData = positionGroup.GetFreeTransformData(prop.transform);
+					transformData.SetParent(this.transform);
+					
+					return transformData;
+					
+				};*/
 				
 				if(Instantiator.Instance == null)
 					Debug.LogError("Need Instantiator object in scene");
 				
 				//tell instantiator to create
-				Instantiator.Instance.CreateObject(prop,transformData);
+				Instantiator.Instance.CreateObject(prop,transCallback);
 			}
 			
 			//exit
 			return;
+		}
+		
+		TransformData GetPosition(GameObject prop)
+		{
+			TransformData transformData = positionGroup.GetFreeTransformData(prop.transform);
+			transformData.SetParent(this.transform);
+					
+			return transformData;
 		}
 		
 		void CheckMixingData()
