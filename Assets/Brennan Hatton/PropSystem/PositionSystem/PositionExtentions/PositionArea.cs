@@ -39,7 +39,7 @@ namespace BrennanHatton.Positions
 					relativePosition = new Vector3(Random.Range(0,size.x)-size.x/2f,
 						Random.Range(0,size.y)-size.y/2f,
 						Random.Range(0,size.z)-size.z/2f);
-					Debug.Log("Repositining: " + relativePosition);
+					//Debug.Log("Repositining: " + relativePosition);
 					limit--;
 					if(limit <= 0)
 						Debug.LogError("Couldnt find free space");

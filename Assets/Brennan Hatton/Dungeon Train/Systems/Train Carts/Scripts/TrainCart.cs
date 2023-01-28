@@ -30,7 +30,10 @@ namespace BrennanHatton.TrainCarts
 		public void Create(string _seed, ArchitectureTheme theme)
 		{
 			seed = _seed;
-			Random.seed = seed.GetHashCode();
+			if(seed != "")
+			{
+				Random.seed = seed.GetHashCode();
+			}
 			structureId = Random.RandomRange(0,structurePrefabs.Length-1);
 			
 			SetThemeAndStructure(theme);

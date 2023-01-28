@@ -13,7 +13,7 @@ namespace BrennanHatton.TrainCarts
 		
 		int s = 0;
 	    
-		public TrainCart CreateCart(string seed)
+		public TrainCart CreateCart(string seed = "")
 		{
 			TrainCart cart = Instantiate(trainCarts[s], this.transform.position, this.transform.rotation, this.transform);
 			

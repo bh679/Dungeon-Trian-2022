@@ -21,6 +21,7 @@ namespace BrennanHatton.TrainCarts
 		//int roomId = 0;
 		
 		public BigInteger roomId;
+		public bool randomSeed = false;
 		public int seedBase = 35;
 		public int cartsSharingSeed = 2;
 		
@@ -89,7 +90,11 @@ namespace BrennanHatton.TrainCarts
 				
 			TrainCart newCart;
 			
-			newCart = generator.CreateCart("0"+MyBigIntegerExtensions.ToRadixString(roomId,seedBase));
+			string seed = "";
+			if(!randomSeed)
+				seed = "0"+MyBigIntegerExtensions.ToRadixString(roomId,seedBase);
+				
+			newCart = generator.CreateCart(seed);
 			iCarts++;
 			if(iCarts == cartsSharingSeed)
 			{
