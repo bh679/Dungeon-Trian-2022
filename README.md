@@ -16,3 +16,5 @@ https://discord.gg/nBUJ28D
 [Brennan Hattons Unity Tools](https://github.com/bh679/Unity-Tools) ([Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/))<br />
 
 
+## License
+[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
