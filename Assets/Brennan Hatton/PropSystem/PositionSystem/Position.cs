@@ -30,6 +30,8 @@ namespace BrennanHatton.Positions
 		
 		public virtual TransformData GetFreeTransformData(Transform objectToPlace)
 		{
+			TransformData data = null;
+			
 			if(!MutliUse)
 			{
 				//let developer know this is being used when it shouldnt be
@@ -40,9 +42,25 @@ namespace BrennanHatton.Positions
 				_isTaken = true;
 			}
 			
-			TransformData data = new TransformData(this.transform.position, GetEulerRotation());
+			BoxCollider[] boxs = objectToPlace.GetComponentsInChildren<BoxCollider>();
+			
+			if(IsSpaceFree(Vector3.zero,boxs,objectToPlace))
+				data = new TransformData(this.transform.position, GetEulerRotation());
+			else
+				Debug.LogError("No space on position " + this.gameObject.name);
 			
 			return data;
+		}
+		
+		bool IsSpaceFree(Vector3 relativePosition, BoxCollider[] boxs, Transform original)
+		{
+			for(int i = 0; i < boxs.Length; i++)
+			{
+				if(Physics.CheckBox(relativePosition+ boxs[i].center + (boxs[i].transform.position-original.position),boxs[i].size/2,Quaternion.identity,LayerMasks.Instance.placerColliders))
+					return false;
+			}
+			
+			return true;
 		}
 		
 		/// <summary>

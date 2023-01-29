@@ -12,6 +12,7 @@ namespace BrennanHatton.Positions
 		public bool checkSpaceIsFree = true;
 		
 		public bool Debugging = false;
+		const int _checkFreeSpaceLimit = 500;
 	    
 		/// <summary>
 		/// Places object and saves reference
@@ -27,21 +28,22 @@ namespace BrennanHatton.Positions
 				Random.Range(0,size.z)-size.z/2f);
 			Debug.Log("Positining: " + relativePosition);
 			
+			int count = _checkFreeSpaceLimit;
+			
 			//check is space is free
 			if(checkSpaceIsFree)
 			{
-				int limit = 100;
 				BoxCollider[] boxs = objectToPlace.GetComponentsInChildren<BoxCollider>();
 				while (
 					IsSpaceFree(relativePosition, boxs, objectToPlace) == false
-					&& limit > 0
+					&& count > 0
 				) {
 					relativePosition = new Vector3(Random.Range(0,size.x)-size.x/2f,
 						Random.Range(0,size.y)-size.y/2f,
 						Random.Range(0,size.z)-size.z/2f);
 					//Debug.Log("Repositining: " + relativePosition);
-					limit--;
-					if(limit <= 0)
+					count--;
+					if(count <= 0)
 						Debug.LogError("Couldnt find free space");
 				}
 			}
