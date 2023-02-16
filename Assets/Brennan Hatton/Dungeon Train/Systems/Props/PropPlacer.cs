@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using BrennanHatton.Positions;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -116,7 +116,7 @@ namespace BrennanHatton.Props
 				if(!positionGroup.HasFreeSpace())
 				{
 					//send messages to developer
-					Debug.LogError("No Space for object - " + gameObject.name + "    " + BrennanHatton.Utilities.TransformUtils.HierarchyPath(transform,5)+". Perhaps you are sharing positions with another Placer. This is advised against");
+					Debug.LogError("No Space for object - " + gameObject.name + "    " + TransformTools.HierarchyPath(transform,5)+". Perhaps you are sharing positions with another Placer. This is advised against");
 					positionGroup.DebugData();
 					
 					//exit, no need to place more and risk objects getting clipped

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 
 //this class should not use inherentence but instead delegates / events.
 

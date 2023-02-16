@@ -6,6 +6,7 @@ using UnityEngine;
 using System.Collections;
 using System.Text.RegularExpressions;
 using UnityEngine.UI;
+using BrennanHatton.UnityTools;
 
 namespace BrennanHatton.LibraryOfBabel
 {
@@ -94,23 +95,23 @@ namespace BrennanHatton.LibraryOfBabel
 		
 		public BookPosition(string url)
 		{
-			url = Helper.GetAfterOrAll(url,"?");
+			url = StringHelper.GetAfterOrAll(url,"?");
 			
-			room =  Helper.GetUntilOrEmpty(url,"-").Remove(0,1);
+			room =  StringHelper.GetUntilOrEmpty(url,"-").Remove(0,1);
 			
-			url =  Helper.GetAfterOrAll(url,"-").Remove(0,2);
+			url =  StringHelper.GetAfterOrAll(url,"-").Remove(0,2);
 			
-			wall =  int.Parse(Helper.GetUntilOrEmpty(url,"-"));
+			wall =  int.Parse(StringHelper.GetUntilOrEmpty(url,"-"));
 			
-			url =  Helper.GetAfterOrAll(url,"-").Remove(0,2);
+			url =  StringHelper.GetAfterOrAll(url,"-").Remove(0,2);
 			
-			shelf =  int.Parse(Helper.GetUntilOrEmpty(url,"-"));
+			shelf =  int.Parse(StringHelper.GetUntilOrEmpty(url,"-"));
 			
-			url =  Helper.GetAfterOrAll(url,"-").Remove(0,2);
+			url =  StringHelper.GetAfterOrAll(url,"-").Remove(0,2);
 			
-			volume =  int.Parse(Helper.GetUntilOrEmpty(url,":"));
+			volume =  int.Parse(StringHelper.GetUntilOrEmpty(url,":"));
 			
-			url =  Helper.GetAfterOrAll(url,":").Remove(0,1);
+			url =  StringHelper.GetAfterOrAll(url,":").Remove(0,1);
 			
 			if(int.TryParse(url,out page) == false)
 				page =  int.Parse(url.Remove(url.Length-1,1));

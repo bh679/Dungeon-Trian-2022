@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BrennanHatton.UnityTools;
 
 namespace BrennanHatton.ComponentStates
 {
@@ -30,12 +31,12 @@ namespace BrennanHatton.ComponentStates
 				parent = this.transform.parent;
 				setPreviously = true;
 			}else
-				Debug.LogWarning("SetState trying to be reset, when perhaps it has already been set. Ignoring request. " + Utilities.TransformUtils.HierarchyPath(this.transform, 5));
+				Debug.LogWarning("SetState trying to be reset, when perhaps it has already been set. Ignoring request. " + TransformTools.HierarchyPath(this.transform, 5));
 		}
 		
 		public void RevertToState()
 		{
-			//Debug.Log(Utilities.TransformUtils.HierarchyPath(transform,5));
+			//Debug.Log(Utilities.TransformTools.HierarchyPath(transform,5));
 			this.transform.SetParent(parent);
 			this.transform.localPosition = localPosition;
 			this.transform.localRotation = localRotation;

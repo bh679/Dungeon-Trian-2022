@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 
 namespace BrennanHatton.Positions
 {
@@ -64,7 +64,7 @@ namespace BrennanHatton.Positions
 			if(id == -1)
 			{
 				//let the dev know
-				Debug.LogError("Couldnt find avalible position for '"+TransformUtils.HierarchyPath(this.transform));
+				Debug.LogError("Couldnt find avalible position for '"+TransformTools.HierarchyPath(this.transform));
 				return null;
 			}
 			
@@ -88,7 +88,7 @@ namespace BrennanHatton.Positions
 				{
 					#if UNITY_EDITOR
 					//let the developer know
-					Debug.LogError("Corrupt data found when checking for free space at" + TransformUtils.HierarchyPath(this.transform,5));
+					Debug.LogError("Corrupt data found when checking for free space at" + TransformTools.HierarchyPath(this.transform,5));
 					#endif
 				}//if the position is free
 				else if(!positions[i].isTaken)
@@ -140,7 +140,7 @@ namespace BrennanHatton.Positions
 			{
 				#if UNITY_EDITOR
 				//let dev know
-				Debug.LogError("Missing reference to position. id:" + id + ". isActive: <color=red>" + gameObject.activeInHierarchy + "</color> from " + TransformUtils.HierarchyPath(this.transform, 10));
+				Debug.LogError("Missing reference to position. id:" + id + ". isActive: <color=red>" + gameObject.activeInHierarchy + "</color> from " + TransformTools.HierarchyPath(this.transform, 10));
 				#endif
 				
 				//find the next position
@@ -221,7 +221,7 @@ namespace BrennanHatton.Positions
 			if(positions == null)
 			{
 				//let developer know
-				Debug.LogError("Positions list missing from "+TransformUtils.HierarchyPath(this.transform));
+				Debug.LogError("Positions list missing from "+TransformTools.HierarchyPath(this.transform));
 				
 				//return invalid code
 				return false;
@@ -231,7 +231,7 @@ namespace BrennanHatton.Positions
 			if(positions.Length == 0)
 			{
 				//let developer know
-				Debug.LogError("Positions list is 0 from "+TransformUtils.HierarchyPath(this.transform));
+				Debug.LogError("Positions list is 0 from "+TransformTools.HierarchyPath(this.transform));
 				
 				//return invalid code
 				return false;
@@ -251,7 +251,7 @@ namespace BrennanHatton.Positions
 			for(int i = 0; i < positions.Length; i++)
 			{
 				if(positions[i] == null)
-					Debug.Log("Missing Positoin in group: " + TransformUtils.HierarchyPath(this.transform));
+					Debug.Log("Missing Positoin in group: " + TransformTools.HierarchyPath(this.transform));
 				
 
 			}

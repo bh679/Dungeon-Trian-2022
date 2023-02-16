@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using BrennanHatton.ComponentStates;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 
 namespace BrennanHatton.Props.Old
 {
@@ -323,7 +323,7 @@ namespace BrennanHatton.Props.Old
 			//(if it is not turned on, it wont be update to update the bool, so this function breaks. We check its activeSelf to address this. So we can trust this error when presented
 			if(placedThisUpdate && gameObject.activeSelf == true)
 			{
-				string debugLocation = gameObject.name + "   " + TransformUtils.HierarchyPath(this.transform,10);
+				string debugLocation = gameObject.name + "   " + TransformTools.HierarchyPath(this.transform,10);
 				
 				//send error to dev
 				Debug.LogError("This prop has been placed. Place was already called this udpate. Time difference: "+(placedThisUpdateTime-Time.time).ToString()+". Disregarding. " + debugLocation + "\n\n Last time it was placed by " + ((previousPlacer == placer)? " the same placer, " : " a different placer, ") + placer.name); 
@@ -335,7 +335,7 @@ namespace BrennanHatton.Props.Old
 			}
 			
 			previousPlacer = placer;
-			//Debug.Log("Placing " + gameObject.name + "   " + TransformUtils.HierarchyPath(this.transform,10) +  "  at " + Time.time);
+			//Debug.Log("Placing " + gameObject.name + "   " + TransformTools.HierarchyPath(this.transform,10) +  "  at " + Time.time);
 			
 			placedThisUpdate = true;
 			placedThisUpdateTime = Time.time;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 
 namespace BrennanHatton.Props
 {

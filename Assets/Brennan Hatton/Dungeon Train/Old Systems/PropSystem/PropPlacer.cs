@@ -12,7 +12,7 @@ by Brennan Hatton, 20200424
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 using BrennanHatton.Positions;
 
 namespace BrennanHatton.Props.Old
@@ -304,7 +304,7 @@ namespace BrennanHatton.Props.Old
 				if(!positionGroup.HasFreeSpace())
 				{
 					//send messages to developer
-					Debug.LogError("No Space for object - " + gameObject.name + "    " + TransformUtils.HierarchyPath(transform,5)+". Perhaps you are sharing positions with another Placer. This is advised against");
+					Debug.LogError("No Space for object - " + gameObject.name + "    " + TransformTools.HierarchyPath(transform,5)+". Perhaps you are sharing positions with another Placer. This is advised against");
 					positionGroup.DebugData();
 					
 					//exit, no need to place more and risk objects getting clipped
@@ -392,7 +392,7 @@ namespace BrennanHatton.Props.Old
 			//(if it is not turned on, it wont be update to update the bool, so this function breaks. We check its activeSelf to address this. So we can trust this error when presented
 			if(placedThisUpdate && gameObject.activeSelf == true && placedThisUpdateTime-Time.time == 0)
 			{
-				string debugLocation = gameObject.name + "   " + TransformUtils.HierarchyPath(this.transform,10);
+				string debugLocation = gameObject.name + "   " + TransformTools.HierarchyPath(this.transform,10);
 				
 				//send error to dev
 				Debug.LogError("Place was already called this udpate. Time difference: "+(placedThisUpdateTime-Time.time).ToString()+". Disregarding. " + debugLocation + "\n\n Last time it was placed " + ((placerPosHolderDebugMsg == debugLocation)? "in the same place" : "at: " + placerPosHolderDebugMsg)); 
@@ -403,7 +403,7 @@ namespace BrennanHatton.Props.Old
 				return true;
 			}
 			
-			placerPosHolderDebugMsg = gameObject.name + "   " + TransformUtils.HierarchyPath(this.transform,10);
+			placerPosHolderDebugMsg = gameObject.name + "   " + TransformTools.HierarchyPath(this.transform,10);
 			if(Debugging) Debug.Log("Placing " + placerPosHolderDebugMsg +  "  at " + Time.time);
 			
 			placedThisUpdate = true;
@@ -492,7 +492,7 @@ namespace BrennanHatton.Props.Old
 			//if propdata is empty
 			if(propData == null || propData.Length == 0)
 			{
-				Debug.LogError("No prop data " + TransformUtils.HierarchyPath(transform));
+				Debug.LogError("No prop data " + TransformTools.HierarchyPath(transform));
 				return null;
 			}
 			
@@ -505,7 +505,7 @@ namespace BrennanHatton.Props.Old
 				Debug.LogError("Missing prop type on " + this.gameObject.name + ". For " + propData[id].name);
 				
 			if(propData[id].PropType == null)
-				Debug.LogError(gameObject.name  + " " + TransformUtils.HierarchyPath(transform,5));
+				Debug.LogError(gameObject.name  + " " + TransformTools.HierarchyPath(transform,5));
 			
 			//save type
 			PropType type = propData[id].PropType;
@@ -540,7 +540,7 @@ namespace BrennanHatton.Props.Old
 			transformToPlace.SetParent(this.transform);
 			
 			//offset parent level from place
-			TransformUtils.MoveToParentUp(transformToPlace,parentLevel);
+			TransformTools.MoveToParentUp(transformToPlace,parentLevel);
 			
 			//get random position
 			//get transform data from position

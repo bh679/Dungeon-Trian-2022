@@ -4,13 +4,13 @@ using UnityEngine;
 using Photon.Pun;
 using BrennanHatton.LibraryOfBabel.Networking.Events;
 using EqualReality.Networking;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 
 public class AvatarManager : MonoBehaviour
 {
 	public PhotonView photonView;
-	public enableRandomGameobject eyes, mouth, head, body;
-	public setMaterial materialSetter;
+	public EnableRandomGameobject eyes, mouth, head, body;
+	public SetMaterial materialSetter;
 	int activeId = 0;
 	
 	public void SetAvatar()

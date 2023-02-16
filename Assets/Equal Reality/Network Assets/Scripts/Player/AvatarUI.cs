@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Realtime;
 using Photon.Pun;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 
 namespace EqualReality.Networking
 {
@@ -14,8 +14,8 @@ namespace EqualReality.Networking
 		
 		public PlayerCustomProperties customPropSetter;
 		
-		public enableRandomGameobject eyes, mouth, head, body;
-		public setMaterial materialSetter;
+		public EnableRandomGameobject eyes, mouth, head, body;
+		public SetMaterial materialSetter;
 	    
 		void Start()
 		{

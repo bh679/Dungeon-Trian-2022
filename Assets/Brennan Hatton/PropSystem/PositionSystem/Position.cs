@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using BrennanHatton.Utilities;
+using BrennanHatton.UnityTools;
 
 namespace BrennanHatton.Positions
 {
@@ -36,7 +36,7 @@ namespace BrennanHatton.Positions
 			{
 				//let developer know this is being used when it shouldnt be
 				if(_isTaken)
-					Debug.LogError("Position being used when it is already taken by: " + TransformUtils.HierarchyPath(transform,5));
+					Debug.LogError("Position being used when it is already taken by: " + TransformTools.HierarchyPath(transform,5));
 				
 				//this position is now taken
 				_isTaken = true;
