@@ -31,9 +31,9 @@ namespace BrennanHatton.Positions
 			//check is space is free
 			if(checkSpaceIsFree)
 			{
-				BoxCollider[] boxs = objectToPlace.GetComponentsInChildren<BoxCollider>();
+				Collider[] cols = objectToPlace.GetComponentsInChildren<Collider>();
 				while (
-					IsSpaceFree(relativePosition, boxs, objectToPlace) == false
+					IsSpaceFree(relativePosition, cols, objectToPlace) == false
 					&& count > 0
 				) {
 					relativePosition = new Vector3(Random.Range(0,size.x)-size.x/2f,
@@ -53,17 +53,6 @@ namespace BrennanHatton.Positions
 			_isTaken = canBeTaken;
 			
 			return data;
-		}
-		
-		bool IsSpaceFree(Vector3 relativePosition, BoxCollider[] boxs, Transform original)
-		{
-			for(int i = 0; i < boxs.Length; i++)
-			{
-				if(Physics.CheckBox(relativePosition+ boxs[i].center + (boxs[i].transform.position-original.position),boxs[i].size/2,Quaternion.identity,LayerMasks.Instance.placerColliders))
-					return false;
-			}
-			
-			return true;
 		}
 		
 		void OnDrawGizmosSelected()

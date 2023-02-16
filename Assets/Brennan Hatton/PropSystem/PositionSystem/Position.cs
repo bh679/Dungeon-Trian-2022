@@ -52,30 +52,65 @@ namespace BrennanHatton.Positions
 			return data;
 		}
 		
-		bool IsSpaceFree(Vector3 relativePosition, Collider[] colliders, Transform original)
+		protected bool IsSpaceFree(Vector3 relativePosition, Collider[] colliders, Transform original)
 		{
+			//boxesToDraw = new List<DrawBox>();
 			for(int i = 0; i < colliders.Length; i++)
 			{
+				Vector3 position = this.transform.position + (colliders[i].transform.position-original.position) + relativePosition;
+				
 				if(colliders[i].GetType () == typeof(BoxCollider))
 				{
 					BoxCollider box = (BoxCollider)colliders[i];
 					
-					if(Physics.CheckBox(relativePosition+ box.center + (box.transform.position-original.position),box.size/2,Quaternion.identity,LayerMasks.Instance.placerColliders))
+					position += box.center;
+					
+					#if UNITY_EDITOR
+						DrawBox box2Draw = new DrawBox(5); 
+					box2Draw.position = position;
+						box2Draw.size = box.size;
+					#endif
+					if(Physics.CheckBox(position,box.size/2,Quaternion.identity,LayerMasks.Instance.placerColliders))
+					{
+						
+						#if UNITY_EDITOR
+						/*RaycastHit hit = new RaycastHit();
+						Physics.BoxCast(position,box.size/2,Vector3.zero, out hit,Quaternion.identity,0,LayerMasks.Instance.placerColliders);
+						box2Draw.color = Color.blue;
+						DrawBox other2Draw = new DrawBox(10); 
+						other2Draw.position = hit.collider.gameObject.transform.position;
+						other2Draw.size = box.collider.GetType () == typeof(BoxCollider) ? ((BoxCollider)box.collider).size: Vector3.one;*/
+						boxesToDraw.Add(box2Draw);
+						
+						
+						box2Draw.color = Color.red;
+						boxesToDraw.Add(box2Draw);
+						#endif
 						return false;
+					}
+					
+					#if UNITY_EDITOR
+						boxesToDraw.Add(box2Draw);
+					#endif
 						
 				}else if(colliders[i].GetType () == typeof(SphereCollider))
 				{
 					SphereCollider sphere = (SphereCollider)colliders[i];
 					
-					if(Physics.CheckSphere(relativePosition+ sphere.center + (sphere.transform.position-original.position),sphere.radius,LayerMasks.Instance.placerColliders))
+					position += sphere.center;
+					
+					if(Physics.CheckSphere(position,sphere.radius,LayerMasks.Instance.placerColliders))
 						return false;
-				}else
+				}else if(colliders[i].GetType () == typeof(CapsuleCollider))
 				{
 					CapsuleCollider cap = (CapsuleCollider)colliders[i];
 					
-					if(Physics.CheckCapsule(relativePosition+ cap.transform.up*cap.height/2 + (cap.transform.position-original.position),relativePosition - cap.transform.up*cap.height/2 + (cap.transform.position-original.position),cap.radius,LayerMasks.Instance.placerColliders))
+					if(Physics.CheckCapsule(position +cap.transform.up*cap.height/2,
+						position -cap.transform.up*cap.height/2,
+						cap.radius,LayerMasks.Instance.placerColliders))
 						return false;
-				}
+				}else
+					Debug.Log("<color=red>Unsupported Collider</color> for finding empty space.");
 				
 			}
 			
@@ -106,7 +141,56 @@ namespace BrennanHatton.Positions
 			return  intVal * roundRandomRotationTo;
 		}
 		
+		class DrawBox
+		{
+			public Vector3 position;
+			public Vector3 size;
+			public Color color = Color.green;
+			float time, startTime;
+			
+			public DrawBox(float _time)
+			{
+				startTime = _time;
+				time = startTime;
+			}
+			
+			public bool isAlive(float deltaTime)
+			{
+				time -= deltaTime;
+				
+				color = new Color(color.r,color.g, color.b,time/startTime);
+				
+				return (time > 0);
+					
+			}
+		}
 		
+		#if UNITY_EDITOR
+		void Update()
+		{
+			for(int i = 0; i < boxesToDraw.Count; i++)
+			{
+				if(!boxesToDraw[i].isAlive(Time.deltaTime))
+				{
+					boxesToDraw.RemoveAt(i);
+					i--;
+				}
+			}
+		}
+		
+		List<DrawBox> boxesToDraw = new List<DrawBox>();
+		void OnDrawGizmos()
+		{
+			for(int i = 0; i < boxesToDraw.Count; i++)
+			{
+				
+				Gizmos.color = boxesToDraw[i].color;
+				Gizmos.DrawWireCube(boxesToDraw[i].position
+					,boxesToDraw[i].size);
+			}
+			
+		}
+		#endif
 		
 	}
 }
