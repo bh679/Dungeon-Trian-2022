@@ -131,16 +131,6 @@ namespace BrennanHatton.Props
 				
 				TransformDataDelegate transCallback = GetPosition;
 				
-				/*transCallback.func = 
-				
-				()=>{
-					TransformData transformData = positionGroup.GetFreeTransformData(prop.transform);
-					transformData.SetParent(this.transform);
-					
-					return transformData;
-					
-				};*/
-				
 				if(Instantiator.Instance == null)
 					Debug.LogError("Need Instantiator object in scene");
 				

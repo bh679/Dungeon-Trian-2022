@@ -42,9 +42,9 @@ namespace BrennanHatton.Positions
 				_isTaken = true;
 			}
 			
-			BoxCollider[] boxs = objectToPlace.GetComponentsInChildren<BoxCollider>();
+			Collider[] colliders = objectToPlace.GetComponentsInChildren<Collider>();
 			
-			if(IsSpaceFree(Vector3.zero,boxs,objectToPlace))
+			if(IsSpaceFree(Vector3.zero,colliders,objectToPlace))
 				data = new TransformData(this.transform.position, GetEulerRotation());
 			else
 				Debug.LogError("No space on position " + this.gameObject.name);
@@ -52,12 +52,31 @@ namespace BrennanHatton.Positions
 			return data;
 		}
 		
-		bool IsSpaceFree(Vector3 relativePosition, BoxCollider[] boxs, Transform original)
+		bool IsSpaceFree(Vector3 relativePosition, Collider[] colliders, Transform original)
 		{
-			for(int i = 0; i < boxs.Length; i++)
+			for(int i = 0; i < colliders.Length; i++)
 			{
-				if(Physics.CheckBox(relativePosition+ boxs[i].center + (boxs[i].transform.position-original.position),boxs[i].size/2,Quaternion.identity,LayerMasks.Instance.placerColliders))
-					return false;
+				if(colliders[i].GetType () == typeof(BoxCollider))
+				{
+					BoxCollider box = (BoxCollider)colliders[i];
+					
+					if(Physics.CheckBox(relativePosition+ box.center + (box.transform.position-original.position),box.size/2,Quaternion.identity,LayerMasks.Instance.placerColliders))
+						return false;
+						
+				}else if(colliders[i].GetType () == typeof(SphereCollider))
+				{
+					SphereCollider sphere = (SphereCollider)colliders[i];
+					
+					if(Physics.CheckSphere(relativePosition+ sphere.center + (sphere.transform.position-original.position),sphere.radius,LayerMasks.Instance.placerColliders))
+						return false;
+				}else
+				{
+					CapsuleCollider cap = (CapsuleCollider)colliders[i];
+					
+					if(Physics.CheckCapsule(relativePosition+ cap.transform.up*cap.height/2 + (cap.transform.position-original.position),relativePosition - cap.transform.up*cap.height/2 + (cap.transform.position-original.position),cap.radius,LayerMasks.Instance.placerColliders))
+						return false;
+				}
+				
 			}
 			
 			return true;
