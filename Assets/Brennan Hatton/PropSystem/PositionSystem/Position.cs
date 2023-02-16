@@ -74,12 +74,6 @@ namespace BrennanHatton.Positions
 					{
 						
 						#if UNITY_EDITOR
-						/*RaycastHit hit = new RaycastHit();
-						Physics.BoxCast(position,box.size/2,Vector3.zero, out hit,Quaternion.identity,0,LayerMasks.Instance.placerColliders);
-						box2Draw.color = Color.blue;
-						DrawBox other2Draw = new DrawBox(10); 
-						other2Draw.position = hit.collider.gameObject.transform.position;
-						other2Draw.size = box.collider.GetType () == typeof(BoxCollider) ? ((BoxCollider)box.collider).size: Vector3.one;*/
 						boxesToDraw.Add(box2Draw);
 						
 						
